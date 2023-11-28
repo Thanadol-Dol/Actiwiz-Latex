@@ -7,9 +7,20 @@
 \usepackage[table,xcdraw]{xcolor}
 \setdefaultlanguage{thai}
 \setotherlanguage{english}
-\newfontfamily\thaifont[Script=Thai,Scale=1.23]{TH Sarabun New}
 \defaultfontfeatures{Mapping=tex-text,Scale=1.23,LetterSpace=0.0}
-\setmainfont[Scale=1.23,LetterSpace=0,WordSpace=1.0,FakeStretch=1.0,Mapping=tex-text]{TH Sarabun New}
+\setmainfont[
+    Scale = 1.23,
+    Extension       = .ttf ,
+    UprightFont  = THSarabunNew,
+    ItalicFont      = THSarabunNew Italic,
+    BoldFont        = THSarabunNew Bold,
+    BoldItalicFont  = THSarabunNew BoldItalic,
+    %Script = Latin,
+    LetterSpace = 0,
+    WordSpace = 1.0,
+    FakeStretch = 1.0,
+    Mapping = tex-text
+]{TH Sarabun New}
 \XeTeXlinebreaklocale "th"	
 \XeTeXlinebreakskip = 0pt plus 0pt
 \emergencystretch=10pt
