@@ -370,7 +370,6 @@ Natural Language Processing หรือ NLP เป็นสาขาหนึ�
     \caption{Business layer \cite{BusinessLayer}}\label{fig:business_layer}
     \end{figure}
 
-\newpage
 \item Data layer \\
 Layer นี้เป็นตัวกลางระหว่าง Layer อื่นๆ กับทรัพยากรภายนอก
 วัตถุประสงค์หลักของ Layer นี้คือการรวบรวมข้อมูลจากแหล่งต่างๆ เช่น ฐานข้อมูล, เซิร์ฟเวอร์คลาวด์ หรือ API แล้วส่งไปยัง Layer ด้านบน 
@@ -400,11 +399,13 @@ HTTP (Hypertext Transfer Protocol) เป็นโปรโตคอลที่
 \item ไคลเอนต์อาจเริ่มการร้องขอเพิ่มเติมไปยังเซิร์ฟเวอร์ โดยทำซ้ำขั้นตอนเดิมแล้วแต่ความจำเป็น
 \end{enumerate}
 
+\newpage
+
 \subsubsection {HTTP Request Methods}
 Request method จะเป็นการบอกเซิร์ฟเวอร์ว่าลูกค้าต้องการให้เซิร์ฟเวอร์ดำเนินการอะไร 
 Request method ที่พบเจอบ่อยจะมีดังนี้ \\ \\
 
-\begin{table}[]\centering
+\begin{table}[!h]\centering
   \begin{tabular}{|
   >{\columncolor[HTML]{FFFFFF}}c |c|}
   \hline
@@ -415,7 +416,7 @@ Request method ที่พบเจอบ่อยจะมีดังนี�
   {\color[HTML]{0A0A23} PUT}           & ขอให้เซิร์ฟเวอร์แก้ไข/อัปเดตทรัพยากรที่มีอยู่แล้ว \\ \hline
   {\color[HTML]{0A0A23} DELETE}        & ขอให้เซิร์ฟเวอร์ลบทรัพยากร                        \\ \hline
   \end{tabular}
-    \caption{HTTP Request Methods}\label{tab:HTTP Request Methods}
+    \caption{\centering HTTP Request Methods}\label{tab:HTTP Request Methods}
 \end{table}
 
 \FloatBarrier
@@ -543,10 +544,12 @@ REST ทำงานอยู่บน HTTP Protocol ทำให้เวลา
 
 Nodes เป็นเหมือน entity ของ Graph สามารถที่จะเก็บ attribute จำนวนมากได้ สำหรับ Graph เราจะเรียก attribute ว่า properties
 Relationships เป็นความสัมพันธ์ที่เชื่อมระหว่าง 2 node และเหมือนกับ node มันสามารถเก็บ properties ได้ \\
+
 \newpage
+
 \subsubsection {Graph Database vs Relational Database \cite{DatabaseCompare}} 
 
-\begin{table}[]
+\begin{table}[!h]
   \begin{tabular}{|c|c|c|}
   \hline
   \rowcolor[HTML]{6D9EEB} 
@@ -600,9 +603,59 @@ Use Case Diagram เป็นหนึ่งใน UML Diagram ที่ใช�
   \item Return Message : แสดงการส่งคืนจากการทำงานหรือเรียกใช้งาน
   \item Focus of Control : แสดงว่าในขณะที่โปรแกรมทำงาน, ควบคุมอยู่ที่วัตถุหรือเส้นชีวิตใด
 \end{enumerate}
-%\subsection{UX/UI Design}
+
+\subsection{Principle Design \cite{PrincipleDesign}}
+\subsubsection {Principle Design คืออะไร}
+  Principle Design คือหลักการในการออกแบบที่ช่วยให้เข้าใจธรรมชาติในการรับรู้ข้อมูลและจำแนกประเภทของสมองมนุษย์ ยกตัวอย่างง่าย ๆ เช่นการที่เรานำสิ่งของที่หน้าตาคล้าย ๆ กันนำมาวางไว้ใกล้กัน
 
 
+\subsection {C.R.A.P. Principle Design}
+  โดยหลัก Principle design แบ่งเป็น 4 ข้อสำคัญคือ Contrast, Repetition, Alignment และ Proximity หรือตัวย่อ คือ C.R.A.P.
+  \begin{enumerate}
+    \item Contrast ความแตกต่าง \\
+    คือการแบ่งยกข้อมูลด้วยความแตกต่าง โดยความแตกต่างในที่นี้ไม่ใช่แค่สีเพียงอย่างเดียว แต่รวมถึง ขนาดที่แตกต่างกัน รูปทรงที่แตกต่างกัน เป็นต้น เมื่อใช้ความแตกต่างในการแบ่งแยกข้อมูลแล้ว จะส่งผลต่อลำดับความสำคัญในการอ่าน ทำให้เราเลือกได้ว่าจะให้ผู้ใช้งานเห็นสิ่งไหนเป็นอย่างแรก และเห็นสิ่งไหนเป็นอย่างถัดมา
+    
+    \begin{figure}[!h]\centering
+      \setlength{\fboxrule}{0.5mm} % can define this in the preamble
+      \setlength{\fboxsep}{0.5cm}
+      \fbox{\includegraphics[width=10cm]{./contrast.png}}
+      \caption{contrast \cite{Contrast}}\label{fig:contrast}
+    \end{figure}
+
+    \item Repetition การทำซ้ำ \\
+    การทำซ้ำในที่นี้คือการทำซ้ำของเนื้อหา ทำให้ผู้ใช้งานไม่ต้องเรียนรู้ใหม่เมื่อเจอรูปแบบการจัดวางที่คล้าย ๆ กัน ก็จะเข้าใจได้ว่ามันมีการใช้งานที่เหมือนกัน หรือจะนำ Repetition มาใช้ในการแบ่งกลุ่ม เช่นของที่มีหน้าตาเหมือนกัน เมื่อนำมาเรียงไว้ด้วยกัน ผู้ใช้จะเข้าใจได้ว่ามันคือหมวดหมู่เดียวกัน
+    
+    \begin{figure}[!h]\centering
+      \setlength{\fboxrule}{0.5mm} % can define this in the preamble
+      \setlength{\fboxsep}{0.5cm}
+      \fbox{\includegraphics[width=10cm]{./repetition.png}}
+      \caption{repetition \cite{Repetition}}\label{fig:repietition}
+    \end{figure}
+
+    \newpage
+
+    \item Alignment ตำแหน่งการจัดวาง \\
+    ส่งผลต่อความเป็นระเบียบ ความสบายตา และความเชื่อมโยงกันของเนื้อหาโดย Alignment จะเป็น สิ่งแรก ๆ ที่ผู้ใช้งานรู้สึกได้ เมื่อมีการเปลี่ยนแปลง เมื่อจัดวางเนื้อหาในระนาบเดียวกัน ผู้ใช้จะเข้าใจได้ว่าเนื้อหานี้มีความเชื่อมโยงกัน
+    
+    \begin{figure}[!h]\centering
+      \setlength{\fboxrule}{0.5mm} % can define this in the preamble
+      \setlength{\fboxsep}{0.5cm}
+      \fbox{\includegraphics[width=10cm]{./alignment.png}}
+      \caption{alignment \cite{Alignment}}\label{fig:alignment}
+    \end{figure}
+
+    \item Proximity  การจัดกลุ่มข้อมูล \\
+    คือการจัดวางองค์ประกอบของข้อมูล โดยข้อมูลที่มีความเชื่อมโยงกันควรจัดให้เป็นกลุ่มก้อนเดียวกัน จะช่วยให้ข้อมูลในหน้าเว็บไซต์ หรือแอปพลิเคชั่นที่เราออกแบบมีความซับซ้อนน้อยลง และมีการแบ่งหมวดหมู่ชัดเจนขึ้น
+    
+    \begin{figure}[!h]\centering
+      \setlength{\fboxrule}{0.5mm} % can define this in the preamble
+      \setlength{\fboxsep}{0.5cm}
+      \fbox{\includegraphics[width=10cm]{./proximity.png}}
+      \caption{proximity \cite{Proximity}}\label{fig:proximity}
+    \end{figure}
+  \end{enumerate}
+
+\newpage
 
 \section{เทคโนโลยี}
 \subsection{Integrated Development Environment (IDE)}
@@ -640,6 +693,7 @@ Use Case Diagram เป็นหนึ่งใน UML Diagram ที่ใช�
   \item Neo4j \cite{Neo4j} \\ 
     เป็นระบบฐานข้อมูลที่ถูกออกแบบมาเพื่อจัดเก็บข้อมูลแบบกราฟ (Graph Database) ที่สามารถจัดเก็บแมปและสอบถามความสัมพันธ์ระหว่างข้อมูลได้อย่างมีประสิทธิภาพและมีความยืดหยุ่น ระบบฐานข้อมูลกราฟนี้ถูกออกแบบมาเพื่อเก็บข้อมูลในรูปแบบของ Node และ เชื่อมต่อระหว่างโหนดด้วยเส้นเชื่อมที่เรียกว่า Relationships ทำให้สามารถแสดงความสัมพันธ์และการเชื่อมโยงของข้อมูลได้อย่างชัดเจน
 \end{itemize}
+
 \subsection{Machine Learning}
 \begin{itemize}
   \item mT5 \\
@@ -657,7 +711,7 @@ Use Case Diagram เป็นหนึ่งใน UML Diagram ที่ใช�
 \end{itemize}
 \subsection{Version Control}
 \begin{itemize}
-  \item Git \\
+  \item Git \cite{Git} \\
     Version Control ตัวหนึ่งซึ่งจะเป็นระบบที่มีหน้าที่ทำการจัดเก็บการเปลี่ยนแปลงของไฟล์ใน Project และมีการ backup ให้สามารถที่จะเรียกดูหรือทำการย้อนกลับไปดูเวอร์ชั่นต่างๆของ Project ที่ใด เวลาใดก็ได้ ดังนั้น Version Control ก็เหมาะอย่างยิ่งสำหรับนักพัฒนาไม่ว่าจะเป็นทั้งในรูปเเบบเดี่ยวหรือกลุ่มก็ตาม และนอกจากนั้นก็ยังสามารถเรียกดูได้ ว่าใครเป็นคนเขียนหรือใครเป็นคนแก้ไข Project ในส่วนต่าง
   \item Github \\
     เว็บเซิฟเวอร์ที่ให้บริการในการฝากไฟล์ Git หรือพูดง่าย ๆ ก็คือ Git ที่อยู่บนเว็บไซต์นั่นเอง ซึ่งจะทำให้สามารถใช้ Git ร่วมกับคนอื่นได้โดยผ่านเว็บไซต์ซึ่งจะมักนิยมใช้กันมาก ในการเก็บ Project Open Source ต่างๆ
@@ -856,15 +910,14 @@ System Flow
   \begin{figure}[!h]\centering
     \setlength{\fboxrule}{0.5mm} % can define this in the preamble
     \setlength{\fboxsep}{0.5cm}
-    \fbox{\includegraphics[width=7cm]{./usedcase.png}}
+    \fbox{\includegraphics[width=10cm]{./usedcase.png}}
     \caption{Use case diagram and use case narratives}\label{fig:usecasediagram}
   \end{figure}
 
 \newpage
 
 \textbf{Use case narratives} \\
-use case diagram นี้เป็นการแสดงการทำงานของระบบและการใช้งานจากผู้ใช้งาน ใช้ case diagram ในการแสดงภาพรวมของระบบและลำดับการทำงานของฟังก์ชันใช้งานในระบบ โดยมีผู้กระทำหลักคือ User และผู้กระทำรองคือ Backed Logic
-
+use case diagram นี้เป็นการแสดงการทำงานของระบบและการใช้งานจากผู้ใช้งาน ใช้ case diagram ในการแสดงภาพรวมของระบบและลำดับการทำงานของฟังก์ชันใช้งานในระบบ โดยมีผู้กระทำหลักคือ User และผู้กระทำรองคือ Backed Logic\\
 
 Registration scenario
 \\
@@ -1238,6 +1291,202 @@ Sequence diagram สำหรับแสดงการทำงานของ
     \caption{Database Model}\label{fig:Database Model}
   \end{figure}
 
+  \subsection{Node}
+
+    \subsubsection{User node: เก็บข้อมูลของผู้ใช้งานที่ใช้งานแอปพลิเคชัน}
+    \begin{table}[!h]\centering
+      \begin{tabular}{|c|c|c|c|}
+      \hline
+      \rowcolor[HTML]{9FC5E8} 
+      Property                              & {\color[HTML]{242424} DataType} & {\color[HTML]{242424} Constain} & Definition        \\ \hline
+      \rowcolor[HTML]{FFFFFF} 
+      {\color[HTML]{242424} StudentName}    & {\color[HTML]{242424} STRING}   & {\color[HTML]{242424} Not NULL} & ชื่อเต็มของผู้ใช้ \\ \hline
+      \cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} StudentID}     & {\color[HTML]{242424} STRING} & {\color[HTML]{242424} Not NULL} & รหัสนักศึกษาของผู้ใช้ \\ \hline
+      \cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} AcademicEmail} & {\color[HTML]{242424} STRING} & {\color[HTML]{242424} Not NULL} & อีเมลมหาวิทยาลัย      \\ \hline
+      {\color[HTML]{242424} AcademicDegree} & {\color[HTML]{242424} STRING}   & {\color[HTML]{242424} Not NULL} & ระดับการศึกษา     \\ \hline
+      {\color[HTML]{242424} Year}           & {\color[HTML]{242424} INTEGER}  & {\color[HTML]{242424} Not NULL} & ชั้นปีของนักศึกษา \\ \hline
+      Year                                  & INTEGER                         & Not NULL                        & ชั้นปีของนักศึกษา \\ \hline
+      \end{tabular}
+      \caption{\centering ตารางเก็บข้อมูลของผู้ใช้งานที่ใช้งานแอปพลิเคชัน}\label{tab:User node}
+    \end{table}
+
+    \newpage
+
+    \subsubsection{Department node: เก็บข้อมูลของภาควิชาภายในมหาวิทยาลัย}
+  \begin{table}[!h]\centering
+      \begin{tabular}{|c|c|c|c|}
+      \hline
+      \rowcolor[HTML]{9FC5E8} 
+      Property                              & {\color[HTML]{242424} DataType} & {\color[HTML]{242424} Constain} & Definition        \\ \hline
+      \rowcolor[HTML]{FFFFFF} 
+      {\color[HTML]{242424} DepartmentName} & {\color[HTML]{242424} STRING}   & {\color[HTML]{242424} Not NULL} & ชื่อภาควิชา       \\ \hline
+      \cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} DepartmentID}  & {\color[HTML]{242424} STRING} & {\color[HTML]{242424} Not NULL} & ชื่อย่อภาษาอังกฤษของภาควิชา \\ \hline
+      \cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} AcademicEmail} & {\color[HTML]{242424} STRING} & {\color[HTML]{242424} Not NULL} & อีเมลมหาวิทยาลัย            \\ \hline
+      {\color[HTML]{242424} AcademicDegree} & {\color[HTML]{242424} STRING}   & {\color[HTML]{242424} Not NULL} & ระดับการศึกษา     \\ \hline
+      {\color[HTML]{242424} Year}           & {\color[HTML]{242424} INTEGER}  & {\color[HTML]{242424} Not NULL} & ชั้นปีของนักศึกษา \\ \hline
+      Year                                  & INTEGER                         & Not NULL                        & ชั้นปีของนักศึกษา \\ \hline
+      \end{tabular}
+      \caption{\centering ตารางเก็บข้อมูลของภาควิชาภายในมหาวิทยาลัย}\label{tab:Department node}
+    \end{table}
+
+    \subsubsection*{Club node: เก็บข้อมูลของชมรมภายในมหาวิทยาลัย}
+    \begin{table}[!h]\centering
+      \begin{tabular}{|c|c|c|c|}
+      \hline
+      \rowcolor[HTML]{9FC5E8} 
+      Property                        & {\color[HTML]{242424} DataType} & {\color[HTML]{242424} Constain} & Definition        \\ \hline
+      \rowcolor[HTML]{FFFFFF} 
+      {\color[HTML]{242424} ClubName} & {\color[HTML]{242424} STRING}   & {\color[HTML]{242424} Not NULL} & ชื่อชมรม          \\ \hline
+      \cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} ClubID}      & {\color[HTML]{242424} STRING} & {\color[HTML]{242424} Not NULL} & รหัสชมรม      \\ \hline
+      \cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} Description} & {\color[HTML]{242424} STRING} & {\color[HTML]{242424} NULL}     & คำอธิบายชมรม  \\ \hline
+      {\color[HTML]{242424} AcademicDegree}                      & {\color[HTML]{242424} STRING} & {\color[HTML]{242424} Not NULL} & ระดับการศึกษา \\ \hline
+      {\color[HTML]{242424} Year}     & {\color[HTML]{242424} INTEGER}  & {\color[HTML]{242424} Not NULL} & ชั้นปีของนักศึกษา \\ \hline
+      Year                            & INTEGER                         & Not NULL                        & ชั้นปีของนักศึกษา \\ \hline
+      \end{tabular}
+      \caption{\centering ตารางเก็บข้อมูลของชมรมภายในมหาวิทยาลัย}\label{tab:Club node}
+    \end{table}
+
+    \subsubsection{Club Category node: เก็บข้อมูลประเภทชมรม}
+    \begin{table}[!h]\centering
+      \begin{tabular}{|c|c|c|c|}
+      \hline
+      \rowcolor[HTML]{9FC5E8} 
+      Property                                                  & {\color[HTML]{242424} DataType} & {\color[HTML]{242424} Constain} & Definition \\ \hline
+      \rowcolor[HTML]{FFFFFF} 
+      {\color[HTML]{242424} CategoryName}                       & {\color[HTML]{242424} STRING}   & {\color[HTML]{242424} Not NULL} & ชื่อประเภท \\ \hline
+      \cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} CategoryID} & {\color[HTML]{242424} STRING}   & {\color[HTML]{242424} Not NULL} & รหัสประเภท \\ \hline
+      \end{tabular}
+      \caption{\centering ตารางเก็บข้อมูลประเภทชมรม}\label{tab:Club Category node}
+    \end{table}
+
+    \newpage
+
+    \subsubsection{Activity node: เก็บข้อมูลของชมรมภายในมหาวิทยาลัย}
+    \begin{table}[!h]\centering
+      \begin{tabular}{|c|c|c|c|}
+      \hline
+      \rowcolor[HTML]{9FC5E8} 
+      Property                                                  & {\color[HTML]{242424} DataType} & {\color[HTML]{242424} Constain} & Definition                              \\ \hline
+      \rowcolor[HTML]{FFFFFF} 
+      {\color[HTML]{242424} ActivityName}                       & {\color[HTML]{242424} STRING}   & {\color[HTML]{242424} Not NULL} & ชื่อประเภท                              \\ \hline
+      \cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} ActivityID} & {\color[HTML]{242424} STRING}   & {\color[HTML]{242424} Not NULL} & รหัสประเภท                              \\ \hline
+      Description  & STRING   & NULL     & คำอธิบายกิจกรรม      \\ \hline
+      AcademicYear & INTEGER  & Not NULL & ปีการศึกษา           \\ \hline
+      Semester     & INTEGER  & Not NULL & ภาคการศึกษา          \\ \hline
+      DayTotal     & INTEGER  & Not NULL & จำนวนวันของกิจกรรม   \\ \hline
+      HourTotal    & INTEGER  & Not NULL & จำนวนชั่วโมงกิจกรรม  \\ \hline
+      Organizer    & STRING   & Not NULL & ชื่อผู้จัดกิจกรรม    \\ \hline
+      OpenDate     & DATETIME & Not NULL & วันแรกของกิจกรรม     \\ \hline
+      CloseDate    & DATETIME & Not NULL & วันสุดท้ายของกิจกรรม \\ \hline
+      RegisterOpen                                              & BOOLEAN                         & Not NULL                        & สถานะของการเปิดลงทะเบียนเข้าร่วมกิจกรรม \\ \hline
+      \end{tabular}
+      \caption{\centering ตารางเก็บข้อมูลของชมรมภายในมหาวิทยาลัย}\label{tab:Activitynode}
+    \end{table}
+    
+    \subsubsection{Activity Category node: เก็บข้อมูลประเภทของกิจกรรม}
+    \begin{table}[!h]\centering
+      \begin{tabular}{|c|c|c|c|}
+      \hline
+      \rowcolor[HTML]{9FC5E8} 
+      Property                                                  & {\color[HTML]{242424} DataType} & {\color[HTML]{242424} Constain} & Definition \\ \hline
+      \rowcolor[HTML]{FFFFFF} 
+      {\color[HTML]{242424} CategoryName}                       & {\color[HTML]{242424} STRING}   & {\color[HTML]{242424} Not NULL} & ชื่อประเภท \\ \hline
+      \cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} CategoryID} & {\color[HTML]{242424} STRING}   & {\color[HTML]{242424} Not NULL} & รหัสประเภท \\ \hline
+      \end{tabular}
+      \caption{\centering ตารางเก็บข้อมูลประเภทของกิจกรรม}\label{tab:Activity Category node}
+    \end{table}
+
+  \subsection{Relationship}  
+    \subsubsection{User เป็นนักศึกษาภาควิชา}
+    \begin{table}[!h]\centering
+      \begin{tabular}{|c|c|c|c|}
+      \hline
+      \rowcolor[HTML]{9FC5E8} 
+      Property                          & {\color[HTML]{242424} DataType} & {\color[HTML]{242424} Constain} & Definition                       \\ \hline
+      \rowcolor[HTML]{FFFFFF} 
+      {\color[HTML]{242424} DateJoined} & {\color[HTML]{242424} DATE}     & {\color[HTML]{242424} Not NULL} & วันที่เข้าเป็นนักศึกษาของภาควิชา \\ \hline
+      \end{tabular}
+      \caption{\centering ตารางเก็บข้อมูลนักศึกษาภาควิชา}\label{tab:Relationship}
+    \end{table}
+
+    \subsubsection{User เป็นสมาชิกของชมรม}
+    \begin{table}[!h]\centering
+      \begin{tabular}{cccc}
+      \hline
+      \rowcolor[HTML]{9FC5E8} 
+      \multicolumn{1}{|c|}{\cellcolor[HTML]{9FC5E8}Property} &
+        \multicolumn{1}{c|}{\cellcolor[HTML]{9FC5E8}{\color[HTML]{242424} DataType}} &
+        \multicolumn{1}{c|}{\cellcolor[HTML]{9FC5E8}{\color[HTML]{242424} Constain}} &
+        \multicolumn{1}{c|}{\cellcolor[HTML]{9FC5E8}Definition} \\ \hline
+      \rowcolor[HTML]{FFFFFF} 
+      \multicolumn{1}{|c|}{\cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} DateJoined}} &
+        \multicolumn{1}{c|}{\cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} DATE}} &
+        \multicolumn{1}{c|}{\cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} Not NULL}} &
+        \multicolumn{1}{c|}{\cellcolor[HTML]{FFFFFF}วันที่เริ่มเป็นสมาชิกชมรม} \\ \hline
+      Role &
+        STRING &
+        Not NULL &
+        ตำแหน่งในชมรม
+      \end{tabular}
+      \caption{\centering ตารางเก็บข้อมูลสมาชิกของชมรม}\label{tab:Userเป็นสมาชิกของชมรม}
+      \end{table}
+
+      \newpage
+
+    \subsubsection{ชมรมถูกแนะนำให้แก่ User}
+
+    \subsubsection{ชมรมจัดอยู่ในประเภท}
+
+    \subsubsection{User เข้าร่วมกิจกรรม}
+    \begin{table}[!h]\centering
+      \begin{tabular}{cccc}
+      \hline
+      \rowcolor[HTML]{9FC5E8} 
+      \multicolumn{1}{|c|}{\cellcolor[HTML]{9FC5E8}DateJoined} &
+        \multicolumn{1}{c|}{\cellcolor[HTML]{9FC5E8}{\color[HTML]{242424} DATE}} &
+        \multicolumn{1}{c|}{\cellcolor[HTML]{9FC5E8}{\color[HTML]{242424} Not NULL}} &
+        \multicolumn{1}{c|}{\cellcolor[HTML]{9FC5E8}วันที่เข้าร่วมกิจกรรม} \\ \hline
+      \rowcolor[HTML]{FFFFFF} 
+      \multicolumn{1}{|c|}{\cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} Role}} &
+        \multicolumn{1}{c|}{\cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} STRING}} &
+        \multicolumn{1}{c|}{\cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} Not NULL}} &
+        \multicolumn{1}{c|}{\cellcolor[HTML]{FFFFFF}ตำแหน่งในกิจกรรม} \\ \hline
+      Role &
+        STRING &
+        Not NULL &
+        ตำแหน่งในชมรม
+      \end{tabular}
+      \caption{\centering ตารางเก็บข้อมูลสมาชิกเข้าร่วมกิจกรรม}\label{tab:Userเข้าร่วมกิจกรรม}
+      \end{table}
+
+      \subsubsection{กิจกรรมถูกแนะนำให้แก่ User}
+
+      \subsubsection{กิจกรรมที่ User เข้าร่วมเปิดให้ประเมินได้แล้ว}
+
+      \subsubsection{กิจกรรมจัดอยู่ในประเภท}
+
+      \subsubsection{กิจกรรมถูกจัดโดยชมรม}
+
+      \begin{table}[!h]\centering
+        \begin{tabular}{cccc}
+        \hline
+        \rowcolor[HTML]{9FC5E8} 
+        \multicolumn{1}{|c|}{\cellcolor[HTML]{9FC5E8}Property} &
+          \multicolumn{1}{c|}{\cellcolor[HTML]{9FC5E8}{\color[HTML]{242424} DataType}} &
+          \multicolumn{1}{c|}{\cellcolor[HTML]{9FC5E8}{\color[HTML]{242424} Constain}} &
+          \multicolumn{1}{c|}{\cellcolor[HTML]{9FC5E8}Definition} \\ \hline
+        \rowcolor[HTML]{FFFFFF} 
+        \multicolumn{1}{|c|}{\cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} OpenDate}} &
+          \multicolumn{1}{c|}{\cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} DATETIME}} &
+          \multicolumn{1}{c|}{\cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} Not NULL}} &
+          \multicolumn{1}{c|}{\cellcolor[HTML]{FFFFFF}วันแรกของกิจกรรม} \\ \hline
+        CloseDate &
+          DATETIME &
+          Not NULL &
+          วันสุดท้ายของกิจกรรม
+        \end{tabular}
+        \caption{\centering ตารางเก็บข้อมูลกิจกรรมถูกจัดโดยชมรม}\label{tab:กิจกรรมถูกจัดโดยชมรม}
+      \end{table}
 \makeatletter
 \g@addto@macro{\UrlBreaks}{\UrlOrds}
 \makeatother
