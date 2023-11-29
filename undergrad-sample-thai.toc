@@ -1,12 +1,8 @@
 \selectlanguage *{thai}
-\contentsline {chapterx}{\mdseries ABSTRACT}{ii}{Doc-Start}%
-\contentsline {chapterx}{\mdseries บทคัดย่อ}{iii}{Doc-Start}%
-\contentsline {chapterx}{\mdseries กิตติกรรมประกาศ}{iv}{Doc-Start}%
-\contentsline {chapterx}{\mdseries สารบัญ}{v}{Doc-Start}%
+\contentsline {chapterx}{\mdseries กิตติกรรมประกาศ}{iii}{Doc-Start}%
+\contentsline {chapterx}{\mdseries สารบัญ}{iv}{Doc-Start}%
 \contentsline {chapterx}{\mdseries สารบัญตาราง}{vii}{Doc-Start}%
 \contentsline {chapterx}{\mdseries สารบัญรูปภาพ}{viii}{Doc-Start}%
-\contentsline {chapterx}{\mdseries สารบัญสัญลักษณ์}{ix}{Doc-Start}%
-\contentsline {chapterx}{\mdseries สารบัญคำศัพท์ทางเทคนิคและคำย่อ}{x}{Doc-Start}%
 \contentsline {chapter}{\normalsize \bf \MakeUppercase []{บทที่ {\numberline {1}\hskip -0.8em บทนำ}}}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}คำสำคัญ}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}ที่มาและความสำคัญ}{1}{section.1.2}%
@@ -18,59 +14,79 @@
 \contentsline {chapter}{\normalsize \bf \MakeUppercase []{บทที่ {\numberline {2}\hskip -0.8em ทฤษฎีความรู้และงานที่เกี่ยวข้อง}}}{4}{chapter.2}%
 \contentsline {section}{\numberline {2.1}ทฤษฏีและความรู้ที่เกี่ยวข้อง}{4}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Machine Learning}{4}{subsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.1.1}Content-Based Filtering}{4}{subsubsection.2.1.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.1.2}Collaborative Filtering}{4}{subsubsection.2.1.1.2}%
-\contentsline {subsubsection}{\numberline {2.1.1.3}Natural Language Processing}{4}{subsubsection.2.1.1.3}%
-\contentsline {subsubsection}{\numberline {2.1.1.4}Word Embedding}{4}{subsubsection.2.1.1.4}%
-\contentsline {subsubsection}{\numberline {2.1.1.5}Transformer Model}{5}{subsubsection.2.1.1.5}%
+\contentsline {subsubsection}{\numberline {2.1.1.1}Content-Based Filtering \cite {Content-Based}}{4}{subsubsection.2.1.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.2}Collaborative Filtering \cite {Item-Based}, \cite {Content-Boosted}}{4}{subsubsection.2.1.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.1.3}Natural Language Processing \cite {recommendation}, \cite {NLPforContentbase}}{4}{subsubsection.2.1.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.1.4}Word Embedding \cite {WordEmbedding}, \cite {WordEmbeddingForCollaborative}}{4}{subsubsection.2.1.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.1.5}Transformer Model \cite {Transformers}}{5}{subsubsection.2.1.1.5}%
 \contentsline {subsubsection}{\numberline {2.1.1.6}Artificial Neural Network}{5}{subsubsection.2.1.1.6}%
-\contentsline {subsection}{\numberline {2.1.2}Mobile App Architecture}{6}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}HTTP Protocol}{9}{subsection.2.1.3}%
-\contentsline {subsubsection}{\numberline {2.1.3.1}HTTP Protocol คืออะไร}{9}{subsubsection.2.1.3.1}%
-\contentsline {subsubsection}{\numberline {2.1.3.2}HTTP Request-Response Cycle}{9}{subsubsection.2.1.3.2}%
-\contentsline {subsubsection}{\numberline {2.1.3.3}HTTP Request Methods}{9}{subsubsection.2.1.3.3}%
-\contentsline {subsection}{\numberline {2.1.4}REST API}{9}{subsection.2.1.4}%
-\contentsline {subsubsection}{\numberline {2.1.4.1}REST คืออะไร}{9}{subsubsection.2.1.4.1}%
-\contentsline {subsubsection}{\numberline {2.1.4.2}การออกแบบ REST API}{10}{subsubsection.2.1.4.2}%
-\contentsline {subsection}{\numberline {2.1.5}Graph Database}{13}{subsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.1.2}Mobile App Architecture \cite {MobileAppArchitecture}}{6}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}HTTP Protocol \cite {HTTPProtocol}}{8}{subsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.3.1}HTTP Protocol คืออะไร}{8}{subsubsection.2.1.3.1}%
+\contentsline {subsubsection}{\numberline {2.1.3.2}HTTP Request-Response Cycle}{8}{subsubsection.2.1.3.2}%
+\contentsline {subsubsection}{\numberline {2.1.3.3}HTTP Request Methods}{10}{subsubsection.2.1.3.3}%
+\contentsline {subsection}{\numberline {2.1.4}REST API \cite {RestAPI}}{10}{subsection.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.4.1}REST คืออะไร}{10}{subsubsection.2.1.4.1}%
+\contentsline {subsubsection}{\numberline {2.1.4.2}การออกแบบ REST API \cite {RestAPIDesign}}{10}{subsubsection.2.1.4.2}%
+\contentsline {subsection}{\numberline {2.1.5}Graph Database \cite {GraphDatabase}}{13}{subsection.2.1.5}%
 \contentsline {subsubsection}{\numberline {2.1.5.1}Graph Database คืออะไร}{13}{subsubsection.2.1.5.1}%
 \contentsline {subsubsection}{\numberline {2.1.5.2}ทำไมต้องเป็น Graph Database}{13}{subsubsection.2.1.5.2}%
-\contentsline {subsubsection}{\numberline {2.1.5.3}Property ของ Graph Model}{14}{subsubsection.2.1.5.3}%
-\contentsline {subsubsection}{\numberline {2.1.5.4}Graph Database vs Relational Database}{15}{subsubsection.2.1.5.4}%
-\contentsline {subsection}{\numberline {2.1.6}UML Diagram}{16}{subsection.2.1.6}%
+\contentsline {subsubsection}{\numberline {2.1.5.3}Property ของ Graph Model \cite {GraphDatabaseProperty}}{14}{subsubsection.2.1.5.3}%
+\contentsline {subsubsection}{\numberline {2.1.5.4}Graph Database vs Relational Database \cite {DatabaseCompare}}{15}{subsubsection.2.1.5.4}%
+\contentsline {subsection}{\numberline {2.1.6}UML Diagram \cite {UML}}{16}{subsection.2.1.6}%
 \contentsline {subsubsection}{\numberline {2.1.6.1}UML Diagram คืออะไร}{16}{subsubsection.2.1.6.1}%
 \contentsline {subsubsection}{\numberline {2.1.6.2}Use case Diagram}{16}{subsubsection.2.1.6.2}%
 \contentsline {subsubsection}{\numberline {2.1.6.3}Sequence Diagram}{16}{subsubsection.2.1.6.3}%
-\contentsline {section}{\numberline {2.2}เทคโนโลยี}{16}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Integrated Development Environment (IDE)}{16}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Design}{17}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Frontend}{17}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Backend}{17}{subsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.2.5}Database}{17}{subsection.2.2.5}%
-\contentsline {subsection}{\numberline {2.2.6}Machine Learning}{17}{subsection.2.2.6}%
-\contentsline {subsection}{\numberline {2.2.7}Version Control}{18}{subsection.2.2.7}%
-\contentsline {subsection}{\numberline {2.2.8}Testing}{18}{subsection.2.2.8}%
-\contentsline {subsection}{\numberline {2.2.9}Product Servey}{19}{subsection.2.2.9}%
-\contentsline {chapter}{\normalsize \bf \MakeUppercase []{บทที่ {\numberline {3}\hskip -0.8em วิธีการทำงาน กระบวนการและการออกแบบ}}}{26}{chapter.3}%
-\contentsline {section}{\numberline {3.1}บทนำ}{26}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}สำรวจความต้องการของผู้ใช้เชิงคุณภาพ}{26}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Journey Map}{26}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Stakeholder}{26}{subsection.3.1.3}%
-\contentsline {section}{\numberline {3.2}Requirement list}{27}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Feature list}{27}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Architecture diagram}{28}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Use case diagram and use case narratives}{30}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Sequence diagram}{35}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Login}{35}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}Registration}{36}{subsection.3.6.2}%
-\contentsline {subsection}{\numberline {3.6.3}Logout}{37}{subsection.3.6.3}%
-\contentsline {subsection}{\numberline {3.6.4}Search Event}{38}{subsection.3.6.4}%
-\contentsline {subsection}{\numberline {3.6.5}Select and join event}{39}{subsection.3.6.5}%
-\contentsline {subsection}{\numberline {3.6.6}Event evaluation}{40}{subsection.3.6.6}%
-\contentsline {subsection}{\numberline {3.6.7}Notification about event from club}{41}{subsection.3.6.7}%
-\contentsline {subsection}{\numberline {3.6.8}Seacrh club}{42}{subsection.3.6.8}%
-\contentsline {subsection}{\numberline {3.6.9}Select and join club}{43}{subsection.3.6.9}%
-\contentsline {subsection}{\numberline {3.6.10}Club resignation}{44}{subsection.3.6.10}%
-\contentsline {subsection}{\numberline {3.6.11}Feed recommendation}{45}{subsection.3.6.11}%
-\contentsline {subsection}{\numberline {3.6.12}Machine learning training}{46}{subsection.3.6.12}%
-\contentsline {section}{\numberline {3.7}Database Model}{47}{section.3.7}%
+\contentsline {subsection}{\numberline {2.1.7}Principle Design \cite {PrincipleDesign}}{16}{subsection.2.1.7}%
+\contentsline {subsubsection}{\numberline {2.1.7.1}Principle Design คืออะไร}{16}{subsubsection.2.1.7.1}%
+\contentsline {subsection}{\numberline {2.1.8}C.R.A.P. Principle Design}{17}{subsection.2.1.8}%
+\contentsline {section}{\numberline {2.2}เทคโนโลยี}{19}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Integrated Development Environment (IDE)}{19}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Design}{19}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Frontend}{19}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Backend}{19}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Database}{19}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.6}Machine Learning}{19}{subsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.2.7}Version Control}{20}{subsection.2.2.7}%
+\contentsline {subsection}{\numberline {2.2.8}Testing}{20}{subsection.2.2.8}%
+\contentsline {section}{\numberline {2.3}Product Servey}{21}{section.2.3}%
+\contentsline {chapter}{\normalsize \bf \MakeUppercase []{บทที่ {\numberline {3}\hskip -0.8em วิธีการทำงาน กระบวนการและการออกแบบ}}}{28}{chapter.3}%
+\contentsline {section}{\numberline {3.1}บทนำ}{28}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}สำรวจความต้องการของผู้ใช้เชิงคุณภาพ}{28}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Journey Map}{28}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Stakeholder}{28}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}Requirement list}{29}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Feature list}{29}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Architecture diagram}{30}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Use case diagram and use case narratives}{31}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Sequence diagram}{36}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Login}{36}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Registration}{37}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Logout}{38}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.4}Search Event}{39}{subsection.3.6.4}%
+\contentsline {subsection}{\numberline {3.6.5}Select and join event}{40}{subsection.3.6.5}%
+\contentsline {subsection}{\numberline {3.6.6}Event evaluation}{41}{subsection.3.6.6}%
+\contentsline {subsection}{\numberline {3.6.7}Notification about event from club}{42}{subsection.3.6.7}%
+\contentsline {subsection}{\numberline {3.6.8}Seacrh club}{43}{subsection.3.6.8}%
+\contentsline {subsection}{\numberline {3.6.9}Select and join club}{44}{subsection.3.6.9}%
+\contentsline {subsection}{\numberline {3.6.10}Club resignation}{45}{subsection.3.6.10}%
+\contentsline {subsection}{\numberline {3.6.11}Feed recommendation}{46}{subsection.3.6.11}%
+\contentsline {subsection}{\numberline {3.6.12}Machine learning training}{47}{subsection.3.6.12}%
+\contentsline {section}{\numberline {3.7}Database Model}{48}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Node}{48}{subsection.3.7.1}%
+\contentsline {subsubsection}{\numberline {3.7.1.1}User node: เก็บข้อมูลของผู้ใช้งานที่ใช้งานแอปพลิเคชัน}{48}{subsubsection.3.7.1.1}%
+\contentsline {subsubsection}{\numberline {3.7.1.2}Department node: เก็บข้อมูลของภาควิชาภายในมหาวิทยาลัย}{49}{subsubsection.3.7.1.2}%
+\contentsline {subsubsection}{\numberline {3.7.1.3}Club Category node: เก็บข้อมูลประเภทชมรม}{49}{subsubsection.3.7.1.3}%
+\contentsline {subsubsection}{\numberline {3.7.1.4}Activity node: เก็บข้อมูลของชมรมภายในมหาวิทยาลัย}{50}{subsubsection.3.7.1.4}%
+\contentsline {subsubsection}{\numberline {3.7.1.5}Activity Category node: เก็บข้อมูลประเภทของกิจกรรม}{50}{subsubsection.3.7.1.5}%
+\contentsline {subsection}{\numberline {3.7.2}Relationship}{50}{subsection.3.7.2}%
+\contentsline {subsubsection}{\numberline {3.7.2.1}User เป็นนักศึกษาภาควิชา}{50}{subsubsection.3.7.2.1}%
+\contentsline {subsubsection}{\numberline {3.7.2.2}User เป็นสมาชิกของชมรม}{50}{subsubsection.3.7.2.2}%
+\contentsline {subsubsection}{\numberline {3.7.2.3}ชมรมถูกแนะนำให้แก่ User}{51}{subsubsection.3.7.2.3}%
+\contentsline {subsubsection}{\numberline {3.7.2.4}ชมรมจัดอยู่ในประเภท}{51}{subsubsection.3.7.2.4}%
+\contentsline {subsubsection}{\numberline {3.7.2.5}User เข้าร่วมกิจกรรม}{51}{subsubsection.3.7.2.5}%
+\contentsline {subsubsection}{\numberline {3.7.2.6}กิจกรรมถูกแนะนำให้แก่ User}{51}{subsubsection.3.7.2.6}%
+\contentsline {subsubsection}{\numberline {3.7.2.7}กิจกรรมที่ User เข้าร่วมเปิดให้ประเมินได้แล้ว}{51}{subsubsection.3.7.2.7}%
+\contentsline {subsubsection}{\numberline {3.7.2.8}กิจกรรมจัดอยู่ในประเภท}{51}{subsubsection.3.7.2.8}%
+\contentsline {subsubsection}{\numberline {3.7.2.9}กิจกรรมถูกจัดโดยชมรม}{51}{subsubsection.3.7.2.9}%
+\contentsline {chapter}{\mdseries \bf \MakeUppercase []{หนังสืออ้างอิง}}{52}{table.3.21}%
