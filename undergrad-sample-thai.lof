@@ -5,13 +5,13 @@
 \contentsline {figure}{\numberline {1.2}{\ignorespaces ภาคการศึกษาที่ 2}}{2}{figure.1.2}%
 \addvspace {0em}
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Mobile App Architecture}}{6}{figure.2.1}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Mobile App Architecture \cite {MobileAppArchitectureOverview}}}{6}{figure.2.1}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Presentation layer}}{7}{figure.2.2}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Presentation layer \cite {PresentationLayer}}}{7}{figure.2.2}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Business layer}}{8}{figure.2.3}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Business layer \cite {BusinessLayer}}}{8}{figure.2.3}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces HTTP Request-Response Cycle}}{9}{figure.2.4}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces HTTP Request-Response Cycle \cite {HTTPCycle}}}{9}{figure.2.4}%
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces tab เลือกหน้าของ Google}}{11}{figure.2.5}%
@@ -22,32 +22,37 @@
 \setforeignlanguage {thai}
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Property ของ Graph Model}}{14}{figure.2.8}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Graph Database vs Relational Database}}{15}{figure.2.9}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces หน้าแนะนำกิจกรรมของ ModLink และรายละเอียด}}{19}{figure.2.10}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces contrast \cite {Contrast}}}{17}{figure.2.9}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces หน้าแนะนำกิจกรรมของ KMUTT Hatch}}{19}{figure.2.11}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces repetition \cite {Repetition}}}{17}{figure.2.10}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces หน้า Mainpage ของ KMUTT Sinfo}}{20}{figure.2.12}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces alignment \cite {Alignment}}}{18}{figure.2.11}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {2.13}{\ignorespaces หน้า Mainpage ของ Padlet}}{21}{figure.2.13}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces proximity \cite {Proximity}}}{18}{figure.2.12}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {2.14}{\ignorespaces หน้าแนะนำกระทู้ของ Pantip}}{21}{figure.2.14}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces หน้าแนะนำกิจกรรมของ ModLink และรายละเอียด}}{21}{figure.2.13}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {2.15}{\ignorespaces หน้า Homepage ของเพจชมรมใน Facebook}}{22}{figure.2.15}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces หน้าแนะนำกิจกรรมของ KMUTT Hatch}}{21}{figure.2.14}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {2.16}{\ignorespaces หน้า Notifications ของ Instargram}}{23}{figure.2.16}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces หน้า Mainpage ของ KMUTT Sinfo}}{22}{figure.2.15}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {2.17}{\ignorespaces ตารางความแตกต่างของ Feature}}{24}{figure.2.17}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces หน้า Mainpage ของ Padlet}}{23}{figure.2.16}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {2.18}{\ignorespaces ระบบการแนะนำกิจกรรม}}{25}{figure.2.18}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces หน้าแนะนำกระทู้ของ Pantip}}{23}{figure.2.17}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {2.18}{\ignorespaces หน้า Homepage ของเพจชมรมใน Facebook}}{24}{figure.2.18}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {2.19}{\ignorespaces หน้า Notifications ของ Instargram}}{25}{figure.2.19}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {2.20}{\ignorespaces ตารางความแตกต่างของ Feature}}{26}{figure.2.20}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {2.21}{\ignorespaces ระบบการแนะนำกิจกรรม}}{27}{figure.2.21}%
 \addvspace {0em}
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Architecture diagram}}{28}{figure.3.1}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Architecture diagram}}{30}{figure.3.1}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Use case diagram and use case narratives}}{30}{figure.3.2}%
-\setforeignlanguage {thai}
-\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Use case diagram and use case narratives}}{31}{figure.3.2}%
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
@@ -58,28 +63,40 @@
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces \centering Sequence diagram ของ login}}{35}{figure.3.3}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces \centering Registration}}{36}{figure.3.4}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Logout}}{37}{figure.3.5}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces \centering Sequence diagram ของ login}}{36}{figure.3.3}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Search Event}}{38}{figure.3.6}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \centering Registration}}{37}{figure.3.4}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Select and join event}}{39}{figure.3.7}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Logout}}{38}{figure.3.5}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Event evaluation}}{40}{figure.3.8}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Search Event}}{39}{figure.3.6}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Notification about event from club}}{41}{figure.3.9}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Select and join event}}{40}{figure.3.7}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Seacrh club}}{42}{figure.3.10}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Event evaluation}}{41}{figure.3.8}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Select and join club}}{43}{figure.3.11}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Notification about event from club}}{42}{figure.3.9}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Club resignation}}{44}{figure.3.12}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Seacrh club}}{43}{figure.3.10}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Feed recommendation}}{45}{figure.3.13}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Select and join club}}{44}{figure.3.11}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Machine learning training}}{46}{figure.3.14}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Club resignation}}{45}{figure.3.12}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Database Model}}{47}{figure.3.15}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Feed recommendation}}{46}{figure.3.13}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Machine learning training}}{47}{figure.3.14}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Database Model}}{48}{figure.3.15}%
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
