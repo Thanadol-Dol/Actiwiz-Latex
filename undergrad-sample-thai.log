@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.18)  29 NOV 2023 03:27
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.18)  29 NOV 2023 22:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -483,6 +483,9 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 )
+(/usr/local/texlive/2023/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/polyglossia/gloss-thai.ldf
 File: gloss-thai.ldf polyglossia: module for Thai
 The property list \polyglossia@langsetup contains the pairs (without outer
@@ -583,71 +586,56 @@ Package polyglossia Info: Option: English, variant=american.
 )
 
 Package fontspec Info: Font family 'THSarabunNew(0)' created for font 'TH
-(fontspec)             Sarabun New' with options [Script=Thai,Scale=1.23].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1.23]"TH
-(fontspec)             Sarabun New/OT:script=thai;language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1.23]"TH Sarabun
-(fontspec)             New/B/OT:script=thai;language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.: <->s*[1.23]"TH
-(fontspec)             Sarabun New/I/OT:script=thai;language=dflt;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->s*[1.23]"TH
-(fontspec)             Sarabun New/BI/OT:script=thai;language=dflt;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-
-Package fontspec Info: Font family 'THSarabunNew(1)' created for font 'TH
 (fontspec)             Sarabun New' with options
 (fontspec)             [Mapping=tex-text,Scale=1.23,LetterSpace=0.0,Ligatures=T
-eX,Scale=1.23,LetterSpace=0,WordSpace=1.0,FakeStretch=1.0,Mapping=tex-text].
+eX,Scale
+(fontspec)             = 1.23,Extension = .ttf,UprightFont =
+(fontspec)             THSarabunNew,ItalicFont = THSarabunNew Italic,BoldFont
+(fontspec)             = THSarabunNew Bold,BoldItalicFont = THSarabunNew
+(fontspec)             BoldItalic,LetterSpace = 0,WordSpace = 1.0,FakeStretch
+(fontspec)             = 1.0,Mapping = tex-text].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1.23]"TH
-(fontspec)             Sarabun
-(fontspec)             New/OT:script=latn;language=dflt;letterspace=0.0;letters
-pace=0;extend=1.0;mapping=tex-text;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1.23]"[THSarabunNew.ttf]/OT:script=latn;language=d
+flt;letterspace=0.0;letterspace=0;extend=1.0;mapping=tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             and font adjustment code:
 (fontspec)             \fontdimen 2\font =1.0\fontdimen 2\font \fontdimen
 (fontspec)             3\font =1.0\fontdimen 3\font \fontdimen 4\font
 (fontspec)             =1.0\fontdimen 4\font 
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1.23]"TH Sarabun
-(fontspec)             New/B/OT:script=latn;language=dflt;letterspace=0.0;lette
-rspace=0;extend=1.0;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1.23]"[THSarabunNew
+(fontspec)             Bold.ttf]/OT:script=latn;language=dflt;letterspace=0.0;l
+etterspace=0;extend=1.0;mapping=tex-text;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             and font adjustment code:
 (fontspec)             \fontdimen 2\font =1.0\fontdimen 2\font \fontdimen
 (fontspec)             3\font =1.0\fontdimen 3\font \fontdimen 4\font
 (fontspec)             =1.0\fontdimen 4\font 
-(fontspec)             - 'italic' (m/it) with NFSS spec.: <->s*[1.23]"TH
-(fontspec)             Sarabun
-(fontspec)             New/I/OT:script=latn;language=dflt;letterspace=0.0;lette
-rspace=0;extend=1.0;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1.23]"[THSarabunNew
+(fontspec)             Italic.ttf]/OT:script=latn;language=dflt;letterspace=0.0
+;letterspace=0;extend=1.0;mapping=tex-text;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
 (fontspec)             and font adjustment code:
 (fontspec)             \fontdimen 2\font =1.0\fontdimen 2\font \fontdimen
 (fontspec)             3\font =1.0\fontdimen 3\font \fontdimen 4\font
 (fontspec)             =1.0\fontdimen 4\font 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->s*[1.23]"TH
-(fontspec)             Sarabun
-(fontspec)             New/BI/OT:script=latn;language=dflt;letterspace=0.0;lett
-erspace=0;extend=1.0;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1.23]"[THSarabunNew
+(fontspec)             BoldItalic.ttf]/OT:script=latn;language=dflt;letterspace
+=0.0;letterspace=0;extend=1.0;mapping=tex-text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 (fontspec)             and font adjustment code:
 (fontspec)             \fontdimen 2\font =1.0\fontdimen 2\font \fontdimen
 (fontspec)             3\font =1.0\fontdimen 3\font \fontdimen 4\font
 (fontspec)             =1.0\fontdimen 4\font 
 
-LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/m/n' will be
-(Font)              scaled to size 12.29996pt on input line 13.
+LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
+(Font)              scaled to size 12.29996pt on input line 25.
 \c@theorem=\count308
 \c@lemma=\count309
 \c@corollary=\count310
@@ -670,49 +658,96 @@ Package: ragged2e 2023/02/25 v3.4 ragged2e Package
 \JustifyingParindent=\skip72
 )
 (./undergrad-sample-thai.aux
-LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
+
+Package fontspec Info: Font family 'THSarabunNew(1)' created for font 'TH
+(fontspec)             Sarabun New' with options
+(fontspec)             [Mapping=tex-text,Scale=1.23,LetterSpace=0.0,Ligatures=T
+eX,Scale
+(fontspec)             = 1.23,Extension = .ttf,UprightFont =
+(fontspec)             THSarabunNew,ItalicFont = THSarabunNew Italic,BoldFont
+(fontspec)             = THSarabunNew Bold,BoldItalicFont = THSarabunNew
+(fontspec)             BoldItalic,LetterSpace = 0,WordSpace = 1.0,FakeStretch
+(fontspec)             = 1.0,Mapping = tex-text,Script=Thai].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1.23]"[THSarabunNew.ttf]/OT:script=thai;language=d
+flt;letterspace=0.0;letterspace=0;extend=1.0;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1.0\fontdimen 2\font \fontdimen
+(fontspec)             3\font =1.0\fontdimen 3\font \fontdimen 4\font
+(fontspec)             =1.0\fontdimen 4\font 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1.23]"[THSarabunNew
+(fontspec)             Bold.ttf]/OT:script=thai;language=dflt;letterspace=0.0;l
+etterspace=0;extend=1.0;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1.0\fontdimen 2\font \fontdimen
+(fontspec)             3\font =1.0\fontdimen 3\font \fontdimen 4\font
+(fontspec)             =1.0\fontdimen 4\font 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1.23]"[THSarabunNew
+(fontspec)             Italic.ttf]/OT:script=thai;language=dflt;letterspace=0.0
+;letterspace=0;extend=1.0;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1.0\fontdimen 2\font \fontdimen
+(fontspec)             3\font =1.0\fontdimen 3\font \fontdimen 4\font
+(fontspec)             =1.0\fontdimen 4\font 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1.23]"[THSarabunNew
+(fontspec)             BoldItalic.ttf]/OT:script=thai;language=dflt;letterspace
+=0.0;letterspace=0;extend=1.0;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1.0\fontdimen 2\font \fontdimen
+(fontspec)             3\font =1.0\fontdimen 3\font \fontdimen 4\font
+(fontspec)             =1.0\fontdimen 4\font 
+
+LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/m/n' will be
 (Font)              scaled to size 12.29996pt on input line 17.
 \thai@year=\count311
-
-
-LaTeX Warning: Label `fig:Graph' multiply defined.
-
 )
 \openout1 = `undergrad-sample-thai.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 110.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 122.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-10.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
+22.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 110.
-LaTeX Font Info:    Trying to load font information for T3+cmr on input line 11
-0.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 122.
+LaTeX Font Info:    Trying to load font information for T3+cmr on input line 12
+2.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -748,7 +783,7 @@ LaTeX Font Info:    ... okay on input line 110.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 110.
+Package hyperref Info: Link coloring ON on input line 122.
 (./undergrad-sample-thai.out) (./undergrad-sample-thai.out)
 \@outlinefile=\write3
 \openout3 = `undergrad-sample-thai.out'.
@@ -796,111 +831,54 @@ File: logo02.jpg Graphic file (type bmp)
 
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 122
+LaTeX Font Info:    Trying to load font information for U+msa on input line 134
 .
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 122
+LaTeX Font Info:    Trying to load font information for U+msb on input line 134
 .
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 12
-2.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 13
+4.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Underfull \hbox (badness 10000) in alignment at lines 122--122
+Underfull \hbox (badness 10000) in alignment at lines 134--134
 [] [] 
  []
 
 [2]
+LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/m/n' will be
+(Font)              scaled to size 14.75995pt on input line 174.
+LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/b/n' will be
+(Font)              scaled to size 14.75995pt on input line 174.
+
 
 Package hyperref Warning: bookmark level for unknown chapterx defaults to 0.
 
-LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
-(Font)              scaled to size 12.29996pt on input line 127.
 
-Underfull \hbox (badness 10000) in alignment at lines 132--134
-[][] 
+Underfull \hbox (badness 5802) in paragraph at lines 175--185
+\TU/THSarabunNew(1)/m/n/10 ความเอาใจใส่เป็นอย่างยิ่ง จนโครงงานวิศวกรรมคอมพิวเตอ
+ร์ฉบับนี้สำเร็จสมบูรณ์ลุล่วงได้ด้วยดี คณะผู้จัดทำขอกราบขอบพระคุณเป็น
  []
 
-[2]
-\thai@year=\count313
-LaTeX Info: Redefining \rmfamily on input line 144.
-LaTeX Info: Redefining \sffamily on input line 144.
-LaTeX Info: Redefining \ttfamily on input line 144.
-\thai@year=\count314
-LaTeX Info: Redefining \rmfamily on input line 144.
-LaTeX Info: Redefining \sffamily on input line 144.
-LaTeX Info: Redefining \ttfamily on input line 144.
-\thai@year=\count315
-LaTeX Info: Redefining \rmfamily on input line 144.
-LaTeX Info: Redefining \sffamily on input line 144.
-LaTeX Info: Redefining \ttfamily on input line 144.
-\thai@year=\count316
-LaTeX Info: Redefining \rmfamily on input line 144.
-LaTeX Info: Redefining \sffamily on input line 144.
-LaTeX Info: Redefining \ttfamily on input line 144.
-\thai@year=\count317
-LaTeX Info: Redefining \rmfamily on input line 144.
-LaTeX Info: Redefining \sffamily on input line 144.
-LaTeX Info: Redefining \ttfamily on input line 144.
-\thai@year=\count318
-LaTeX Info: Redefining \rmfamily on input line 144.
-LaTeX Info: Redefining \sffamily on input line 144.
-LaTeX Info: Redefining \ttfamily on input line 144.
-\thai@year=\count319
-LaTeX Info: Redefining \rmfamily on input line 144.
-LaTeX Info: Redefining \sffamily on input line 144.
-LaTeX Info: Redefining \ttfamily on input line 144.
-\thai@year=\count320
-LaTeX Info: Redefining \rmfamily on input line 144.
-LaTeX Info: Redefining \sffamily on input line 144.
-LaTeX Info: Redefining \ttfamily on input line 144.
-\thai@year=\count321
-LaTeX Info: Redefining \rmfamily on input line 144.
-LaTeX Info: Redefining \sffamily on input line 144.
-LaTeX Info: Redefining \ttfamily on input line 144.
-\thai@year=\count322
-LaTeX Info: Redefining \rmfamily on input line 144.
-LaTeX Info: Redefining \sffamily on input line 144.
-LaTeX Info: Redefining \ttfamily on input line 144.
-\thai@year=\count323
-LaTeX Info: Redefining \rmfamily on input line 144.
-LaTeX Info: Redefining \sffamily on input line 144.
-LaTeX Info: Redefining \ttfamily on input line 144.
-\thai@year=\count324
-LaTeX Info: Redefining \rmfamily on input line 144.
-LaTeX Info: Redefining \sffamily on input line 144.
-LaTeX Info: Redefining \ttfamily on input line 144.
-
-Underfull \hbox (badness 10000) in alignment at lines 149--153
-[][] 
- []
-
-[3]
-LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 14.75995pt on input line 162.
-LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
-(Font)              scaled to size 14.75995pt on input line 162.
-
-Underfull \hbox (badness 5802) in paragraph at lines 163--173
-\TU/THSarabunNew(0)/m/n/10 ความเอาใจใส่เป็นอย่างยิ่ง จนโครงงานวิศวกรรมคอมพิวเตอ
-ร์ฉบับน้ีสำเร็จสมบูรณ์ลุล่วงได้ด้วยดี คณะผู้จัดทำขอกราบขอบพระคุณเป็น
- []
-
-[4
+[3
 
 ] (./undergrad-sample-thai.toc
-\thai@year=\count325
- [5
+\thai@year=\count313
+LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/b/n' will be
+(Font)              scaled to size 12.29996pt on input line 2.
+LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
+(Font)              scaled to size 12.29996pt on input line 6.
+ [4
 
-])
+] [5])
 \tf@toc=\write4
 \openout4 = `undergrad-sample-thai.toc'.
 
@@ -918,49 +896,39 @@ Underfull \hbox (badness 5802) in paragraph at lines 163--173
  [8
 
 ]
-Overfull \hbox (1.72173pt too wide) in paragraph at lines 184--184
-[]|\TU/THSarabunNew(0)/b/n/10 SYMBOL| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 186--187
-[]|\TU/THSarabunNew(0)/m/n/10 jobs/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 187--188
-[]|\TU/THSarabunNew(0)/m/n/10 jobs/
- []
-
-[9
-
-]
-Overfull \hbox (2.38101pt too wide) in paragraph at lines 196--201
-[]  
- []
-
-[10
-
-]
 บทที่ 1.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
-(hyperref)                removed on input line 210.
+(hyperref)                removed on input line 222.
 
+LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/m/n' will be
+(Font)              scaled to size 17.71193pt on input line 222.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 17.71193pt on input line 210.
-LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
-(Font)              scaled to size 17.71193pt on input line 210.
+(Font)              scaled to size 17.71193pt on input line 222.
+LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/b/n' will be
+(Font)              scaled to size 17.71193pt on input line 222.
 
-Overfull \hbox (6.70618pt too wide) in paragraph at lines 218--223
-[]\TU/THSarabunNew(0)/m/n/10 เนื่องจากคณะผู้ศึกษาตระหนักถึงปัญหาที่เกี่ยวข้องกั
+LaTeX Warning: Citation `recommendation1' on page 1 undefined on input line 226
+.
+
+
+LaTeX Warning: Citation `recommendation2' on page 1 undefined on input line 226
+.
+
+
+LaTeX Warning: Citation `recommendation3' on page 1 undefined on input line 226
+.
+
+
+Overfull \hbox (6.70618pt too wide) in paragraph at lines 230--235
+[]\TU/THSarabunNew(1)/m/n/10 เนื่องจากคณะผู้ศึกษาตระหนักถึงปัญหาที่เกี่ยวข้องกั
 บการกระจายข่าวสารเกี่ยวกับกิจกรรมต่าง ๆ ภายในมหาวิทยาลัยที่มีการประชาสัมพันธ์
  []
 
 
-Overfull \hbox (15.77129pt too wide) in paragraph at lines 230--236
-\TU/THSarabunNew(0)/m/n/10 1.4.4 สามารถแนะนำแนวทางการจัดกิจกรรมที่มีนักศึกษาภาย
+Overfull \hbox (15.77129pt too wide) in paragraph at lines 242--248
+\TU/THSarabunNew(1)/m/n/10 1.4.4 สามารถแนะนำแนวทางการจัดกิจกรรมที่มีนักศึกษาภาย
 ในมหาวิทยาลัยให้ความสนใจ ไปเสนอแก่ทางมหาวิทยาลัย เพื่อเพิ่มประสิทธิภาพ
  []
 
@@ -970,54 +938,19 @@ Overfull \hbox (15.77129pt too wide) in paragraph at lines 230--236
 File: ./Gantt_Chart_1st_Sem.png Graphic file (type bmp)
 <./Gantt_Chart_1st_Sem.png>
 
-Overfull \hbox (24.46931pt too wide) in paragraph at lines 242--243
+Overfull \hbox (24.46931pt too wide) in paragraph at lines 254--255
  [][][][] 
  []
 
 File: ./Gantt_Chart_2nd_Sem.png Graphic file (type bmp)
 <./Gantt_Chart_2nd_Sem.png>
 
-Overfull \hbox (24.46931pt too wide) in paragraph at lines 249--250
+Overfull \hbox (24.46931pt too wide) in paragraph at lines 261--262
  [][][][] 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 258--259
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 260--261
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--262
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 262--263
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 264--265
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--271
+Underfull \hbox (badness 10000) in paragraph at lines 281--283
 
  []
 
@@ -1026,85 +959,123 @@ Underfull \hbox (badness 10000) in paragraph at lines 269--271
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
-(hyperref)                removed on input line 275.
+(hyperref)                removed on input line 287.
 
-LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
-(Font)              scaled to size 13.52995pt on input line 279.
+LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/b/n' will be
+(Font)              scaled to size 13.52995pt on input line 291.
 
-Underfull \hbox (badness 1990) in paragraph at lines 281--285
-\TU/THSarabunNew(0)/m/n/10 ที่มีความเป็นบุคคลและเกี่ยวข้องกับความสนใจของผู้ใช้ง
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 292.
+
+
+Underfull \hbox (badness 1990) in paragraph at lines 293--297
+\TU/THSarabunNew(1)/m/n/10 ที่มีความเป็นบุคคลและเกี่ยวข้องกับความสนใจของผู้ใช้ง
 าน กระบวนการนี้เน้นการวิเคราะห์เนื้อหาที่ผู้ใช้งานมีความสนใจและแนะนำสิ่งที่
  []
 
 
-Overfull \hbox (3.7665pt too wide) in paragraph at lines 281--285
-\TU/THSarabunNew(0)/m/n/10 จึงเป็นการสร้างคำแนะนำที่เน้นความเป็นบุคคลและความสอด
+Overfull \hbox (3.7665pt too wide) in paragraph at lines 293--297
+\TU/THSarabunNew(1)/m/n/10 จึงเป็นการสร้างคำแนะนำที่เน้นความเป็นบุคคลและความสอด
 คล้องกับความต้องการของผู้ใช้งานอย่างมีความแม่นยำและเหมาะสม อย่างไร
  []
 
 
-Underfull \hbox (badness 1147) in paragraph at lines 286--293
-\TU/THSarabunNew(0)/m/n/10 เมื่อพิจารณาการกระทำที่เกิดขึ้นก่อนหน้านี้ ระบบจะแนะ
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 297.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 297.
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 298--305
+\TU/THSarabunNew(1)/m/n/10 เมื่อพิจารณาการกระทำที่เกิดขึ้นก่อนหน้านี้ ระบบจะแนะ
 นำสิ่งที่มีความคล้ายคลึงให้กับผู้ใช้งาน อย่างไรก็ดีเนื่องจากเป็นการแนะนำจาก
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--293
+Underfull \hbox (badness 10000) in paragraph at lines 298--305
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--296
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 305.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 305.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--308
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--299
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 308.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 308.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--311
 
  []
 
 [4
 
 ]
-Underfull \hbox (badness 1275) in paragraph at lines 318--319
-\TU/THSarabunNew(0)/m/n/10 ประมวลผลน้อยและสามารถ train ได้ไว แต่ในทางกลับกันก็ม
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 314.
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 330--331
+\TU/THSarabunNew(1)/m/n/10 ประมวลผลน้อยและสามารถ train ได้ไว แต่ในทางกลับกันก็ม
 ีข้อจำกัดในการตีความที่ซับซ้อนรวมถึงบริบทที่อยู่ในข้อความของ
  []
 
 
-Underfull \hbox (badness 4608) in paragraph at lines 319--320
-\TU/THSarabunNew(0)/m/n/10 Language Processing ทำให้สามารถประมวลผลข้อมูลที่มีคว
+Underfull \hbox (badness 4608) in paragraph at lines 331--332
+\TU/THSarabunNew(1)/m/n/10 Language Processing ทำให้สามารถประมวลผลข้อมูลที่มีคว
 ามต่อเนื่องอย่างเช่นประโยคได้ ตัวโมเดลมีความสามารถในการ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 319--320
-\TU/THSarabunNew(0)/m/n/10 ทำความเข้าใจบริบทในข้อความได้ โดยพิจารณาข้อมูลในหน่ว
+Underfull \hbox (badness 10000) in paragraph at lines 331--332
+\TU/THSarabunNew(1)/m/n/10 ทำความเข้าใจบริบทในข้อความได้ โดยพิจารณาข้อมูลในหน่ว
 ยความจำของโมเดล ซึ่งสามารถจดจำหรือลบข้อมูลได้ตามความ
  []
 
 [5]
-Overfull \hbox (9.38754pt too wide) in paragraph at lines 324--325
-[]\TU/THSarabunNew(0)/m/n/10 ในการพัฒนาแอปพลิเคชัน สถาปัตยกรรมหมายถึงกฎ กระบวนก
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 335.
+
+
+Overfull \hbox (9.38754pt too wide) in paragraph at lines 336--337
+[]\TU/THSarabunNew(1)/m/n/10 ในการพัฒนาแอปพลิเคชัน สถาปัตยกรรมหมายถึงกฎ กระบวนก
 าร และโครงสร้างภายในของแอปพลิเคชัน หรือก็คือวิธีการสร้างแอปพลิเคชัน
  []
 
 
-Overfull \hbox (2.106pt too wide) in paragraph at lines 324--325
-\TU/THSarabunNew(0)/m/n/10 โดยจะเป็นเรื่องของการกำหนดรูปแบบที่ส่วนประกอบต่าง ๆ 
+Overfull \hbox (2.106pt too wide) in paragraph at lines 336--337
+\TU/THSarabunNew(1)/m/n/10 โดยจะเป็นเรื่องของการกำหนดรูปแบบที่ส่วนประกอบต่าง ๆ 
 สื่อสารกันเพื่อประมวลผลข้อมูล input จากผู้ใช้และประมวลผลข้อมูล output
  []
 
 File: ./Mobil_Arc.png Graphic file (type bmp)
 <./Mobil_Arc.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 333--334
+Underfull \hbox (badness 10000) in paragraph at lines 345--346
 
  []
 
 
-Underfull \hbox (badness 3260) in paragraph at lines 335--339
-\TU/THSarabunNew(0)/m/n/10 interface หรือ UI) ของแอปพลิเคชันเป็นส่วนสำคัญของเลเ
+Underfull \hbox (badness 3260) in paragraph at lines 347--351
+\TU/THSarabunNew(1)/m/n/10 interface หรือ UI) ของแอปพลิเคชันเป็นส่วนสำคัญของเลเ
 ยอร์นี้ วัตถุประสงค์หลักของเลเยอร์นี้คือการนำข้อมูลที่ส่งมาจาก
  []
 
@@ -1121,74 +1092,73 @@ File: ./Business_layer.png Graphic file (type bmp)
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [7]
-Underfull \hbox (badness 2503) in paragraph at lines 362--366
-\TU/THSarabunNew(0)/m/n/10 เลเยอร์นี้เป็นตัวกลางระหว่างเลเยอร์อื่นๆ กับทรัพยากร
-ภายนอก วัตถุประสงค์หลักของเลเยอร์นี้คือการรวบรวมข้อมูลจากแหล่ง
- []
 
-[8]
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 381.
+
 File: ./HTTP.png Graphic file (type bmp)
 <./HTTP.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 382--383
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 393--394
+
+ []
+
+[8] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 405--407
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--394
+Underfull \hbox (badness 10000) in paragraph at lines 405--407
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--394
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 423.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 425--427
 
  []
 
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 395.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 411--413
-
- []
-
-[9]
-Overfull \hbox (1.0181pt too wide) in paragraph at lines 422--423
-[]\TU/THSarabunNew(0)/m/n/10 ควรจะมีแค่ชื่อ resource เท่านั้น (resource เป็นตัว
-แทนของ สิ่งของบางอย่าง ที่เชื่อมโยงกับข้อมูล เช่น Users, Customers,
- []
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 427.
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 447--449
+Underfull \hbox (badness 10000) in paragraph at lines 457--459
 
  []
 
 
-Underfull \hbox (badness 6944) in paragraph at lines 456--457
-\TU/THSarabunNew(0)/m/n/10 โดยหลักสำคัญจะอยู่ที่ทุกรูปแบบการเขียนจะต้องหยืดหยุ่
+Underfull \hbox (badness 6944) in paragraph at lines 466--467
+\TU/THSarabunNew(1)/m/n/10 โดยหลักสำคัญจะอยู่ที่ทุกรูปแบบการเขียนจะต้องหยืดหยุ่
 น สามารถเปลี่ยนลำดับการเรียงข้อมูลได้ และผู้ใช้งานสามารถอ่านได้
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 456--457
+Underfull \hbox (badness 10000) in paragraph at lines 466--467
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 458--460
+Underfull \hbox (badness 10000) in paragraph at lines 468--470
 
  []
 
 File: ./google.png Graphic file (type bmp)
 <./google.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 468--470
+Underfull \hbox (badness 10000) in paragraph at lines 478--480
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 489--491
+Underfull \hbox (badness 10000) in paragraph at lines 499--501
 
  []
 
@@ -1198,108 +1168,145 @@ File: ./Error1.png Graphic file (type bmp)
 File: ./Error2.png Graphic file (type bmp)
 <./Error2.png>
 
-Underfull \hbox (badness 1430) in paragraph at lines 520--522
-\TU/THSarabunNew(0)/m/n/10 การเชื่อมต่อหลายล้านต่อวินาทีต่อเรคคอร์ดได้อย่างรวดเ
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 525.
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 530--532
+\TU/THSarabunNew(1)/m/n/10 การเชื่อมต่อหลายล้านต่อวินาทีต่อเรคคอร์ดได้อย่างรวดเ
 ร็ว มีความเป็นอิสระจากขนาดรวมของชุดข้อมูลทั้งหมดของเรา ทำให้ฐานข้อมูล
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 520--522
+Underfull \hbox (badness 10000) in paragraph at lines 530--532
 
  []
 
 [13]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 535.
+
 File: ./Property.png Graphic file (type bmp)
 <./Property.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--537
+Underfull \hbox (badness 10000) in paragraph at lines 545--547
 
  []
 
 [14]
-File: ./VS.png Graphic file (type bmp)
-<./VS.png>
- [15]
-Underfull \hbox (badness 10000) in paragraph at lines 563--564
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 550.
+
+[15]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 580.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 594--595
 
  []
 
 
-Underfull \hbox (badness 1259) in paragraph at lines 565--567
-[]\TU/THSarabunNew(0)/m/n/10 Sequence Diagram เป็นหนึ่งใน UML Diagram ที่ใช้งาน
+Underfull \hbox (badness 1259) in paragraph at lines 596--598
+[]\TU/THSarabunNew(1)/m/n/10 Sequence Diagram เป็นหนึ่งใน UML Diagram ที่ใช้งาน
 เพื่อแสดงลำดับขั้นตอนหรือการทำงานของวัตถุต่าง ๆ ภายในระบบหรือ
  []
 
 
-Overfull \hbox (2.35849pt too wide) in paragraph at lines 582--584
-\TU/THSarabunNew(0)/m/n/10 โปรแกรมสำหรับเขียนโค้ดที่ใช้ในการแก้ไขและปรับแต่งโค้
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 607.
+
+File: ./contrast.png Graphic file (type bmp)
+<./contrast.png>
+[16]
+File: ./repetition.png Graphic file (type bmp)
+<./repetition.png>
+ [17]
+File: ./alignment.png Graphic file (type bmp)
+<./alignment.png>
+
+Overfull \hbox (2.73978pt too wide) in paragraph at lines 647--649
+\TU/THSarabunNew(1)/m/n/10 คือการจัดวางองค์ประกอบของข้อมูล โดยข้อมูลที่มีความเช
+ื่อมโยงกันควรจัดให้เป็นกลุ่มก้อนเดียวกัน จะช่วยให้ข้อมูลในหน้าเว็บไซต์
+ []
+
+File: ./proximity.png Graphic file (type bmp)
+<./proximity.png>
+[18]
+Overfull \hbox (2.35849pt too wide) in paragraph at lines 663--665
+\TU/THSarabunNew(1)/m/n/10 โปรแกรมสำหรับเขียนโค้ดที่ใช้ในการแก้ไขและปรับแต่งโค้
 ด จากค่ายไมโครซอฟท์ มีการพัฒนาออกมาในรูปแบบของ OpenSource
  []
 
-[16]
-Underfull \hbox (badness 1052) in paragraph at lines 612--614
-\TU/THSarabunNew(0)/m/n/10 เป็นระบบฐานข้อมูลที่ถูกออกแบบมาเพื่อจัดเก็บข้อมูลแบบ
+
+Underfull \hbox (badness 1052) in paragraph at lines 693--695
+\TU/THSarabunNew(1)/m/n/10 เป็นระบบฐานข้อมูลที่ถูกออกแบบมาเพื่อจัดเก็บข้อมูลแบบ
 กราฟ (Graph Database) ที่สามารถจัดเก็บแมปและสอบถามความ
  []
 
 
-Underfull \hbox (badness 7777) in paragraph at lines 612--614
-\TU/THSarabunNew(0)/m/n/10 สัมพันธ์ระหว่างข้อมูลได้อย่างมีประสิทธิภาพและมีความย
+Underfull \hbox (badness 7777) in paragraph at lines 693--695
+\TU/THSarabunNew(1)/m/n/10 สัมพันธ์ระหว่างข้อมูลได้อย่างมีประสิทธิภาพและมีความย
 ืดหยุ่น ระบบฐานข้อมูลกราฟนี้ถูกออกแบบมาเพื่อเก็บข้อมูลในรูปแบบ
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 619--621
-\TU/THSarabunNew(0)/m/n/10 เป็นโมเดลการเรียนรู้ของเครื่องสำหรับการประมวลภาษาธรร
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 701--703
+\TU/THSarabunNew(1)/m/n/10 เป็นโมเดลการเรียนรู้ของเครื่องสำหรับการประมวลภาษาธรร
 มชาติที่ถูกพัฒนาขึ้นเพื่อใช้ในภาษาไทย โมเดลนี้มีความสามารถใน
  []
 
 
-Overfull \hbox (29.49132pt too wide) in paragraph at lines 619--621
-\TU/THSarabunNew(0)/m/n/10 การเข้าใจและประมวลผลข้อมูลที่เป็นภาษาไทยอย่างมีประสิ
+Overfull \hbox (29.49132pt too wide) in paragraph at lines 701--703
+\TU/THSarabunNew(1)/m/n/10 การเข้าใจและประมวลผลข้อมูลที่เป็นภาษาไทยอย่างมีประสิ
 ทธิภาพ โดยใช้หลักการของ BERT (Bidirectional Encoder Representations
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 619--621
-\TU/THSarabunNew(0)/m/n/10 from Transformers) ซึ่งเป็นโมเดลการเรียนรู้ของเครื่อ
+Underfull \hbox (badness 1424) in paragraph at lines 701--703
+\TU/THSarabunNew(1)/m/n/10 from Transformers) ซึ่งเป็นโมเดลการเรียนรู้ของเครื่อ
 งที่สามารถทำนายคำถัดไปในประโยคจากข้อมูลทั้งด้านซ้ายและด้านขวา
  []
 
-[17]
-Underfull \hbox (badness 4595) in paragraph at lines 621--623
-\TU/THSarabunNew(0)/m/n/10 และเน้นการสร้างเวกเตอร์คำและการจัดกลุ่มคำศัพท์ โดยใช
+
+Underfull \hbox (badness 4595) in paragraph at lines 703--705
+\TU/THSarabunNew(1)/m/n/10 และเน้นการสร้างเวกเตอร์คำและการจัดกลุ่มคำศัพท์ โดยใช
 ้หลักการของการแปลงคำเป็นเวกเตอร์ที่สามารถใช้ในการค้นหาความ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 623--625
-\TU/THSarabunNew(0)/m/n/10 เป็นโมเดลการเรียนรู้ของเครื่องสำหรับการประมวลภาษาธรร
+Underfull \hbox (badness 10000) in paragraph at lines 705--707
+\TU/THSarabunNew(1)/m/n/10 เป็นโมเดลการเรียนรู้ของเครื่องสำหรับการประมวลภาษาธรร
 มชาติที่ได้รับการปรับปรุงและเพิ่มประสิทธิภาพสำหรับการทำงานกับ
  []
 
 
-Overfull \hbox (11.70648pt too wide) in paragraph at lines 625--627
-\TU/THSarabunNew(0)/m/n/10 เป็นโมเดลการเรียนรู้ของเครื่องสำหรับการประมวลภาษาธรร
+Overfull \hbox (11.70648pt too wide) in paragraph at lines 707--709
+\TU/THSarabunNew(1)/m/n/10 เป็นโมเดลการเรียนรู้ของเครื่องสำหรับการประมวลภาษาธรร
 มชาติที่รองรับหลายภาษาและมีความสามารถในการประมวลผลข้อความ
  []
 
-[18]
+[20]
 File: ./modlink.jpg Graphic file (type bmp)
 <./modlink.jpg>
 
-Overfull \hbox (1.09653pt too wide) in paragraph at lines 658--659
-[]\TU/THSarabunNew(0)/m/n/10 KMUTT Hatch คือ เว็บไซต์สำหรับนักศึกษาและศิษย์เก่า
+Overfull \hbox (1.09653pt too wide) in paragraph at lines 740--741
+[]\TU/THSarabunNew(1)/m/n/10 KMUTT Hatch คือ เว็บไซต์สำหรับนักศึกษาและศิษย์เก่า
 เพื่อประชาสัมพันธ์กิจกรรมของ Hatch ทางเว็บไซต์มีการประชามสัมพันธ์กิจกรรม
  []
 
 File: ./hatch.png Graphic file (type bmp)
 <./hatch.png>
+[21]
 File: ./sinfo.png Graphic file (type bmp)
 <./sinfo.png>
-[19] [20]
-Underfull \hbox (badness 1874) in paragraph at lines 678--679
-[]\TU/THSarabunNew(0)/m/n/10 Padlet คือแอปพลิเคชันหรือเว็บไซต์ที่อยู่ในแพลตฟอร์
+ [22]
+Underfull \hbox (badness 1874) in paragraph at lines 762--763
+[]\TU/THSarabunNew(1)/m/n/10 Padlet คือแอปพลิเคชันหรือเว็บไซต์ที่อยู่ในแพลตฟอร์
 มสำหรับ การระดมความคิด แสดงความคิดเห็น หรือแลกเปลี่ยนความรู้ร่วมกัน
  []
 
@@ -1307,197 +1314,426 @@ File: ./padlet.png Graphic file (type bmp)
 <./padlet.png>
 File: ./pantip.png Graphic file (type bmp)
 <./pantip.png>
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 698--700
-\TU/THSarabunNew(0)/m/n/10 สามารถเข้าไปสู่หน้าเพจเพื่อดูความเคลื่อนไหวได้แต่ก็ไ
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 782--784
+\TU/THSarabunNew(1)/m/n/10 สามารถเข้าไปสู่หน้าเพจเพื่อดูความเคลื่อนไหวได้แต่ก็ไ
 ม่สามารถแนะนำตัวชมรมหรือกิจกรรมที่ชมรมจะจัดให้แก่นักศึกษาที่ไม่ติดตามเพจ
  []
 
 File: ./facebook.png Graphic file (type bmp)
 <./facebook.png>
-[22]
+[24]
 File: ./ig.jpg Graphic file (type bmp)
 <./ig.jpg>
- [23]
+ [25]
+LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
+(Font)              scaled to size 14.75995pt on input line 807.
 File: ./DiffFeat.png Graphic file (type bmp)
 <./DiffFeat.png>
- [24]
+ [26]
 File: ./Suggest.png Graphic file (type bmp)
 <./Suggest.png>
- [25]
+ [27]
 บทที่ 3.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -11.808pt
-(hyperref)                removed on input line 741.
+(hyperref)                removed on input line 825.
 
 
-Underfull \hbox (badness 4492) in paragraph at lines 744--749
-[]\TU/THSarabunNew(0)/m/n/12 ในการทำระบบเพื่อแจ้งเตือนข่าวสารของกิจกรรมและชมรม 
+Underfull \hbox (badness 4492) in paragraph at lines 828--833
+[]\TU/THSarabunNew(1)/m/n/12 ในการทำระบบเพื่อแจ้งเตือนข่าวสารของกิจกรรมและชมรม 
 ทางผู้จัดทำระบุผู้ใช้งานและผู้ได้รับประโยชน์เป็น 3
  []
 
 
-Underfull \hbox (badness 1983) in paragraph at lines 744--749
-\TU/THSarabunNew(0)/m/n/12 ชมรมนั้นทำเอาไว้ใน ที่เดียวเพื่อที่จะหากิจกรรมและชมร
+Underfull \hbox (badness 1983) in paragraph at lines 828--833
+\TU/THSarabunNew(1)/m/n/12 ชมรมนั้นทำเอาไว้ใน ที่เดียวเพื่อที่จะหากิจกรรมและชมร
 มตามที่ตัวเองต้องการได้ ผู้ได้รับประโยชน์กลุ่มแรก คือ
  []
 
 
-Underfull \hbox (badness 4673) in paragraph at lines 744--749
-\TU/THSarabunNew(0)/m/n/12 ชวนก็ยังมีโอกาสที่จะมีคนเห็นการประชาสัมพันธ์ก็มีน้อย
+Underfull \hbox (badness 4673) in paragraph at lines 828--833
+\TU/THSarabunNew(1)/m/n/12 ชวนก็ยังมีโอกาสที่จะมีคนเห็นการประชาสัมพันธ์ก็มีน้อย
  ซึ่งจากการสัมภาษณ์ทำให้พบว่าปัญหาใหญ่ที่เกิดขึ้นเกิด
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 751--762
+Underfull \hbox (badness 10000) in paragraph at lines 835--846
 
  []
 
 
-Overfull \hbox (5.32616pt too wide) in paragraph at lines 764--767
-[]\TU/THSarabunNew(0)/m/n/12 ผู้ที่คาดว่าจะได้รับประโยชน์จากการใช้งานแอปพลิเคชั
+Overfull \hbox (5.32616pt too wide) in paragraph at lines 848--851
+[]\TU/THSarabunNew(1)/m/n/12 ผู้ที่คาดว่าจะได้รับประโยชน์จากการใช้งานแอปพลิเคชั
 นของผู้จัดทำสร้างขึ้นนั้นแบ่งเป็น 2 กลุ่ม คือ ผู้เข้าร่วมกิจกรรม
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 764--767
+Underfull \hbox (badness 10000) in paragraph at lines 848--851
 
  []
 
-[26
+[28
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 769--770
-[]\TU/THSarabunNew(0)/m/n/12 รายการข้อกำหนดหรือความต้องการที่จำเป็นต้องมีในโครง
+Underfull \hbox (badness 10000) in paragraph at lines 853--854
+[]\TU/THSarabunNew(1)/m/n/12 รายการข้อกำหนดหรือความต้องการที่จำเป็นต้องมีในโครง
 การหรือผลิตภัณฑ์ที่กำลังถูกพัฒนา ข้อกำหนดเหล่านี้
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 769--770
+Underfull \hbox (badness 10000) in paragraph at lines 853--854
 
  []
 
+[29]
 File: ./ArchDia.png Graphic file (type bmp)
 <./ArchDia.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[27] [28] [29]
+ [30]
 File: ./usedcase.png Graphic file (type bmp)
 <./usedcase.png>
- [30] [31] [32] [33] [34]
+ [31]
+Underfull \hbox (badness 10000) in paragraph at lines 919--921
+
+ []
+
+[32] [33] [34] [35]
 File: ./login.png Graphic file (type bmp)
 <./login.png>
 
-Overfull \hbox (24.46931pt too wide) in paragraph at lines 1041--1042
+Overfull \hbox (24.46931pt too wide) in paragraph at lines 1128--1129
  [][][][] 
  []
 
 
-Underfull \hbox (badness 5756) in paragraph at lines 1045--1049
-[]\TU/THSarabunNew(0)/m/n/12 Sequence diagram สำหรับแสดงการทำงานของระบบขณะที่ผู
+Underfull \hbox (badness 5756) in paragraph at lines 1132--1136
+[]\TU/THSarabunNew(1)/m/n/12 Sequence diagram สำหรับแสดงการทำงานของระบบขณะที่ผู
 ้ใช้งานทำการเข้าสู่ระบบ โดยให้ผู้ใช้งานกรอก
  []
 
-[35]
+[36]
 File: ./regis.png Graphic file (type bmp)
 <./regis.png>
 
-Overfull \hbox (24.46931pt too wide) in paragraph at lines 1058--1059
+Overfull \hbox (24.46931pt too wide) in paragraph at lines 1145--1146
  [][][][] 
- []
-
-[36]
-File: ./logout.png Graphic file (type bmp)
-<./logout.png>
-
-Overfull \hbox (24.46931pt too wide) in paragraph at lines 1073--1074
- [][][][] 
- []
-
-
-Underfull \hbox (badness 1546) in paragraph at lines 1077--1078
-\TU/THSarabunNew(0)/m/n/12 ออกจากระบบ UI จะถามการยืนยันการออกจากระบบซึ่งหลังจาก
-ผู้ใช้งานกดยืนยันแล้วระบบจะพาผู้ใช้ไปยังหน้า
  []
 
 [37]
-File: ./searchev.png Graphic file (type bmp)
-<./searchev.png>
+File: ./logout.png Graphic file (type bmp)
+<./logout.png>
 
-Overfull \hbox (24.46931pt too wide) in paragraph at lines 1086--1087
+Overfull \hbox (24.46931pt too wide) in paragraph at lines 1160--1161
  [][][][] 
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 1164--1165
+\TU/THSarabunNew(1)/m/n/12 ออกจากระบบ UI จะถามการยืนยันการออกจากระบบซึ่งหลังจาก
+ผู้ใช้งานกดยืนยันแล้วระบบจะพาผู้ใช้ไปยังหน้า
  []
 
 [38]
+File: ./searchev.png Graphic file (type bmp)
+<./searchev.png>
+
+Overfull \hbox (24.46931pt too wide) in paragraph at lines 1173--1174
+ [][][][] 
+ []
+
+[39]
 File: ./selectandjoin.png Graphic file (type bmp)
 <./selectandjoin.png>
- [39]
+ [40]
 File: ./evaluate.png Graphic file (type bmp)
 <./evaluate.png>
 
-Overfull \hbox (24.46931pt too wide) in paragraph at lines 1112--1113
+Overfull \hbox (24.46931pt too wide) in paragraph at lines 1199--1200
  [][][][] 
- []
-
-[40]
-File: ./Noti.png Graphic file (type bmp)
-<./Noti.png>
-
-Overfull \hbox (24.46931pt too wide) in paragraph at lines 1125--1126
- [][][][] 
- []
-
-
-Overfull \hbox (5.33989pt too wide) in paragraph at lines 1129--1130
-\TU/THSarabunNew(0)/m/n/12 เตือนเข้ามาหา UI เพื่อที่จะแจ้งเตือนการประเมินกิจกรร
-ม เมื่อผู้ใช้งานกดเข้าลิงค์ประเมินกิจกรรมแล้วจะเปิดหน้าต่าง
  []
 
 [41]
-File: ./searchclub.png Graphic file (type bmp)
-<./searchclub.png>
+File: ./Noti.png Graphic file (type bmp)
+<./Noti.png>
 
-Overfull \hbox (24.46931pt too wide) in paragraph at lines 1138--1139
+Overfull \hbox (24.46931pt too wide) in paragraph at lines 1212--1213
  [][][][] 
+ []
+
+
+Overfull \hbox (5.33989pt too wide) in paragraph at lines 1216--1217
+\TU/THSarabunNew(1)/m/n/12 เตือนเข้ามาหา UI เพื่อที่จะแจ้งเตือนการประเมินกิจกรร
+ม เมื่อผู้ใช้งานกดเข้าลิงค์ประเมินกิจกรรมแล้วจะเปิดหน้าต่าง
  []
 
 [42]
-File: ./selectandjoinclub.png Graphic file (type bmp)
-<./selectandjoinclub.png>
- [43]
-File: ./clubregis.png Graphic file (type bmp)
-<./clubregis.png>
+File: ./searchclub.png Graphic file (type bmp)
+<./searchclub.png>
 
-Overfull \hbox (24.46931pt too wide) in paragraph at lines 1164--1165
+Overfull \hbox (24.46931pt too wide) in paragraph at lines 1225--1226
  [][][][] 
  []
 
-[44]
-File: ./Recommend.png Graphic file (type bmp)
-<./Recommend.png>
+[43]
+File: ./selectandjoinclub.png Graphic file (type bmp)
+<./selectandjoinclub.png>
+ [44]
+File: ./clubregis.png Graphic file (type bmp)
+<./clubregis.png>
 
-Overfull \hbox (24.46931pt too wide) in paragraph at lines 1177--1178
+Overfull \hbox (24.46931pt too wide) in paragraph at lines 1251--1252
  [][][][] 
  []
 
 [45]
-File: ./Machinelearning.png Graphic file (type bmp)
-<./Machinelearning.png>
+File: ./Recommend.png Graphic file (type bmp)
+<./Recommend.png>
 
-Overfull \hbox (24.46931pt too wide) in paragraph at lines 1190--1191
+Overfull \hbox (24.46931pt too wide) in paragraph at lines 1264--1265
  [][][][] 
  []
 
 [46]
-File: ./DB.png Graphic file (type bmp)
-<./DB.png>
+File: ./Machinelearning.png Graphic file (type bmp)
+<./Machinelearning.png>
 
-Overfull \hbox (24.46931pt too wide) in paragraph at lines 1203--1204
+Overfull \hbox (24.46931pt too wide) in paragraph at lines 1277--1278
  [][][][] 
  []
 
+[47]
+File: ./DB.png Graphic file (type bmp)
+<./DB.png>
+
+Overfull \hbox (24.46931pt too wide) in paragraph at lines 1290--1291
+ [][][][] 
+ []
+
+[48] [49] [50] (./undergrad-sample-thai.bbl [51]
+LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
+(Font)              scaled to size 14.75995pt on input line 1.
+\thai@year=\count314
+LaTeX Info: Redefining \rmfamily on input line 22.
+LaTeX Info: Redefining \sffamily on input line 22.
+LaTeX Info: Redefining \ttfamily on input line 22.
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--26
+[][][][][][][][] [][] [][][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
+ [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [
+] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--26
+[][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
+ [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [
+] [][] [] [][] [] [][] [] [][] [] [][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--26
+[][] [] [][] [] [][] [][] [][][][] [][] [][][] [][] [][][] [] [][] [] [][] [] [
+][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] 
+[][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--26
+[][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [][] [][][] [] [][] [] [][
+] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] []
+[] [] [][] [] [][] [] [][] [] [][] [] [][] []
+ []
+
+\thai@year=\count315
+LaTeX Info: Redefining \rmfamily on input line 30.
+LaTeX Info: Redefining \sffamily on input line 30.
+LaTeX Info: Redefining \ttfamily on input line 30.
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--34
+[]\TU/THSarabunNew(1)/m/n/10 Jerapa Beamgo Soonsongthanee, 2563,  “ออกแบบ RESTf
+ul API ยังไงให้ปัง,” จากเว็บไซต์ [][]$[][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--34
+[] [] [][][][][][] [] [][][] [] [][][][][][][][][][][][][][][][][][][][][][][][
+][][][] [] [][][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] []
+[] [] [][] [] [][] [] [][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--34
+[][] [] [][] [] [][] [] [][] [] [][] [] [][] [][] [][][][][][][] [][] [][][] []
+[] [][][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] []
+[] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
+ []
+
+\thai@year=\count316
+LaTeX Info: Redefining \rmfamily on input line 38.
+LaTeX Info: Redefining \sffamily on input line 38.
+LaTeX Info: Redefining \ttfamily on input line 38.
+\thai@year=\count317
+LaTeX Info: Redefining \rmfamily on input line 46.
+LaTeX Info: Redefining \sffamily on input line 46.
+LaTeX Info: Redefining \ttfamily on input line 46.
+\thai@year=\count318
+LaTeX Info: Redefining \rmfamily on input line 55.
+LaTeX Info: Redefining \sffamily on input line 55.
+LaTeX Info: Redefining \ttfamily on input line 55.
+\thai@year=\count319
+LaTeX Info: Redefining \rmfamily on input line 63.
+LaTeX Info: Redefining \sffamily on input line 63.
+LaTeX Info: Redefining \ttfamily on input line 63.
+\thai@year=\count320
+LaTeX Info: Redefining \rmfamily on input line 71.
+LaTeX Info: Redefining \sffamily on input line 71.
+LaTeX Info: Redefining \ttfamily on input line 71.
+\thai@year=\count321
+LaTeX Info: Redefining \rmfamily on input line 136.
+LaTeX Info: Redefining \sffamily on input line 136.
+LaTeX Info: Redefining \ttfamily on input line 136.
+\thai@year=\count322
+LaTeX Info: Redefining \rmfamily on input line 146.
+LaTeX Info: Redefining \sffamily on input line 146.
+LaTeX Info: Redefining \ttfamily on input line 146.
+\thai@year=\count323
+LaTeX Info: Redefining \rmfamily on input line 154.
+LaTeX Info: Redefining \sffamily on input line 154.
+LaTeX Info: Redefining \ttfamily on input line 154.
+[52
+
+]
+\thai@year=\count324
+LaTeX Info: Redefining \rmfamily on input line 162.
+LaTeX Info: Redefining \sffamily on input line 162.
+LaTeX Info: Redefining \ttfamily on input line 162.
+\thai@year=\count325
+LaTeX Info: Redefining \rmfamily on input line 171.
+LaTeX Info: Redefining \sffamily on input line 171.
+LaTeX Info: Redefining \ttfamily on input line 171.
+\thai@year=\count326
+LaTeX Info: Redefining \rmfamily on input line 179.
+LaTeX Info: Redefining \sffamily on input line 179.
+LaTeX Info: Redefining \ttfamily on input line 179.
+\thai@year=\count327
+LaTeX Info: Redefining \rmfamily on input line 188.
+LaTeX Info: Redefining \sffamily on input line 188.
+LaTeX Info: Redefining \ttfamily on input line 188.
+\thai@year=\count328
+LaTeX Info: Redefining \rmfamily on input line 197.
+LaTeX Info: Redefining \sffamily on input line 197.
+LaTeX Info: Redefining \ttfamily on input line 197.
+\thai@year=\count329
+LaTeX Info: Redefining \rmfamily on input line 206.
+LaTeX Info: Redefining \sffamily on input line 206.
+LaTeX Info: Redefining \ttfamily on input line 206.
+\thai@year=\count330
+LaTeX Info: Redefining \rmfamily on input line 213.
+LaTeX Info: Redefining \sffamily on input line 213.
+LaTeX Info: Redefining \ttfamily on input line 213.
+\thai@year=\count331
+LaTeX Info: Redefining \rmfamily on input line 229.
+LaTeX Info: Redefining \sffamily on input line 229.
+LaTeX Info: Redefining \ttfamily on input line 229.
+
+Underfull \hbox (badness 3386) in paragraph at lines 226--234
+[]\TU/THSarabunNew(1)/m/n/10 mindphp, 2560,  “รู้จักกับ Visual Studio Code (วิช
+วล สตูดิโอ โค้ด) โปรแกรมฟรีจากค่ายไมโครซอฟท์,” จาก
+ []
+
+
+Underfull \hbox (badness 6173) in paragraph at lines 226--234
+\TU/THSarabunNew(1)/m/n/10 เว็บไซต์ [][]$[][][][][] [] [] [] [][][] [] [][][][]
+[][][] [] [][][] [] [][][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [
+][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
+ []
+
+\thai@year=\count332
+LaTeX Info: Redefining \rmfamily on input line 238.
+LaTeX Info: Redefining \sffamily on input line 238.
+LaTeX Info: Redefining \ttfamily on input line 238.
+\thai@year=\count333
+LaTeX Info: Redefining \rmfamily on input line 246.
+LaTeX Info: Redefining \sffamily on input line 246.
+LaTeX Info: Redefining \ttfamily on input line 246.
+\thai@year=\count334
+LaTeX Info: Redefining \rmfamily on input line 255.
+LaTeX Info: Redefining \sffamily on input line 255.
+LaTeX Info: Redefining \ttfamily on input line 255.
+\thai@year=\count335
+LaTeX Info: Redefining \rmfamily on input line 278.
+LaTeX Info: Redefining \sffamily on input line 278.
+LaTeX Info: Redefining \ttfamily on input line 278.
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--282
+[][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
+ [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [
+] [][] [] [][] [] [][] [] [][] [] [][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--282
+[][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
+ [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [
+] [][] [] [][] [] [][] [] [][] [] [][] [][] [][][][] [][]
+ []
+
+\thai@year=\count336
+LaTeX Info: Redefining \rmfamily on input line 286.
+LaTeX Info: Redefining \sffamily on input line 286.
+LaTeX Info: Redefining \ttfamily on input line 286.
+\thai@year=\count337
+LaTeX Info: Redefining \rmfamily on input line 296.
+LaTeX Info: Redefining \sffamily on input line 296.
+LaTeX Info: Redefining \ttfamily on input line 296.
+
+Underfull \hbox (badness 2941) in paragraph at lines 293--300
+[]\TU/THSarabunNew(1)/m/n/10 stackpython, 2563,  “ทำความรู้จัก Git และ GitHub พ
+ร้อมการใช้งานร่วมกับ VS Code เบื้องต้น,” จากเว็บไซต์
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--300
+[][]$[][][][][] [] [] [] [][][][][][][][][][][] [] [][][][][][] [] [][][] [] []
+[][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
+ [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--300
+[][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
+ [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [
+][] [][][] [][] [][][][][][] [][] [][][] [] [][] [] [][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--300
+[][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
+ [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [
+] [][] [] [][] [] [][] [] [][] [] [][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--300
+[][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
+ [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [
+] [][] [] [][] [] [][] [] [][] [] [][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--300
+[][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
+[] [][] [][] [][][][] [][] [][][] [] [][] [] [][] [] [][] [] [][] [] [][] [] []
+[] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
+ []
+
+[53]
+\thai@year=\count338
+LaTeX Info: Redefining \rmfamily on input line 305.
+LaTeX Info: Redefining \sffamily on input line 305.
+LaTeX Info: Redefining \ttfamily on input line 305.
+)
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -1587,22 +1823,22 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {newzealand/target}  =>  {english}
 >  {newzealand/variant}  =>  {newzealand}
 >  {newzealand/options}  =>  {variant=newzealand}.
-[47] (./undergrad-sample-thai.aux
-\thai@year=\count326
+ [54] (./undergrad-sample-thai.aux
+\thai@year=\count339
 )
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `undergrad-sample-thai.out' has not changed.
-(rerunfilecheck)             Checksum: EE5BD7BD8E8F31078890DABA0231D8A6;12564.
+(rerunfilecheck)             Checksum: 5260857E9A6501BFBB4C277552EB0E43;18632.
  ) 
 Here is how much of TeX's memory you used:
- 18160 strings out of 476683
- 345781 string characters out of 5804046
- 1859018 words of memory out of 5000000
- 38092 multiletter control sequences out of 15000+600000
+ 18279 strings out of 476683
+ 349246 string characters out of 5804046
+ 1892018 words of memory out of 5000000
+ 38200 multiletter control sequences out of 15000+600000
  514928 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,17n,105p,533b,516s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,17n,105p,545b,536s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on undergrad-sample-thai.pdf (58 pages).
+Output written on undergrad-sample-thai.pdf (62 pages).
