@@ -136,16 +136,16 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%% English abstract %%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\abstract
+% \abstract
 
--- 
+% -- 
 
-\begin{flushleft}
-\begin{tabular*}{\textwidth}{@{}lp{0.8\textwidth}}
-\textbf{Keywords}: & Multihop ad hoc networks / Topology control / Single-Hop Throughput
-\end{tabular*}
-\end{flushleft}
-\endabstract
+% \begin{flushleft}
+% \begin{tabular*}{\textwidth}{@{}lp{0.8\textwidth}}
+% \textbf{Keywords}: & Multihop ad hoc networks / Topology control / Single-Hop Throughput
+% \end{tabular*}
+% \end{flushleft}
+% \endabstract
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%% Thai abstract here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -153,18 +153,18 @@
 % {\newfontfamily\thaifont{TH Sarabun New:script=thai}[Scale=1.3]
 % \XeTeXlinebreaklocale "th_TH"	
 % \thaifont
-\thaiabstract
+% \thaiabstract
 
---
+% --
 
-\begin{flushleft}
-\begin{tabular*}{\textwidth}{@{}lp{0.8\textwidth}}
- & \\
+% \begin{flushleft}
+% \begin{tabular*}{\textwidth}{@{}lp{0.8\textwidth}}
+%  & \\
 
-\textbf{คำสำคัญ}: 
-\end{tabular*}
-\end{flushleft}
-\endabstract
+% \textbf{คำสำคัญ}: 
+% \end{tabular*}
+% \end{flushleft}
+% \endabstract
 
 %}
 
@@ -342,9 +342,9 @@ Natural Language Processing หรือ NLP เป็นสาขาหนึ�
     \caption{Mobile App Architecture \cite{MobileAppArchitectureOverview}}\label{fig:mobile_arc1}
     \end{figure}
 
-สถาปัตยกรรมของแอปพลิเคชันส่วนใหญ่จะประกอบด้วยสามเลเยอร์หลัก ๆ ได้แก่ Presentation layer, Business layer \cite{BusinessLayer} และ Data layer \\
+สถาปัตยกรรมของแอปพลิเคชันส่วนใหญ่จะประกอบด้วยสามเลเยอร์หลัก ๆ ได้แก่ Presentation layer, Business layer และ Data layer \\
 \begin{enumerate} 
-\item Presentation layer \cite{PresentationLayer}
+\item Presentation layer
 หรือ front end คือส่วนของแอปพลิเคชันที่ผู้ใช้มองเห็นและมีปฏิสัมพันธ์ด้วยได้ โดยมีส่วนติดต่อผู้ใช้ (user interface หรือ UI) ของแอปพลิเคชันเป็นส่วนสำคัญของเลเยอร์นี้
 วัตถุประสงค์หลักของเลเยอร์นี้คือการนำข้อมูลที่ส่งมาจาก business layer มาแสดงผลในลักษณะที่ผู้ใช้สามารถเข้าใจได้
 ไม่ว่าจะเป็น UI แบบพื้นฐาน เช่น UI แสดงที่อยู่อีเมลของผู้ใช้หรือ UI ที่ซับซ้อน เช่น แอปซื้อขายหุ้นซึ่งแสดงข้อมูลสดเกี่ยวกับตลาดหลักทรัพย์ออกมาแสดงเป็นกราฟหรือแผนภูมิ แม้ว่านักพัฒนาส่วนใหญ่จะรับผิดชอบ Business layer และ Data layer
@@ -353,7 +353,7 @@ Natural Language Processing หรือ NLP เป็นสาขาหนึ�
     \setlength{\fboxrule}{0.5mm} % can define this in the preamble
     \setlength{\fboxsep}{0.5cm}
     \fbox{\includegraphics[width=4cm]{./Mobile_Arc2.png}}
-    \caption{Presentation layer}\label{fig:mobile_arc2}
+    \caption{Presentation layer \cite{PresentationLayer}}\label{fig:mobile_arc2}
     \end{figure}
 
 \newpage
@@ -367,7 +367,7 @@ Natural Language Processing หรือ NLP เป็นสาขาหนึ�
     \setlength{\fboxrule}{0.5mm} % can define this in the preamble
     \setlength{\fboxsep}{0.4cm}
     \fbox{\includegraphics[width=11cm]{./Business_layer.png}}
-    \caption{Business layer}\label{fig:business_layer}
+    \caption{Business layer \cite{BusinessLayer}}\label{fig:business_layer}
     \end{figure}
 
 \newpage
@@ -382,13 +382,13 @@ Layer นี้เป็นตัวกลางระหว่าง Layer อ�
 \subsection {HTTP Protocol \cite{HTTPProtocol}} 
 \subsubsection {HTTP Protocol คืออะไร}
 HTTP (Hypertext Transfer Protocol) เป็นโปรโตคอลที่ใช้ในการแลกเปลี่ยนข้อมูลผ่านทางอินเทอร์เน็ต เปรียบเสมือนระบบส่งข้อมูลบนอินเทอร์เน็ตที่ช่วยให้มั่นใจได้ว่าข้อมูลจะถูกส่งจากที่หนึ่งไปยังอีกที่หนึ่งได้ 
-\subsubsection {HTTP Request-Response Cycle \cite{HTTPCycle}}
+\subsubsection {HTTP Request-Response Cycle}
 
   \begin{figure}[!h]\centering
     \setlength{\fboxrule}{0.5mm} % can define this in the preamble
     \setlength{\fboxsep}{0.3cm}
     \fbox{\includegraphics[width=10cm]{./HTTP.png}}
-    \caption{HTTP Request-Response Cycle}\label{fig:http}
+    \caption{HTTP Request-Response Cycle \cite{HTTPCycle}}\label{fig:http}
     \end{figure}
 
 การสื่อสารในโปรโตคอล HTTP มีศูนย์กลางอยู่ที่แนวคิดที่เรียกว่า Request-Response Cycle เป็นกระบวนการที่ไคลเอนต์ (Client) เช่น เว็บเบราว์เซอร์หรือแอปพลิเคชันมือถือ สื่อสารกับเซิร์ฟเวอร์ (Server) เพื่อขอทรัพยากรที่ต้องการหรือเพื่อดำเนินการบางอย่าง โดยวงจรประกอบด้วยหลายขั้นตอนได้แก่ \\
