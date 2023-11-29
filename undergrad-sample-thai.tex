@@ -548,12 +548,31 @@ Relationships เป็นความสัมพันธ์ที่เชื
 \newpage
 \subsubsection {Graph Database vs Relational Database}
 
-  \begin{figure}[!h]\centering
-    \setlength{\fboxrule}{0.5mm} % can define this in the preamble
-    \setlength{\fboxsep}{0.5cm}
-    \fbox{\includegraphics[width=10cm]{./VS.png}}
-    \caption{Graph Database vs Relational Database}\label{fig:Graph}
-    \end{figure}
+\begin{table}[]
+  \begin{tabular}{|c|c|c|}
+  \hline
+  \rowcolor[HTML]{6D9EEB} 
+   &
+    {\color[HTML]{242424} Relational Database} &
+    \cellcolor[HTML]{93C47D}{\color[HTML]{242424} Graph Database} \\ \hline
+  \cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} รูปแบบการเก็บข้อมูล} &
+    \cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} ตารางที่มีแถวและคอลัมน์} &
+    {\color[HTML]{242424} \begin{tabular}[c]{@{}c@{}}โหนดที่เชื่อมต่อถึงกันพร้อมข้อมูล\\ ที่แสดงเป็นเอกสาร JSON\end{tabular}} \\ \hline
+  \cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} การทำงาน} &
+    {\color[HTML]{242424} \begin{tabular}[c]{@{}c@{}}การทำงานของ SQL เช่น สร้าง อ่าน \\ อัปเดต และลบ (CRUD)\end{tabular}} &
+    {\color[HTML]{242424} \begin{tabular}[c]{@{}c@{}}การดำเนินการรวมถึง CRUD \\ และการดำเนินการผ่านกราฟ\\ ตามทฤษฎีกราฟทางคณิตศาสตร์\end{tabular}} \\ \hline
+  \cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} \begin{tabular}[c]{@{}c@{}}ความสามารถ\\ ในการปรับขนาด\end{tabular}} &
+    {\color[HTML]{242424} \begin{tabular}[c]{@{}c@{}}ฐานข้อมูลแบบเชิงสัมพันธ์แบบดั้งเดิม\\ สามารถปรับขนาดในแนวตั้งได้\\ แต่ไม่ค่อยเชี่ยวชาญกับการปรับขนาดในแนวนอน\end{tabular}} &
+    {\color[HTML]{242424} \begin{tabular}[c]{@{}c@{}}ฐานข้อมูลแบบกราฟเชี่ยวชาญ\\ ในการปรับขนาดตามแนวนอน \\ สามารถใช้การแบ่งพาร์ติชันเพื่อกระจาย\\ ข้อมูลไปยังโหนดจำนวนมาก\end{tabular}} \\ \hline
+  {\color[HTML]{242424} ประสิทธิภาพ} &
+    {\color[HTML]{242424} \begin{tabular}[c]{@{}c@{}}ฐานข้อมูลแบบเชิงสัมพันธ์เผชิญกับ\\ การสืบค้นที่ซับซ้อนเมื่อสำรวจความสัมพันธ์ที่อาจ\\ ทำให้ประสิทธิภาพการทำงานช้าลง\end{tabular}} &
+    {\color[HTML]{242424} \begin{tabular}[c]{@{}c@{}}ฐานข้อมูลแบบกราฟเชี่ยวชาญในการแสดง\\ และสืบค้นความสัมพันธ์ระหว่างข้อมูล\end{tabular}} \\ \hline
+  {\color[HTML]{242424} \begin{tabular}[c]{@{}c@{}}ความสะดวก\\ ในการใช้งาน\end{tabular}} &
+    {\color[HTML]{242424} \begin{tabular}[c]{@{}c@{}}ฐานข้อมูลแบบเชิงสัมพันธ์ทำงานได้ดีกับ\\ ชุดข้อมูลขนาดใหญ่และข้อมูลที่มีโครงสร้าง \\ พวกมันไม่ค่อยเชี่ยวชาญเมื่อเป็นเรื่อง\\ การสืบค้นแบบหลายช่วง\end{tabular}} &
+    {\color[HTML]{242424} \begin{tabular}[c]{@{}c@{}}ฐานข้อมูลแบบกราฟใช้งานง่าย\\ เมื่อต้องจัดการกับข้อมูลที่เน้นความสัมพันธ์เป็นหลัก \\ เมื่อใช้ภาษาสืบค้นแบบกราฟ \\ คุณสามารถสืบค้นข้อมูลฮอป\\ หลายรายการได้อย่างรวดเร็ว\end{tabular}} \\ \hline
+  \end{tabular}
+  \caption{\centering Graph Database vs Relational Database}\label{tab:Graph Database vs Relational Database}
+  \end{table}
 
 \newpage
 
