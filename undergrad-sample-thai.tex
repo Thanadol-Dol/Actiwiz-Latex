@@ -894,6 +894,7 @@ Instagram คือ แอปพลิเคชันบน smartphone และ
     \caption{Architecture diagram}\label{fig:ArchDia}
     \end{figure}
 
+  จากรูปเป็น Architecture diagram ที่ใช้ในการพัฒนาแอปพลิเคชัน Actiwiz โดยตัวแอปพลิเคชันนั้นรองรับการทำงานทั้งในระบบปฏิบัติการทั้ง IOS และ Android โดยใน Presentation layer ถูกสร้างโดยใช้ react native ซึ่งสื่อสารกับ Business layer โดยอาศัย REST API Backend Logic ใช้ fast api ในการพัฒนา และทำการสร้าง Model การเรียนรู้ของเครื่องโดยใช้ Python ซึ่งจะใช้ Cypher ในการสื่อสารกับ Data layer ที่ถูกสร้างขึ้นด้วย Neo4j database
 \newpage
 
 ผังงานระบบ (System flow)
@@ -915,9 +916,9 @@ Instagram คือ แอปพลิเคชันบน smartphone และ
     \caption{Use case diagram and use case narratives}\label{fig:usecasediagram}
   \end{figure}
 
-\newpage
+  จากภาพเป็น use case diagram ที่แสดงให้เห็นความสัมพันธ์ว่าแต่ล่ะระบบมีความเกี่ยวข้องกันอย่างไรและมีผู้เกี่ยวข้องใดจะสามารถทำอะไรได้บ้าง โดยในฝั่งของผู้ใช้งานนั้นจะเริ่มต้องแต่สามารถสมัครบัญชีการใช้งานได้ การที่เข้าสู่ระบบเพื่อใช้งานคุณลักษณะต่างๆ เช่น การค้นหา, อ่านรายละเอียดและเข้าร่วมกิจกรรม การประเมินกิจกรรม การค้นหา, เข้าร่วม และลาออกจากชมรม รวมถึงงานที่ระบบ Backend กระทำต่อระบบ ทั้งการแนะนำชมรมหรือกิจกรรม แจ้งเตือนกิจกรรมที่ชมรมจัดหรือการประเมินกิจกรรมที่เกิดขึ้น\\
 
-\textbf{Use case narratives} \\
+\textbf{Use case narratives} 
 use case diagram นี้เป็นการแสดงการทำงานของระบบและการใช้งานจากผู้ใช้งาน ใช้ case diagram ในการแสดงภาพรวมของระบบและลำดับการทำงานของฟังก์ชันใช้งานในระบบ โดยมีผู้กระทำหลักคือผู้ใช้งานและผู้กระทำรองคือ Backed Logic\\
 
 Registration scenario
@@ -966,6 +967,8 @@ Logout cenario
   \caption{\centering Logout scenario}\label{tab:Logout scenario}
 \end{table}
 
+\newpage
+
 Search event scenario
 
 \begin{table}[!h]\centering
@@ -980,8 +983,6 @@ Search event scenario
   \end{tabular}
   \caption{\centering Search event scenario}\label{tab:Search event scenario}
 \end{table}
-
-\newpage
 
 Select event scenario
 
@@ -1431,9 +1432,10 @@ Resignation scenario
         OpenDate  & DATETIME & Not NULL & วันแรกของกิจกรรม     \\ \hline
         CloseDate & DATETIME & Not NULL & วันสุดท้ายของกิจกรรม \\ \hline
         \end{tabular}
-        \captionof{table}{ตารางเก็บข้อมูลนักศึกษาภาควิชา}\label{tab:Relationship}
-      \end{center}
-    \item \textbf{User เป็นสมาชิกของชมรม}
+        \captionof{table}{\centering ตารางเก็บข้อมูลนักศึกษาภาควิชา}\label{tab:Relationship}
+      \end{table}
+    %\item 
+    User เป็นสมาชิกของชมรม
       \begin{center}
         \begin{tabular}{|c|c|c|c|}
         \hline
@@ -1444,7 +1446,8 @@ Resignation scenario
         \end{tabular}
         \captionof{table}{ตารางเก็บข้อมูลสมาชิกของชมรม}\label{tab:Userเป็นสมาชิกของชมรม}
       \end{center}
-    \item \textbf{User เข้าร่วมกิจกรรม}
+    %\item 
+    User เข้าร่วมกิจกรรม
       \begin{center}
         \begin{tabular}{|c|c|c|c|}
         \hline
@@ -1455,7 +1458,8 @@ Resignation scenario
         \end{tabular}
         \captionof{table}{ตารางเก็บข้อมูลสมาชิกเข้าร่วมกิจกรรม}\label{tab:Userเข้าร่วมกิจกรรม}
       \end{center}
-    \item \textbf{กิจกรรมถูกจัดโดยชมรม}
+    %\item 
+    กิจกรรมถูกจัดโดยชมรม
       \begin{center}
         \begin{tabular}{|c|c|c|c|}
         \hline
@@ -1466,7 +1470,10 @@ Resignation scenario
         \end{tabular}
         \captionof{table}{ตารางเก็บข้อมูลกิจกรรมถูกจัดโดยชมรม}\label{tab:กิจกรรมถูกจัดโดยชมรม}
       \end{center}
-  \end{itemize}
+  %\end{itemize}
+  
+\newpage
+
     \subsubsection{Relationship ที่ไม่มี Property}
       \normalsize
       \begin{itemize}
