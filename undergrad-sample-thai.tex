@@ -825,13 +825,14 @@ Instagram คือ แอปพลิเคชันบน smartphone และ
     \end{figure}
 
 \chapter{วิธีการทำงาน กระบวนการและการออกแบบ}
-  \section{บทนำ}
-    \subsection{สำรวจความต้องการของผู้ใช้เชิงคุณภาพ}
-      ในการทำระบบเพื่อแจ้งเตือนข่าวสารของกิจกรรมและชมรม ทางผู้จัดทำระบุผู้ใช้งานและผู้ได้รับประโยชน์เป็น 3 กลุ่มใหญ่ๆด้วยกัน คือ ผู้เข้าร่วมกิจกรรม ผู้จัดกิจกรรม และประธานชมรม โดยแต่ล่ะกลุ่มมีความต้องการดังนี้
-      ผู้เข้าร่วมกิจกรรมซึ่งเป็นผู้ใช้งานหลัก คือ นักศึกษาทั่วไปในมหาวิทยาลัย โดยมีความต้องการพื้นฐานคือการที่อยากจะทำกิจกรรมตามความสนใจ แต่ด้วยภาระการเรียนทำให้ส่วนใหญ่ไม่มีโอกาสที่จะหากิจกรรมหรือ ชมรมที่ตนเองสนใจ สิ่งที่ต้องการจึงเป็นแหล่งที่รวบรวม ข้อมูลข่าวสาร กิจกรรม และ รายละเอียดของชมรมต่างรวมถึงสิ่ง ที่ชมรมนั้นทำเอาไว้ใน ที่เดียวเพื่อที่จะหากิจกรรมและชมรมตามที่ตัวเองต้องการได้
-      ผู้ได้รับประโยชน์กลุ่มแรก คือ ผู้จัดกิจกรรมที่แทนผู้จัดกิจกรรมที่เป็นเจ้าหน้าที่ของมหาวิทยาลัย โดยมีความต้องการพื้นฐานคือการประชาสัมพันธ์กิจกรรมที่จัด แต่ข่าวสารของกิจกรรมที่ถูกเผยแพร่ผ่าน platform ต่างๆ เช่น facebook หรือ instargram นั้นมีผู้ที่เห็นการประชาสัมพันธ์เพียงบางส่วนเท่านั้น ทำให้ผู้เข้าร่วมกิจกรรมมีน้อยกว่าที่คาดหวัง
-      ผู้ได้รับประโยชน์กลุ่มที่ 2 คือ ประธานชมรม ที่แทนผู้ที่ดำเนินงานชมรม ซึ่งส่วนใหญ่เป็นนักศึกษาที่ใกล้จะจบการศึกษา หรือนักศึกษาชั้นปริญญาโท โดยมีความต้องการพื้นฐาน คือ การประชาสัมพันธ์ชมรมที่ตัวเองจัดการอยู่ ถึงแม้จะเป็นงานชมรมจะมี การนัดหมายกันแบบปากต่อปากอยู่แล้ว แต่การจัดการกิจกรรมชมรม ก็ไม่เป็นระบบเท่าที่ควร อีกทั้งการหาสมาชิกชมรมใหม่ หรือ การประชาสัมพันธ์กิจกรรมชมรมให้คนภายนอกชมรมนอกจากการที่ สมาชิกชมรมเป็นคนเชิญชวนก็ยังมีโอกาสที่จะมีคนเห็นการประชาสัมพันธ์ก็มีน้อย
-      ซึ่งจากการสัมภาษณ์ทำให้พบว่าปัญหาใหญ่ที่เกิดขึ้นเกิดจากการที่ไม่มีแหล่งที่จะกระจายข้อมูลที่ผู้เข้าร่วมกิจกรรมต้องการในการตัดสินใจ เข้าร่วมกิจกรรม และ ชมรมได้อย่างเหมาะสม ทำให้กิจกรรม และ ชมรมไม่ได้รับความสนใจเท่าที่ควร
+ในบทนี้จะกล่าวถึงการสำรวจความต้องการของผู้ใช้งานเพื่อนำมาวิเคราะห์คุณลักษณะที่โครงการควรมี และนำสิ่งที่วิเคราะห์ได้มาใช้ออกแบบโครงสร้างและองค์ประกอบต่างๆของตัวผลิตภัณฑ์ โดยจะมีการอธิบายโครงสร้างและองค์ประกอบต่างๆที่อยู่ในตัวผลิตภัณฑ์รวมถึงวิธีการทำงานโดยละเอียด
+\section{บทนำ}
+\subsection{สำรวจความต้องการของผู้ใช้เชิงคุณภาพ}
+  ในการทำระบบเพื่อแจ้งเตือนข่าวสารของกิจกรรมและชมรม ทางผู้จัดทำระบุผู้ใช้งานและผู้ได้รับประโยชน์เป็น 3 กลุ่มใหญ่ๆด้วยกัน คือ ผู้เข้าร่วมกิจกรรม ผู้จัดกิจกรรม และประธานชมรม โดยแต่ล่ะกลุ่มมีความต้องการดังนี้
+  ผู้เข้าร่วมกิจกรรมซึ่งเป็นผู้ใช้งานหลัก คือ นักศึกษาทั่วไปในมหาวิทยาลัย โดยมีความต้องการพื้นฐานคือการที่อยากจะทำกิจกรรมตามความสนใจ แต่ด้วยภาระการเรียนทำให้ส่วนใหญ่ไม่มีโอกาสที่จะหากิจกรรมหรือ ชมรมที่ตนเองสนใจ สิ่งที่ต้องการจึงเป็นแหล่งที่รวบรวม ข้อมูลข่าวสาร กิจกรรม และ รายละเอียดของชมรมต่างรวมถึงสิ่ง ที่ชมรมนั้นทำเอาไว้ใน ที่เดียวเพื่อที่จะหากิจกรรมและชมรมตามที่ตัวเองต้องการได้
+  ผู้ได้รับประโยชน์กลุ่มแรก คือ ผู้จัดกิจกรรมที่แทนผู้จัดกิจกรรมที่เป็นเจ้าหน้าที่ของมหาวิทยาลัย โดยมีความต้องการพื้นฐานคือการประชาสัมพันธ์กิจกรรมที่จัด แต่ข่าวสารของกิจกรรมที่ถูกเผยแพร่ผ่าน platform ต่างๆ เช่น facebook หรือ instargram นั้นมีผู้ที่เห็นการประชาสัมพันธ์เพียงบางส่วนเท่านั้น ทำให้ผู้เข้าร่วมกิจกรรมมีน้อยกว่าที่คาดหวัง
+  ผู้ได้รับประโยชน์กลุ่มที่ 2 คือ ประธานชมรม ที่แทนผู้ที่ดำเนินงานชมรม ซึ่งส่วนใหญ่เป็นนักศึกษาที่ใกล้จะจบการศึกษา หรือนักศึกษาชั้นปริญญาโท โดยมีความต้องการพื้นฐาน คือ การประชาสัมพันธ์ชมรมที่ตัวเองจัดการอยู่ ถึงแม้จะเป็นงานชมรมจะมี การนัดหมายกันแบบปากต่อปากอยู่แล้ว แต่การจัดการกิจกรรมชมรม ก็ไม่เป็นระบบเท่าที่ควร อีกทั้งการหาสมาชิกชมรมใหม่ หรือ การประชาสัมพันธ์กิจกรรมชมรมให้คนภายนอกชมรมนอกจากการที่ สมาชิกชมรมเป็นคนเชิญชวนก็ยังมีโอกาสที่จะมีคนเห็นการประชาสัมพันธ์ก็มีน้อย
+  ซึ่งจากการสัมภาษณ์ทำให้พบว่าปัญหาใหญ่ที่เกิดขึ้นเกิดจากการที่ไม่มีแหล่งที่จะกระจายข้อมูลที่ผู้เข้าร่วมกิจกรรมต้องการในการตัดสินใจ เข้าร่วมกิจกรรม และ ชมรมได้อย่างเหมาะสม ทำให้กิจกรรม และ ชมรมไม่ได้รับความสนใจเท่าที่ควร
 
 \subsection{เส้นทางของผู้ใช้งาน (Journey Map)}
   จากกลุ่มผู้ใช้งานทั้งสามกลุ่มสามารถแบ่งพฤติกรรมการใช้งานได้เป็น 2 ประเภท คือ \\
@@ -894,7 +895,7 @@ Instagram คือ แอปพลิเคชันบน smartphone และ
     \caption{Architecture diagram}\label{fig:ArchDia}
     \end{figure}
 
-  จากรูปเป็น Architecture diagram ที่ใช้ในการพัฒนาแอปพลิเคชัน Actiwiz โดยตัวแอปพลิเคชันนั้นรองรับการทำงานทั้งในระบบปฏิบัติการทั้ง IOS และ Android โดยใน Presentation layer ถูกสร้างโดยใช้ react native ซึ่งสื่อสารกับ Business layer โดยอาศัย REST API Backend Logic ใช้ fast api ในการพัฒนา และทำการสร้าง Model การเรียนรู้ของเครื่องโดยใช้ Python ซึ่งจะใช้ Cypher ในการสื่อสารกับ Data layer ที่ถูกสร้างขึ้นด้วย Neo4j database
+  จากรูปที่ \ref{fig:ArchDia} เป็น Architecture diagram ที่ใช้ในการพัฒนาแอปพลิเคชัน Actiwiz โดยตัวแอปพลิเคชันนั้นรองรับการทำงานทั้งในระบบปฏิบัติการทั้ง IOS และ Android โดยใน Presentation layer ถูกสร้างโดยใช้ react native ซึ่งสื่อสารกับ Business layer โดยอาศัย REST API Backend Logic ใช้ fast api ในการพัฒนา และทำการสร้าง Model การเรียนรู้ของเครื่องโดยใช้ Python ซึ่งจะใช้ Cypher ในการสื่อสารกับ Data layer ที่ถูกสร้างขึ้นด้วย Neo4j database
 \newpage
 
 ผังงานระบบ (System flow)
@@ -916,12 +917,12 @@ Instagram คือ แอปพลิเคชันบน smartphone และ
     \caption{Use case diagram and use case narratives}\label{fig:usecasediagram}
   \end{figure}
 
-  จากภาพเป็น use case diagram ที่แสดงให้เห็นความสัมพันธ์ว่าแต่ล่ะระบบมีความเกี่ยวข้องกันอย่างไรและมีผู้เกี่ยวข้องใดจะสามารถทำอะไรได้บ้าง โดยในฝั่งของผู้ใช้งานนั้นจะเริ่มต้องแต่สามารถสมัครบัญชีการใช้งานได้ การที่เข้าสู่ระบบเพื่อใช้งานคุณลักษณะต่างๆ เช่น การค้นหา, อ่านรายละเอียดและเข้าร่วมกิจกรรม การประเมินกิจกรรม การค้นหา, เข้าร่วม และลาออกจากชมรม รวมถึงงานที่ระบบ Backend กระทำต่อระบบ ทั้งการแนะนำชมรมหรือกิจกรรม แจ้งเตือนกิจกรรมที่ชมรมจัดหรือการประเมินกิจกรรมที่เกิดขึ้น\\
+  จากภาพที่ \ref{fig:usecasediagram} เป็น use case diagram ที่แสดงให้เห็นความสัมพันธ์ว่าแต่ล่ะระบบมีความเกี่ยวข้องกันอย่างไรและมีผู้เกี่ยวข้องใดจะสามารถทำอะไรได้บ้าง โดยในฝั่งของผู้ใช้งานนั้นจะเริ่มต้องแต่สามารถสมัครบัญชีการใช้งานได้ การที่เข้าสู่ระบบเพื่อใช้งานคุณลักษณะต่างๆ เช่น การค้นหา, อ่านรายละเอียดและเข้าร่วมกิจกรรม การประเมินกิจกรรม การค้นหา, เข้าร่วม และลาออกจากชมรม รวมถึงงานที่ระบบ Backend กระทำต่อระบบ ทั้งการแนะนำชมรมหรือกิจกรรม แจ้งเตือนกิจกรรมที่ชมรมจัดหรือการประเมินกิจกรรมที่เกิดขึ้น\\
 
 \textbf{Use case narratives} 
 use case diagram นี้เป็นการแสดงการทำงานของระบบและการใช้งานจากผู้ใช้งาน ใช้ case diagram ในการแสดงภาพรวมของระบบและลำดับการทำงานของฟังก์ชันใช้งานในระบบ โดยมีผู้กระทำหลักคือผู้ใช้งานและผู้กระทำรองคือ Backed Logic\\
 
-Registration scenario
+การสมัครเข้าใช้งาน
 \\
 \begin{table}[!h]\centering
   \begin{tabular}{|c|c|}
@@ -933,10 +934,10 @@ Registration scenario
   Pre-conditions              & -                                             \\ \hline
   Main success scenario & \begin{tabular}[c]{@{}l@{}}1.User ทำการกดเข้าหน้าลงทะเบียน\\ 2.User กรอกแบบฟอร์ม\\ 3.User กดยืนยันการสร้าง account\end{tabular} \\ \hline
   \end{tabular}
-  \caption{\centering Registration scenario}\label{tab:Registration scenario}
+  \caption{\centering การสมัครเข้าใช้งาน}\label{tab:Registration scenario}
 \end{table}
 
-Login scenario
+การเข้าสู่ระบบ
 
 \begin{table}[!h]\centering
   \begin{tabular}{|c|c|}
@@ -949,10 +950,10 @@ Login scenario
   Main success scenario &
     \begin{tabular}[c]{@{}c@{}}1.User กรอกอีเมลและรหัสผ่าน\\ 2.User เข้าสู่ homepage ของแอปพลิเคชัน\\ 3.ระบบแสดงฟังก์ชันที่ใช้งานได้ทั้งหมด\\ 4.Userใช้งานฟังก์ชันต่างๆในแอปพลิเคชัน\end{tabular} \\ \hline
   \end{tabular}
-  \caption{\centering Login scenario}\label{tab:Login scenario}
+  \caption{\centering การเข้าสู่ระบบ}\label{tab:Login scenario}
 \end{table}
 
-Logout cenario
+การออกจากระบบ
 
 \begin{table}[!h]\centering
   \begin{tabular}{|c|c|}
@@ -964,12 +965,12 @@ Logout cenario
   Pre-conditions              & -User ต้องเข้าสู่ระบบก่อน         \\ \hline
   Main success scenario       & User ทำการกดออกจากระบบ            \\ \hline
   \end{tabular}
-  \caption{\centering Logout scenario}\label{tab:Logout scenario}
+  \caption{\centering การออกจากระบบ}\label{tab:Logout scenario}
 \end{table}
 
 \newpage
 
-Search event scenario
+การค้นหากิจกรรม
 
 \begin{table}[!h]\centering
   \begin{tabular}{|c|c|}
@@ -981,10 +982,10 @@ Search event scenario
   Pre-conditions              & - User ต้องเข้าสู่ระบบก่อน          \\ \hline
   Main success scenario & \begin{tabular}[c]{@{}c@{}}1.User ค้นหากิจกรรมที่ต้องการ\\ 2.ระบบแสดงกิจกรรมที่ค้นหา\end{tabular} \\ \hline
   \end{tabular}
-  \caption{\centering Search event scenario}\label{tab:Search event scenario}
+  \caption{\centering การค้นหากิจกรรม}\label{tab:Search event scenario}
 \end{table}
 
-Select event scenario
+การอ่านรายละเอียดกิจกรรม
 
 \begin{table}[!h]\centering
   \begin{tabular}{|c|c|}
@@ -996,10 +997,10 @@ Select event scenario
   Pre-conditions              & - User ต้องเข้าสู่ระบบก่อน                   \\ \hline
   Main success scenario & \begin{tabular}[c]{@{}c@{}}1.User กดไปที่กิจกรรมที่สนใจ\\ 2.ระบบแสดงรายละเอียดกิจกรรมที่ค้นหา\end{tabular} \\ \hline
   \end{tabular}
-  \caption{\centering Select event scenario}\label{tab:Select event scenario}
+  \caption{\centering การอ่านรายละเอียดกิจกรรม}\label{tab:Select event scenario}
 \end{table}
 
-Join event scenario
+การเข้าร่วมกิจกรรม
 
 \begin{table}[!h]\centering
   \begin{tabular}{|c|c|}
@@ -1011,10 +1012,10 @@ Join event scenario
   Pre-conditions        & \begin{tabular}[c]{@{}c@{}}- User ต้องเข้าสู่ระบบก่อน\\ - User ต้องเข้าสู่หน้าอ่านรายละเอียดกิจกรรมก่อน\end{tabular} \\ \hline
   Main success scenario & \begin{tabular}[c]{@{}c@{}}1.User กดเข้าร่วมกิจกรรม\\ 2.ระบบพาไปยังหน้ากรอกแบบฟอร์มของกิจกรรม\end{tabular}           \\ \hline
   \end{tabular}
-  \caption{\centering Join event scenario}\label{fig:Join event scenario}
+  \caption{\centering การเข้าร่วมกิจกรรม}\label{fig:Join event scenario}
 \end{table}
 
-Evaluate event scenario
+การประเมินกิจกรรม
 
 \begin{table}[!h]\centering
   \begin{tabular}{|c|c|}
@@ -1026,10 +1027,10 @@ Evaluate event scenario
   Pre-conditions              & - User ต้องเข้าสู่ระบบก่อน            \\ \hline
   Main success scenario & \begin{tabular}[c]{@{}c@{}}1.User ได้รับแจ้งเตือนการประเมินกิจกรรม\\ 2.User กดเข้าประเมินกิจกรรม\\ 3.ระบบพาไปหน้าประเมินกิจกรรม\end{tabular} \\ \hline
   \end{tabular}
-  \caption{\centering Evaluate event scenario}\label{fig:Evaluate event scenario}
+  \caption{\centering การประเมินกิจกรรม}\label{fig:Evaluate event scenario}
 \end{table}
 
-Search club scenario
+การค้นหาชมรม
 
 \begin{table}[!h]\centering
   \begin{tabular}{|c|c|}
@@ -1041,12 +1042,12 @@ Search club scenario
   Pre-conditions              & - User ต้องเข้าสู่ระบบก่อน       \\ \hline
   Main success scenario & \begin{tabular}[c]{@{}c@{}}1.User ค้นหาชมรมที่ต้องการ\\ 2.ระบบแสดงชมรมที่ค้นหา\end{tabular} \\ \hline
   \end{tabular}
-  \caption{\centering Search club scenario}\label{fig:Search club scenario}
+  \caption{\centering การค้นหาชมรม}\label{fig:Search club scenario}
 \end{table}
 
 \newpage
 
-Select club scenario
+การอ่านรายละเอียดชมรม
 
 \begin{table}[!h]\centering
   \begin{tabular}{|c|c|}
@@ -1058,10 +1059,10 @@ Select club scenario
   Pre-conditions              & - User ต้องเข้าสู่ระบบก่อน                \\ \hline
   Main success scenario & \begin{tabular}[c]{@{}c@{}}1.User กดไปที่ชมรมที่สนใจ\\ 2.ระบบแสดงรายละเอียดชมรมที่ค้นหา\end{tabular} \\ \hline
   \end{tabular}
-  \caption{\centering Select club scenario}\label{fig:Select club scenario}
+  \caption{\centering การอ่านรายละเอียดชมรม}\label{fig:Select club scenario}
 \end{table}
 
-Join club scenario
+การสมัครชมรม
 
 \begin{table}[!h]\centering
   \begin{tabular}{|c|c|}
@@ -1073,10 +1074,10 @@ Join club scenario
   Pre-conditions & \begin{tabular}[c]{@{}c@{}}- User ต้องเข้าสู่ระบบก่อน\\ - User ต้องเข้าสู่หน้าอ่านรายละเอียดชมรมก่อน\end{tabular} \\ \hline
   Main success scenario       & User กดเข้าร่วมชมรม                 \\ \hline
   \end{tabular}
-  \caption{\centering Join club scenario}\label{fig:Join club scenario}
+  \caption{\centering การสมัครชมรม}\label{fig:Join club scenario}
 \end{table}
 
-Resignation scenario
+การลาออกจากชมรม
 
 \begin{table}[!h]\centering
   \begin{tabular}{|c|c|}
@@ -1088,19 +1089,19 @@ Resignation scenario
   Pre-conditions & \begin{tabular}[c]{@{}c@{}}- User ต้องเข้าสู่ระบบก่อน\\ - User ต้องเข้าสู่หน้าอ่านรายละเอียดชมรมก่อน\end{tabular} \\ \hline
   Main success scenario       & User กดเข้าร่วมชมรม                 \\ \hline
   \end{tabular}
-  \caption{\centering Resignation scenario}\label{fig:Resignation scenario}
+  \caption{\centering การลาออกจากชมรม}\label{fig:Resignation scenario}
 \end{table}
 
 \newpage
 
 \section{Sequence diagram}
-\subsection{Login}
+\subsection{การเข้าสู่ระบบ}
 
   \begin{figure}[!h]\centering
     \setlength{\fboxrule}{0.5mm} % can define this in the preamble
     \setlength{\fboxsep}{0.5cm}
     \fbox{\includegraphics[width=15cm]{./login.png}}
-    \caption{\centering Sequence diagram ของ login}\label{fig:Sequence diagram ของ login}
+    \caption{\centering Sequence diagram ของการเข้าสู่ระบบ}\label{fig:Sequence diagram ของ login}
   \end{figure}
 
 จาก Sequence diagram ในรูปที่ \ref{fig:Sequence diagram ของ login} เป็น Sequence diagram สำหรับแสดงการทำงานของระบบขณะที่ผู้ใช้งานทำการเข้าสู่ระบบ 
@@ -1111,13 +1112,13 @@ Resignation scenario
 
 \newpage
 
-\subsection{Registration}
+\subsection{การสมัครเข้าใช้งาน}
 
   \begin{figure}[!h]\centering
     \setlength{\fboxrule}{0.5mm} % can define this in the preamble
     \setlength{\fboxsep}{0.5cm}
     \fbox{\includegraphics[width=15cm]{./regis.png}}
-    \caption{\centering Registration}\label{fig:regis}
+    \caption{\centering การสมัครเข้าใช้งาน}\label{fig:regis}
   \end{figure}
 
   จาก Sequence diagram ในรูปที่ \ref{fig:regis} เป็น Sequence diagram สำหรับแสดงการทำงานของระบบขณะที่ผู้ใช้งานทำการสมัครเข้าใช้งาน โดยหลังจากผู้ใช้งานกดตุ่มเพื่อสมัครใช้งานแล้วระบบ UI จะขึ้นหน้าให้กรอกข้อมูลที่ใช้ในการสมัครเข้าใช้งาน ตัว UI จะทำการตรวจข้อมูลที่ต้องการใช้ในการเข้าสู่ระบบว่ามีส่วนใดที่ขาด จากนั้นจึงส่งต่อให้ระบบ Backend ซึ่งจะส่งข้อมูลไปบันทึกที่ Data base  แล้วระบบจะส่งข้อความยืนยันการสมัครเข้าใช้งานกลับขึ้นไปหาผู้ใช้งานที่สมัคร
@@ -1126,133 +1127,133 @@ Resignation scenario
 \newpage
 
 
-\subsection{Logout}
+\subsection{การออกจากระบบ}
 
   \begin{figure}[!h]\centering
     \setlength{\fboxrule}{0.5mm} % can define this in the preamble
     \setlength{\fboxsep}{0.5cm}
     \fbox{\includegraphics[width=15cm]{./logout.png}}
-    \caption{Logout}\label{fig:logout}
+    \caption{การออกจากระบบ}\label{fig:logout}
   \end{figure}
 
   จาก Sequence diagram ในรูปที่ \ref{fig:logout} เป็น Sequence diagram สำหรับแสดงการทำงานของระบบขณะที่ผู้ใช้งานออกจากระบบ โดยหลังจากผู้ใช้งานกดปุมออกจากระบบ UI จะถามการยืนยันการออกจากระบบซึ่งหลังจากผู้ใช้งานกดยืนยันแล้วระบบจะพาผู้ใช้ไปยังหน้าเข้าสู่ระบบอีกครั้ง
 
 \newpage
 
-\subsection{Search Event}
+\subsection{การค้นหากิจกรรม}
 
   \begin{figure}[!h]\centering
     \setlength{\fboxrule}{0.5mm} % can define this in the preamble
     \setlength{\fboxsep}{0.5cm}
     \fbox{\includegraphics[width=15cm]{./searchev.png}}
-    \caption{Search Event}\label{fig:Search Event}
+    \caption{การค้นหากิจกรรม}\label{fig:Search Event}
   \end{figure}
 
   จาก Sequence diagram ในรูปที่ \ref{fig:Search Event} เป็น Sequence diagram สำหรับแสดงการทำงานของระบบขณะที่ผู้ใช้งานทำการค้นหากิจกรรม โดย UI จะรับสิ่งที่ผู้ใช้งานต้องการค้นหาส่งไปหา Backend เพื่อให้ Backend ค้นหาข้อมูลที่เก็บไว้จาก Data base หากพบเจอจะส่งข้อมูลกลับไปหาข้อผู้ใช้งาน หากไม่เจอจะแสดงข้อความว่าไม่พบกิจกรรม และส่งข้อมูลการใช้งานไปเก็บยัง Data base
 
 \newpage
 
-\subsection{Select and join event}
+\subsection{การอ่านรายละเอียดของกิจกรรมและเข้าร่วมกิจกรรม}
 
   \begin{figure}[!h]\centering
     \setlength{\fboxrule}{0.5mm} % can define this in the preamble
     \setlength{\fboxsep}{0.5cm}
     \fbox{\includegraphics[width=13cm]{./selectandjoin.png}}
-    \caption{Select and join event}\label{fig:Select and join event}
+    \caption{การอ่านรายละเอียดของกิจกรรมและเข้าร่วมกิจกรรม}\label{fig:Select and join event}
   \end{figure}
 
   จาก Sequence diagram ในรูปที่ \ref{fig:Select and join event} เป็น Sequence diagram สำหรับแสดงการทำงานของระบบขณะที่ผู้ใช้งานทำการเข้าไปอ่านรายละเอียดของกิจกรรม โดย UI จะแสดงข้อมูลหากมีข้อมูลของกิจกรรมนั้นอยู่แล้ว หากไม่มีจะส่งคำขอให้ Back end ดึงข้อมูลจาก Data base ให้ หากผู้ใช้งานทำการกดเข้าร่วมกิจกรรม UI จะทำการขอการยืนยันจากผู้ใช้งานอีกครั้ง ซึ่งหากกดยืนยันแล้วก็จะส่งข้อมูลการเข้าร่วมไปให้ Backend จัดเก็บใน Data base 
 
 \newpage
 
-\subsection{Event evaluation}
+\subsection{การประเมินกิจกรรม}
 
   \begin{figure}[!h]\centering
     \setlength{\fboxrule}{0.5mm} % can define this in the preamble
     \setlength{\fboxsep}{0.5cm}
     \fbox{\includegraphics[width=15cm]{./evaluate.png}}
-    \caption{Event evaluation}\label{fig:Event evaluation}
+    \caption{การประเมินกิจกรรม}\label{fig:Event evaluation}
   \end{figure}
 
-  จาก Sequence diagram ในรูปที่ \ref{fig:Event evaluation} เป็น Sequence diagram สำหรับแสดงการทำงานของระบบแจ้งเตือนกิจกรรมชมรม โดย Backend จะส่งคำเตือนเข้ามาหา UI เพื่อที่จะแจ้งถึงกิจกรรมที่ชมรมจัดขึ้น เมื่อผู้ใช้งานกดเข้าอ่านรายละเอียดกิจกรรมแล้ว UI จะขอให้ Backend หาข้อมูลกิจกรรมจาก Data base มาแสดงให้ผู้ใช้งาน และส่งข้อมูลการใช้งานไปเก็บยัง Data base
+  จาก Sequence diagram ในรูปที่ \ref{fig:Event evaluation} เป็น Sequence diagram สำหรับแสดงการทำงานของระบบแจ้งเตือนการประเมินกิจกรรม โดย Backend จะส่งคำเตือนเข้ามาหา UI เพื่อที่จะแจ้งเตือนการประเมินกิจกรรม เมื่อผู้ใช้งานกดเข้าลิงค์ประเมินกิจกรรมแล้วจะเปิดหน้าต่างเพื่อประเมินกิจกรรมให้
 
 \newpage
 
-\subsection{Notification about event from club}
+\subsection{การแจ้งเตือนกิจกรรมชมรม}
 
   \begin{figure}[!h]\centering
     \setlength{\fboxrule}{0.5mm} % can define this in the preamble
     \setlength{\fboxsep}{0.5cm}
     \fbox{\includegraphics[width=15cm]{./Noti.png}}
-    \caption{Notification about event from club}\label{fig:Notification about event from club}
+    \caption{การแจ้งเตือนกิจกรรมชมรม}\label{fig:Notification about event from club}
   \end{figure}
 
-  จาก Sequence diagram ในรูปที่ \ref{fig:Notification about event from club} เป็น Sequence diagram สำหรับแสดงการทำงานของระบบแจ้งเตือนการประเมินกิจกรรม โดย Backend จะส่งคำเตือนเข้ามาหา UI เพื่อที่จะแจ้งเตือนการประเมินกิจกรรม เมื่อผู้ใช้งานกดเข้าลิงค์ประเมินกิจกรรมแล้วจะเปิดหน้าต่างเพื่อประเมินกิจกรรมให้
+  จาก Sequence diagram ในรูปที่ \ref{fig:Notification about event from club} เป็น Sequence diagram สำหรับแสดงการทำงานของระบบแจ้งเตือนกิจกรรมชมรม โดย Backend จะส่งคำเตือนเข้ามาหา UI เพื่อที่จะแจ้งถึงกิจกรรมที่ชมรมจัดขึ้น เมื่อผู้ใช้งานกดเข้าอ่านรายละเอียดกิจกรรมแล้ว UI จะขอให้ Backend หาข้อมูลกิจกรรมจาก Data base มาแสดงให้ผู้ใช้งาน และส่งข้อมูลการใช้งานไปเก็บยัง Data base
 
 \newpage
 
-\subsection{Seacrh club}
+\subsection{การค้นหาชมรม}
 
   \begin{figure}[!h]\centering
     \setlength{\fboxrule}{0.5mm} % can define this in the preamble
     \setlength{\fboxsep}{0.5cm}
     \fbox{\includegraphics[width=15cm]{./searchclub.png}}
-    \caption{Seacrh club}\label{fig:Seacrh club}
+    \caption{การค้นหาชมรม}\label{fig:Seacrh club}
   \end{figure}
 
   จาก Sequence diagram ในรูปที่ \ref{fig:Seacrh club} เป็น Sequence diagram สำหรับแสดงการทำงานของระบบขณะที่ผู้ใช้งานทำการค้นหาชมรมโดย UI จะรับสิ่งที่ผู้ใช้งานต้องการค้นหาส่งไปหา Backend เพื่อให้ Backend ค้นหาข้อมูลที่เก็บไว้จาก Data base หากพบเจอจะส่งข้อมูลกลับไปหาข้อผู้ใช้งาน หากไม่เจอจะแสดงข้อความว่าไม่พบกิจกรรม และส่งข้อมูลการใช้งานไปเก็บยัง Data base
 
 \newpage
 
-\subsection{Select and join club}
+\subsection{อ่านรายละเอียดของชมรมและการเข้าร่วมชมรม}
 
   \begin{figure}[!h]\centering
     \setlength{\fboxrule}{0.5mm} % can define this in the preamble
     \setlength{\fboxsep}{0.5cm}
     \fbox{\includegraphics[width=13cm]{./selectandjoinclub.png}}
-    \caption{Select and join club}\label{fig:Select and join club}
+    \caption{อ่านรายละเอียดของชมรมและการเข้าร่วมชมรม}\label{fig:Select and join club}
   \end{figure}
 
   จาก Sequence diagram ในรูปที่ \ref{fig:Select and join club} เป็น Sequence diagram สำหรับแสดงการทำงานของระบบขณะที่ผู้ใช้งานทำการเข้าไปอ่านรายละเอียดของชมรม โดย UI จะแสดงข้อมูลหากมีข้อมูลของกิจกรรมนั้นอยู่แล้ว หากไม่มีจะส่งคำขอให้ Back end ดึงข้อมูลจาก Data base ให้ หากผู้ใช้งานทำการกดเข้าร่วมกิจกรรม UI จะทำการขอการยืนยันจากผู้ใช้งานอีกครั้ง ซึ่งหากกดยืนยันแล้วก็จะส่งข้อมูลการเข้าร่วมไปให้ Backend จัดเก็บใน Data base
 
 \newpage
 
-\subsection{Club resignation}
+\subsection{การลาออกจากชมรม}
 
   \begin{figure}[!h]\centering
     \setlength{\fboxrule}{0.5mm} % can define this in the preamble
     \setlength{\fboxsep}{0.5cm}
     \fbox{\includegraphics[width=15cm]{./clubregis.png}}
-    \caption{Club resignation}\label{fig:Club resignation}
+    \caption{การลาออกจากชมรม}\label{fig:Club resignation}
   \end{figure}
 
-  จาก Sequence diagram ในรูปที่ \ref{fig:Club resignation} เป็น Sequence diagram สำหรับแสดงการทำงานของระบบขณะที่ผู้ใช้งานทำการสมัครเข้าชมรม โดยหลังจากกดปุ่มสมัคร UI จะถามยืนยันการสมัคร หากผู้ใช้งานกดยืนยัน UI จะทำการส่งข้อมูลการใช้งานไปให้ Backend จัดเก็บใน Data base แล้วส่งข้อความยืนยันการสมัครไปให้ UI แสดงกับผู้ใช้งาน
+  จาก Sequence diagram ในรูปที่ \ref{fig:Club resignation} เป็น Sequence diagram สำหรับแสดงการทำงานของระบบขณะที่ผู้ใช้งานทำการลาออกจากชมรม โดยหลังจากกดปุ่มสมัคร UI จะถามยืนยันการลาออก หากผู้ใช้งานกดยืนยัน UI จะทำการส่งข้อมูลการใช้งานไปให้ Backend จัดเก็บใน Data base แล้วส่งข้อความยืนยันการลาออกไปให้ UI แสดงกับผู้ใช้งาน
 
 \newpage
 
-\subsection{Feed recommendation}
+\subsection{การแนะนำกิจกรรมให้ผู้ใช้งาน}
 
   \begin{figure}[!h]\centering
     \setlength{\fboxrule}{0.5mm} % can define this in the preamble
     \setlength{\fboxsep}{0.5cm}
     \fbox{\includegraphics[width=15cm]{./Recommend.png}}
-    \caption{Feed recommendation}\label{fig:Feed recommendation}
+    \caption{การแนะนำกิจกรรมให้ผู้ใช้งาน}\label{fig:Feed recommendation}
   \end{figure}
 
-  จาก Sequence diagram ในรูปที่ \ref{fig:Feed recommendation} เป็น Sequence diagram สำหรับแสดงการทำงานของระบบเพื่อแนะนำกิจกรรมให้ผู้ใช้งาน โดยหลังจากเข้าแิปพลิเคชัน UI จะร้องขอเนื้อหาที่จะแนะนำไปยัง Backend เพื่อไปสั่งระบบ Machine learning Model เพื่อประมวลผลคำแนะนำซึ่งดึงข้อมูลที่เก็บไว้จาก Database มาประมวลผล ซึ่งจะส่งทั้งคำแนะนำกลับไปหา ทั้ง Backend เพื่อส่งคำแนะนำไปหาผู้ใช้งาน และ Data base เพื่อเก็บผลคำแนะนำที่ประมวลมาได้ Backend สามารถเรียกคำแนะนำที่ถูกเก็บเอาไว้มาเพื่อแสดงแก่ผู้ใช้งานได้
+  จาก Sequence diagram ในรูปที่ \ref{fig:Feed recommendation} เป็น Sequence diagram สำหรับแสดงการทำงานของระบบเพื่อแนะนำกิจกรรมให้ผู้ใช้งาน โดยหลังจากเข้าแอปพลิเคชัน UI จะร้องขอเนื้อหาที่จะแนะนำไปยัง Backend เพื่อไปสั่งระบบ Machine learning Model เพื่อประมวลผลคำแนะนำซึ่งดึงข้อมูลที่เก็บไว้จาก Database มาประมวลผล ซึ่งจะส่งทั้งคำแนะนำกลับไปหา ทั้ง Backend เพื่อส่งคำแนะนำไปหาผู้ใช้งาน และ Data base เพื่อเก็บผลคำแนะนำที่ประมวลมาได้ Backend สามารถเรียกคำแนะนำที่ถูกเก็บเอาไว้มาเพื่อแสดงแก่ผู้ใช้งานได้
 
 \newpage
 
-\subsection{Machine learning training}
+\subsection{การ Train Model การเรียนรู้ของเครื่อง}
 
   \begin{figure}[!h]\centering
     \setlength{\fboxrule}{0.5mm} % can define this in the preamble
     \setlength{\fboxsep}{0.5cm}
     \fbox{\includegraphics[width=15cm]{./Machinelearning.png}}
-    \caption{Machine learning training}\label{fig:Machine learning training}
+    \caption{การ Train Model การเรียนรู้ของเครื่อง}\label{fig:Machine learning training}
   \end{figure}
 
-  จาก Sequence diagram ในรูปที่ \ref{fig:Machine learning training} เป็น Sequence diagram สำหรับแสดงการทำงานของระบบในขณะที่ Train Machine Learning Model ใหม่ โดย Machine Learning Model จะดึงข้อมูลกิจกรรมและการใช้งานมาจาก Data base แล้วทำการ Train ตัวเอง
+  จาก Sequence diagram ในรูปที่ \ref{fig:Machine learning training} เป็น Sequence diagram สำหรับแสดงการทำงานของระบบในขณะที่ Train Model การเรียนรู้ของเครื่องใหม่ โดย Model การเรียนรู้ของเครื่องจะดึงข้อมูลกิจกรรมและการใช้งานมาจาก Data base แล้วทำการ Train ตัวเอง
 
 \newpage
 
