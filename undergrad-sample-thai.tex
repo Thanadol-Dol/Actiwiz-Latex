@@ -1375,12 +1375,12 @@ Instagram คือ แอปพลิเคชันบน smartphone และ
       \caption{\centering ตารางเก็บข้อมูลประเภทของกิจกรรม}\label{tab:Activity Category Node}
     \end{table}
 
-    \subsection{ความสัมพันธ์มีอยู่ 2 รูปแบบด้วยกัน ได้แก่ความสัมพันธ์ที่มีคุณสมบัติและความสัมพันธ์ที่ไม่มีคุณสมบัติเพิ่มเติม}
+    \subsection{ความสัมพันธ์ \\ ความสัมพันธ์ภายในแบบจำลองข้อมูลแบบกราฟของแอพพลิเคชัน Actiwiz เป็นการสร้างความเชื่อมโยงและการมีปฏิสัมพันธ์ระหว่างโหนดต่าง ๆ ซึ่งมีส่วนช่วยในการนำเสนอเรื่องราวการเข้าร่วมกิจกรรมและชมรมภายในมหาวิทยาลัยแบบยืดหยุ่นและเชื่อมโยงถึงกัน โดยความสัมพันธ์จะมีอยู่ 2 รูปแบบด้วยกัน ได้แก่ความสัมพันธ์ที่มีคุณสมบัติและความสัมพันธ์ที่ไม่มีคุณสมบัติเพิ่มเติม}
 
     \subsubsection{ความสัมพันธ์ที่มีคุณสมบัติ}
     \begin{itemize}
       \normalsize
-      \item User is in DEPARTMENT\_OF Department: ผู้ใช้งานเป็นนักศึกษาของภาควิชา
+      \item User is in DEPARTMENT\_OF Department: ความสัมพันธ์ DEPARTMENT\_OF แสดงความสัมพันธ์ทางวิชาการของผู้ใช้งานกับภาควิชาของตน ความสัมพันธ์นี้ช่วยเชื่อมโยงผู้คนจากภาควิชาเดียวกันภายในมหาวิทยาลัย
         \begin{center}
           \begin{tabular}{|c|c|c|c|}
           \hline
@@ -1390,7 +1390,7 @@ Instagram คือ แอปพลิเคชันบน smartphone และ
           \end{tabular}
           \captionof{table}{ตารางเก็บข้อมูลนักศึกษาภาควิชา}\label{tab:DepartmentRelationship}
         \end{center}
-      \item User is a MEMBER\_OF Club: ผู้ใช้งานเป็นสมาชิกของชมรม
+      \item User is a MEMBER\_OF Club: ความสัมพันธ์ MEMBER\_OF แสดงความสัมพันธ์ของผู้ใช้งานกับชมรมใดชมรมหนึ่ง
         \begin{center}
           \begin{tabular}{|c|c|c|c|}
           \hline
@@ -1401,7 +1401,7 @@ Instagram คือ แอปพลิเคชันบน smartphone และ
           \end{tabular}
           \captionof{table}{ตารางเก็บข้อมูลสมาชิกของชมรม}\label{tab:ClubRelationship}
         \end{center}
-      \item User PARTICIPATE\_IN Activity: ผู้ใช้งานเข้าร่วมกิจกรรม
+      \item User PARTICIPATE\_IN Activity: ความสัมพันธ์ PARTICIPATES\_IN แสดงถึงการมีส่วนร่วมของผู้ใช้ในกิจกรรมต่าง ๆ ภายในมหาวิทยาลัย
         \begin{center}
           \begin{tabular}{|c|c|c|c|}
           \hline
@@ -1412,7 +1412,7 @@ Instagram คือ แอปพลิเคชันบน smartphone และ
           \end{tabular}
           \captionof{table}{ตารางเก็บข้อมูลสมาชิกเข้าร่วมกิจกรรม}\label{tab:ActivityRelationship}
         \end{center}
-      \item Activity BELONGS\_TO Club: กิจกรรมถูกจัดโดยชมรม
+      \item Activity BELONGS\_TO Club: ความสัมพันธ์ BELONGS\_TO แสดงความสัมพันธ์ระหว่างกิจกรรมกับชมรม โดยระบุว่าชมรมใดรับผิดชอบในการจัดกิจกรรมใดกิจกรรมหนึ่งโดยเฉพาะ
         \begin{center}
           \begin{tabular}{|c|c|c|c|}
           \hline
@@ -1427,10 +1427,11 @@ Instagram คือ แอปพลิเคชันบน smartphone และ
       \subsubsection{ความสัมพันธ์ที่ไม่มีคุณสมบัติ}
         \normalsize
         \begin{itemize}
-          \item ชมรมจัดอยู่ในประเภท
-          \item กิจกรรมถูกแนะนำให้แก่ผู้ใช้งาน
-          \item กิจกรรมที่ผู้ใช้งานเข้าร่วมเปิดให้ประเมินได้แล้ว
-          \item กิจกรรมจัดอยู่ในประเภท
+          \item Activity CATEGORIZE\_AS Activity Category: ความสัมพันธ์ CATEGORIZE\_AS จัดกลุ่มกิจกรรมด้วยการจัดประเภทของกิจกรรม ตามหมวดหมู่เนื้อหา
+          \item Activity RECOMMEND to User: ความสัมพันธ์ RECOMMEND แสดงถึงการแนะนำกิจกรรมที่สร้างโดยระบบของแอปพลิเคชัน โดยเกิดจากการประมวลผลของ machine learning ที่ปรับให้เหมาะสมตามผู้ใช้งานแต่ละคน
+          \item Activity EVALUATE\_AVAILABLE to User: ความสัมพันธ์แบบ EVALUATE\_AVAILABLE จะเชื่อมโยงผู้ใช้เข้ากับกิจกรรมต่าง ๆ เมื่อกิจกรรมเปิดให้ผู้ใช้งานเข้าไปประเมินกิจกรรมได้
+          \item Club CATEGORIZE\_AS Club Category: ความสัมพันธ์ CATEGORIZE\_AS จัดกลุ่มชมรมด้วยการจัดประเภทของชมรม ตามหมวดหมู่เนื้อหา
+          \item Club RECOMMEND to User: ความสัมพันธ์ RECOMMEND แสดงถึงการแนะนำชมรมที่สร้างโดยระบบของแอปพลิเคชัน โดยเกิดจากการประมวลผลของ machine learning ที่ปรับให้เหมาะสมตามผู้ใช้งานแต่ละคน
         \end{itemize}
 \makeatletter
 \g@addto@macro{\UrlBreaks}{\UrlOrds}
