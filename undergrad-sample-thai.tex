@@ -1274,8 +1274,9 @@ Instagram คือ แอปพลิเคชันบน smartphone และ
   \FloatBarrier
 จากรูปที่ \ref{fig:Graph Data Model} จะเป็นแบบจำลองข้อมูลแบบกราฟของระบบ Actiwiz ซึ่งประกอบไปด้วยโหนด (Node) และความสัมพันธ์ (Relationship) ต่าง ๆ ดังนี้
   \subsection{โหนด}
+    จากที่กล่าวมาโหนดจะทำหน้าที่ในการเก็บข้อมูลซึ่งจะแบ่งข้อมูลในแต่ละโหนดออกมาให้เป็นตารางได้ตามนี้
 
-    \subsubsection{โหนด User: เก็บข้อมูลของผู้ใช้งานที่ใช้งานแอปพลิเคชัน}
+    \subsubsection{โหนด User: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับรายละเอียดส่วนตัวของผู้ใช้งานภายในมหาวิทยาลัย}
     \begin{table}[!h]\centering
       \begin{tabular}{|c|c|c|c|}
       \hline
@@ -1292,41 +1293,33 @@ Instagram คือ แอปพลิเคชันบน smartphone และ
 
     \newpage
 
-    \subsubsection{โหนด Department: เก็บข้อมูลของภาควิชาภายในมหาวิทยาลัย}
-  \begin{table}[!h]\centering
-      \begin{tabular}{|c|c|c|c|}
-        \hline
-        \rowcolor[HTML]{9FC5E8} 
-        Property                              & {\color[HTML]{242424} DataType} & {\color[HTML]{242424} Constain} & Definition        \\ \hline
-        \rowcolor[HTML]{FFFFFF} 
-        {\color[HTML]{242424} DepartmentName} & {\color[HTML]{242424} STRING}   & {\color[HTML]{242424} Not NULL} & ชื่อภาควิชา       \\ \hline
-        \cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} DepartmentID}  & {\color[HTML]{242424} STRING} & {\color[HTML]{242424} Not NULL} & ชื่อย่อภาษาอังกฤษของภาควิชา \\ \hline
-        \cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} AcademicEmail} & {\color[HTML]{242424} STRING} & {\color[HTML]{242424} Not NULL} & อีเมลมหาวิทยาลัย            \\ \hline
-        {\color[HTML]{242424} AcademicDegree} & {\color[HTML]{242424} STRING}   & {\color[HTML]{242424} Not NULL} & ระดับการศึกษา     \\ \hline
-        {\color[HTML]{242424} Year}           & {\color[HTML]{242424} INTEGER}  & {\color[HTML]{242424} Not NULL} & ชั้นปีของนักศึกษา \\ \hline
-        Year                                  & INTEGER                         & Not NULL                        & ชั้นปีของนักศึกษา \\ \hline
-      \end{tabular}
-      \caption{\centering ตารางเก็บข้อมูลของภาควิชาภายในมหาวิทยาลัย}\label{tab:Department Node}
-    \end{table}
-
-    \subsubsection{โหนด Club: เก็บข้อมูลของชมรมภายในมหาวิทยาลัย}
+    \subsubsection{โหนด Department: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับรายละเอียดของภาควิชาภายในมหาวิทยาลัย}
     \begin{table}[!h]\centering
       \begin{tabular}{|c|c|c|c|}
       \hline
       \rowcolor[HTML]{9FC5E8} 
-      Property                        & {\color[HTML]{242424} DataType} & {\color[HTML]{242424} Constain} & Definition        \\ \hline
-      \rowcolor[HTML]{FFFFFF} 
-      {\color[HTML]{242424} ClubName} & {\color[HTML]{242424} STRING}   & {\color[HTML]{242424} Not NULL} & ชื่อชมรม          \\ \hline
-      \cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} ClubID}      & {\color[HTML]{242424} STRING} & {\color[HTML]{242424} Not NULL} & รหัสชมรม      \\ \hline
-      \cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} Description} & {\color[HTML]{242424} STRING} & {\color[HTML]{242424} NULL}     & คำอธิบายชมรม  \\ \hline
-      {\color[HTML]{242424} AcademicDegree}                      & {\color[HTML]{242424} STRING} & {\color[HTML]{242424} Not NULL} & ระดับการศึกษา \\ \hline
-      {\color[HTML]{242424} Year}     & {\color[HTML]{242424} INTEGER}  & {\color[HTML]{242424} Not NULL} & ชั้นปีของนักศึกษา \\ \hline
-      Year                            & INTEGER                         & Not NULL                        & ชั้นปีของนักศึกษา \\ \hline
+      Property       & DataType & Constain & Definition                  \\ \hline
+      DepartmentName & STRING   & Not NULL & ชื่อภาควิชา                 \\ \hline
+      DepartmentID   & STRING   & Not NULL & ชื่อย่อภาษาอังกฤษของภาควิชา \\ \hline
+      Description    & STRING   & NULL     & คำอธิบายชมรม                \\ \hline
+      \end{tabular}
+      \caption{\centering ตารางเก็บข้อมูลของภาควิชาภายในมหาวิทยาลัย}\label{tab:Department Node}
+    \end{table}
+
+    \subsubsection{โหนด Club: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับรายละเอียดของชมรมภายในมหาวิทยาลัย}
+    \begin{table}[!h]\centering
+      \begin{tabular}{|c|c|c|c|}
+      \hline
+      \rowcolor[HTML]{9FC5E8} 
+      Property    & DataType & Constain & Definition   \\ \hline
+      ClubName    & STRING   & Not NULL & ชื่อชมรม     \\ \hline
+      ClubID      & STRING   & Not NULL & รหัสชมรม     \\ \hline
+      Description & STRING   & NULL     & คำอธิบายชมรม \\ \hline
       \end{tabular}
       \caption{\centering ตารางเก็บข้อมูลของชมรมภายในมหาวิทยาลัย}\label{tab:Club Node}
     \end{table}
 
-    \subsubsection{โหนด Club Category: เก็บข้อมูลประเภทชมรม}
+    \subsubsection{โหนด Club Category: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับรายละเอียดประเภทชมรมภายในมหาวิทยาลัย}
     \begin{table}[!h]\centering
       \begin{tabular}{|c|c|c|c|}
       \hline
@@ -1343,7 +1336,7 @@ Instagram คือ แอปพลิเคชันบน smartphone และ
 
     \newpage
 
-    \subsubsection{โหนด Activity: เก็บข้อมูลของชมรมภายในมหาวิทยาลัย}
+    \subsubsection{โหนด Activity: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับรายละเอียดของชมรมภายในมหาวิทยาลัย}
     \begin{table}[!h]\centering
       \begin{tabular}{|c|c|c|c|}
       \hline
@@ -1364,7 +1357,7 @@ Instagram คือ แอปพลิเคชันบน smartphone และ
       \caption{\centering ตารางเก็บข้อมูลของชมรมภายในมหาวิทยาลัย}\label{tab:Activitynode}
     \end{table}
     
-    \subsubsection{โหนด Activity Category: เก็บข้อมูลประเภทของกิจกรรม}
+    \subsubsection{โหนด Activity Category: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับประเภทของกิจกรรมภายในมหาวิทยาลัย}
     \begin{table}[!h]\centering
       \begin{tabular}{|c|c|c|c|}
       \hline
