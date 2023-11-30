@@ -1256,18 +1256,19 @@ Resignation scenario
 
 \newpage
 
-\section{Database Model}
-
+\section{แบบจำลองข้อมูลแบบกราฟ (Graph Data Model)}
+แบบจำลองข้อมูลแบบกราฟเป็นแบบจำลองเพื่อแสดงความเชื่อมโยงของโหนดที่เก็บข้อมูลของระบบ ว่าแต่ละโหนดมีความสัมพันธ์กันอย่างไรภายในแอปพลิเคชัน Actiwiz ของเรา แบบจำลองข้อมูลแบบกราฟจะตอบโจทย์การนำไปประยุกต์ในระบบฐานข้อมูลแบบกราฟเช่น Neo4j ช่วยให้สามารถสำรวจและเรียกค้นข้อมูลที่เกี่ยวข้องได้อย่างมีประสิทธิภาพ
   \begin{figure}[!h]\centering
     \setlength{\fboxrule}{0.5mm} % can define this in the preamble
     \setlength{\fboxsep}{0.5cm}
     \fbox{\includegraphics[width=15cm]{./DB.png}}
-    \caption{Database Model}\label{fig:Database Model}
+    \caption{Graph Data Model}\label{fig:Graph Data Model}
   \end{figure}
+  \FloatBarrier
+จากรูปที่ \ref{fig:Graph Data Model} จะเป็นแบบจำลองข้อมูลแบบกราฟของระบบ Actiwiz ซึ่งประกอบไปด้วยโหนด (Node) และความสัมพันธ์ (Relationship) ต่าง ๆ ดังนี้
+  \subsection{โหนด}
 
-  \subsection{โหนด (Node)}
-
-    \subsubsection{User node: เก็บข้อมูลของผู้ใช้งานที่ใช้งานแอปพลิเคชัน}
+    \subsubsection{โหนด User: เก็บข้อมูลของผู้ใช้งานที่ใช้งานแอปพลิเคชัน}
     \begin{table}[!h]\centering
       \begin{tabular}{|c|c|c|c|}
       \hline
@@ -1279,12 +1280,12 @@ Resignation scenario
       AcademicDegree & STRING                          & Not NULL & ระดับการศึกษา         \\ \hline
       Year           & INTEGER                         & Not NULL & ชั้นปีของนักศึกษา     \\ \hline
       \end{tabular}
-      \caption{\centering ตารางเก็บข้อมูลของผู้ใช้งานที่ใช้งานแอปพลิเคชัน}\label{tab:User node}
+      \caption{\centering ตารางเก็บข้อมูลของผู้ใช้งานที่ใช้งานแอปพลิเคชัน}\label{tab:User Node}
     \end{table}
 
     \newpage
 
-    \subsubsection{Department node: เก็บข้อมูลของภาควิชาภายในมหาวิทยาลัย}
+    \subsubsection{โหนด Department: เก็บข้อมูลของภาควิชาภายในมหาวิทยาลัย}
   \begin{table}[!h]\centering
       \begin{tabular}{|c|c|c|c|}
         \hline
@@ -1298,24 +1299,27 @@ Resignation scenario
         {\color[HTML]{242424} Year}           & {\color[HTML]{242424} INTEGER}  & {\color[HTML]{242424} Not NULL} & ชั้นปีของนักศึกษา \\ \hline
         Year                                  & INTEGER                         & Not NULL                        & ชั้นปีของนักศึกษา \\ \hline
       \end{tabular}
-        \caption{\centering ตารางเก็บข้อมูลของภาควิชาภายในมหาวิทยาลัย}\label{tab:Department node}
-  \end{table}
-  \subsubsection{Club node: เก็บข้อมูลของชมรมภายในมหาวิทยาลัย}
-  \begin{table}[!h]\centering
-    \begin{tabular}{|c|c|c|c|}
-    \hline
-    \rowcolor[HTML]{9FC5E8} 
-    Property       & {\color[HTML]{242424} DataType} & Constain & Definition        \\ \hline
-    \cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} ClubName} & \cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} STRING} & Not NULL & ชื่อชมรม \\ \hline
-    ClubID         & STRING                          & Not NULL & รหัสชมรม          \\ \hline
-    Description    & STRING                          & NULL     & คำอธิบายชมรม      \\ \hline
-    AcademicDegree & STRING                          & Not NULL & ระดับการศึกษา     \\ \hline
-    Year           & INTEGER                         & Not NULL & ชั้นปีของนักศึกษา \\ \hline
-    \end{tabular}
-          \caption{\centering ตารางเก็บข้อมูลของชมรมภายในมหาวิทยาลัย}\label{tab:Club node}
-      \end{table}
+      \caption{\centering ตารางเก็บข้อมูลของภาควิชาภายในมหาวิทยาลัย}\label{tab:Department Node}
+    \end{table}
 
-    \subsubsection{Club Category node: เก็บข้อมูลประเภทชมรม}
+    \subsubsection{โหนด Club: เก็บข้อมูลของชมรมภายในมหาวิทยาลัย}
+    \begin{table}[!h]\centering
+      \begin{tabular}{|c|c|c|c|}
+      \hline
+      \rowcolor[HTML]{9FC5E8} 
+      Property                        & {\color[HTML]{242424} DataType} & {\color[HTML]{242424} Constain} & Definition        \\ \hline
+      \rowcolor[HTML]{FFFFFF} 
+      {\color[HTML]{242424} ClubName} & {\color[HTML]{242424} STRING}   & {\color[HTML]{242424} Not NULL} & ชื่อชมรม          \\ \hline
+      \cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} ClubID}      & {\color[HTML]{242424} STRING} & {\color[HTML]{242424} Not NULL} & รหัสชมรม      \\ \hline
+      \cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} Description} & {\color[HTML]{242424} STRING} & {\color[HTML]{242424} NULL}     & คำอธิบายชมรม  \\ \hline
+      {\color[HTML]{242424} AcademicDegree}                      & {\color[HTML]{242424} STRING} & {\color[HTML]{242424} Not NULL} & ระดับการศึกษา \\ \hline
+      {\color[HTML]{242424} Year}     & {\color[HTML]{242424} INTEGER}  & {\color[HTML]{242424} Not NULL} & ชั้นปีของนักศึกษา \\ \hline
+      Year                            & INTEGER                         & Not NULL                        & ชั้นปีของนักศึกษา \\ \hline
+      \end{tabular}
+      \caption{\centering ตารางเก็บข้อมูลของชมรมภายในมหาวิทยาลัย}\label{tab:Club Node}
+    \end{table}
+
+    \subsubsection{โหนด Club Category: เก็บข้อมูลประเภทชมรม}
     \begin{table}[!h]\centering
       \begin{tabular}{|c|c|c|c|}
       \hline
@@ -1327,12 +1331,12 @@ Resignation scenario
       AcademicDegree & STRING                          & Not NULL & ระดับการศึกษา     \\ \hline
       Year           & INTEGER                         & Not NULL & ชั้นปีของนักศึกษา \\ \hline
       \end{tabular}
-      \caption{\centering ตารางเก็บข้อมูลประเภทชมรม}\label{tab:Club Category node}
+      \caption{\centering ตารางเก็บข้อมูลประเภทชมรม}\label{tab:Club Category Node}
     \end{table}
 
     \newpage
 
-    \subsubsection{Activity node: เก็บข้อมูลของชมรมภายในมหาวิทยาลัย}
+    \subsubsection{โหนด Activity: เก็บข้อมูลของชมรมภายในมหาวิทยาลัย}
     \begin{table}[!h]\centering
       \begin{tabular}{|c|c|c|c|}
       \hline
@@ -1353,7 +1357,7 @@ Resignation scenario
       \caption{\centering ตารางเก็บข้อมูลของชมรมภายในมหาวิทยาลัย}\label{tab:Activitynode}
     \end{table}
     
-    \subsubsection{Activity Category node: เก็บข้อมูลประเภทของกิจกรรม}
+    \subsubsection{โหนด Activity Category: เก็บข้อมูลประเภทของกิจกรรม}
     \begin{table}[!h]\centering
       \begin{tabular}{|c|c|c|c|}
       \hline
@@ -1362,126 +1366,66 @@ Resignation scenario
       CategoryName & STRING   & Not NULL & ชื่อประเภท \\ \hline
       CategoryID   & STRING   & Not NULL & รหัสประเภท \\ \hline
       \end{tabular}
-      \caption{\centering ตารางเก็บข้อมูลประเภทของกิจกรรม}\label{tab:Activity Category node}
+      \caption{\centering ตารางเก็บข้อมูลประเภทของกิจกรรม}\label{tab:Activity Category Node}
     \end{table}
 
-  \subsection{Relationship}  
-    \subsubsection{User เป็นนักศึกษาภาควิชา}
-    \begin{table}[!h]\centering
-      \begin{tabular}{|c|c|c|c|}
-      \hline
-      \rowcolor[HTML]{9FC5E8} 
-      Property   & DataType & Constain & Definition                       \\ \hline
-      DateJoined & DATE     & Not NULL & วันที่เข้าเป็นนักศึกษาของภาควิชา \\ \hline
-      \end{tabular}
-      \caption{\centering ตารางเก็บข้อมูลนักศึกษาภาควิชา}\label{tab:Relationship}
-    \end{table}
+    \subsection{ความสัมพันธ์มีอยู่ 2 รูปแบบด้วยกัน ได้แก่ความสัมพันธ์ที่มีคุณสมบัติและความสัมพันธ์ที่ไม่มีคุณสมบัติเพิ่มเติม}
 
-    \subsubsection{User เป็นสมาชิกของชมรม}
-    \begin{table}[!h]\centering
-      \begin{tabular}{|c|c|c|c|}
-      \hline
-      \rowcolor[HTML]{9FC5E8} 
-      Property   & DataType & Constain & Definition                \\ \hline
-      DateJoined & DATE     & Not NULL & วันที่เริ่มเป็นสมาชิกชมรม \\ \hline
-      Role       & STRING   & Not NULL & ตำแหน่งในชมรม             \\ \hline
-      \end{tabular}
-      \caption{\centering ตารางเก็บข้อมูลสมาชิกของชมรม}\label{tab:Userเป็นสมาชิกของชมรม}
-      \end{table}
-
-      \newpage
-
-    \subsubsection{ชมรมถูกแนะนำให้แก่ User}
-
-    \subsubsection{ชมรมจัดอยู่ในประเภท}
-
-    \subsubsection{User เข้าร่วมกิจกรรม}
-    \begin{table}[!h]\centering
-      \begin{tabular}{cccc}
-      \hline
-      \rowcolor[HTML]{9FC5E8} 
-      \multicolumn{1}{|c|}{\cellcolor[HTML]{9FC5E8}DateJoined} &
-        \multicolumn{1}{c|}{\cellcolor[HTML]{9FC5E8}{\color[HTML]{242424} DATE}} &
-        \multicolumn{1}{c|}{\cellcolor[HTML]{9FC5E8}{\color[HTML]{242424} Not NULL}} &
-        \multicolumn{1}{c|}{\cellcolor[HTML]{9FC5E8}วันที่เข้าร่วมกิจกรรม} \\ \hline
-      \rowcolor[HTML]{FFFFFF} 
-      \multicolumn{1}{|c|}{\cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} Role}} &
-        \multicolumn{1}{c|}{\cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} STRING}} &
-        \multicolumn{1}{c|}{\cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} Not NULL}} &
-        \multicolumn{1}{c|}{\cellcolor[HTML]{FFFFFF}ตำแหน่งในกิจกรรม} \\ \hline
-      Role &
-        STRING &
-        Not NULL &
-        ตำแหน่งในชมรม
-      \end{tabular}
-      \caption{\centering ตารางเก็บข้อมูลสมาชิกเข้าร่วมกิจกรรม}\label{tab:Userเข้าร่วมกิจกรรม}
-      \end{table}
-
-      \subsubsection{กิจกรรมถูกแนะนำให้แก่ User}
-
-      \subsubsection{กิจกรรมที่ User เข้าร่วมเปิดให้ประเมินได้แล้ว}
-
-      \subsubsection{กิจกรรมจัดอยู่ในประเภท}
-
-      \subsubsection{กิจกรรมถูกจัดโดยชมรม}
-      \begin{table}[!h]\centering
-        \begin{tabular}{|c|c|c|c|}
-        \hline
-        \rowcolor[HTML]{9FC5E8} 
-        Property  & DataType & Constain & Definition           \\ \hline
-        OpenDate  & DATETIME & Not NULL & วันแรกของกิจกรรม     \\ \hline
-        CloseDate & DATETIME & Not NULL & วันสุดท้ายของกิจกรรม \\ \hline
-        \end{tabular}
-        \captionof{table}{\centering ตารางเก็บข้อมูลนักศึกษาภาควิชา}\label{tab:Relationship}
-      \end{table}
-    %\item 
-    User เป็นสมาชิกของชมรม
-      \begin{center}
-        \begin{tabular}{|c|c|c|c|}
-        \hline
-        \rowcolor[HTML]{9FC5E8} 
-        Property      & DataType & Constain & Definition \\ \hline
-        DateJoined & DATE     & Not NULL & วันที่เริ่มเป็นสมาชิกชมรม \\ \hline
-        Role          & STRING   & Not NULL & ตำแหน่งในชมรม \\ \hline
-        \end{tabular}
-        \captionof{table}{ตารางเก็บข้อมูลสมาชิกของชมรม}\label{tab:Userเป็นสมาชิกของชมรม}
-      \end{center}
-    %\item 
-    User เข้าร่วมกิจกรรม
-      \begin{center}
-        \begin{tabular}{|c|c|c|c|}
-        \hline
-        \rowcolor[HTML]{9FC5E8} 
-        DateJoined & DataType & Constain & Definition \\ \hline
-        DateJoined & DATE     & Not NULL & วันที่เข้าร่วมกิจกรรม \\ \hline
-        Role          & STRING   & Not NULL & ตำแหน่งในกิจกรรม \\ \hline
-        \end{tabular}
-        \captionof{table}{ตารางเก็บข้อมูลสมาชิกเข้าร่วมกิจกรรม}\label{tab:Userเข้าร่วมกิจกรรม}
-      \end{center}
-    %\item 
-    กิจกรรมถูกจัดโดยชมรม
-      \begin{center}
-        \begin{tabular}{|c|c|c|c|}
-        \hline
-        \rowcolor[HTML]{9FC5E8} 
-        Property  & DataType & Constain & Definition \\ \hline
-        OpenDate   & DATETIME & Not NULL & วันแรกของกิจกรรม \\ \hline
-        CloseDate & DATETIME & Not NULL & วันสุดท้ายของกิจกรรม \\ \hline
-        \end{tabular}
-        \captionof{table}{ตารางเก็บข้อมูลกิจกรรมถูกจัดโดยชมรม}\label{tab:กิจกรรมถูกจัดโดยชมรม}
-      \end{center}
-  %\end{itemize}
-  
-\newpage
-
-    \subsubsection{Relationship ที่ไม่มี Property}
+    \subsubsection{ความสัมพันธ์ที่มีคุณสมบัติ}
+    \begin{itemize}
       \normalsize
-      \begin{itemize}
-        \item ชมรมจัดอยู่ในประเภท
-        \item กิจกรรมถูกแนะนำให้แก่ User
-        \item กิจกรรมที่ User เข้าร่วมเปิดให้ประเมินได้แล้ว
-        \item กิจกรรมจัดอยู่ในประเภท
-      \end{itemize}
+      \item User is in DEPARTMENT\_OF Department: ผู้ใช้งานเป็นนักศึกษาของภาควิชา
+        \begin{center}
+          \begin{tabular}{|c|c|c|c|}
+          \hline
+          \rowcolor[HTML]{9FC5E8} 
+          Property   & DataType & Constraint & Definition \\ \hline
+          DateJoined & DATE     & Not NULL    & วันที่เข้าเป็นนักศึกษาของภาควิชา \\ \hline
+          \end{tabular}
+          \captionof{table}{ตารางเก็บข้อมูลนักศึกษาภาควิชา}\label{tab:DepartmentRelationship}
+        \end{center}
+      \item User is a MEMBER\_OF Club: ผู้ใช้งานเป็นสมาชิกของชมรม
+        \begin{center}
+          \begin{tabular}{|c|c|c|c|}
+          \hline
+          \rowcolor[HTML]{9FC5E8} 
+          Property   & DataType & Constraint & Definition \\ \hline
+          DateJoined & DATE     & Not NULL    & วันที่เริ่มเป็นสมาชิกชมรม \\ \hline
+          Role       & STRING   & Not NULL    & ตำแหน่งในชมรม \\ \hline
+          \end{tabular}
+          \captionof{table}{ตารางเก็บข้อมูลสมาชิกของชมรม}\label{tab:ClubRelationship}
+        \end{center}
+      \item User PARTICIPATE\_IN Activity: ผู้ใช้งานเข้าร่วมกิจกรรม
+        \begin{center}
+          \begin{tabular}{|c|c|c|c|}
+          \hline
+          \rowcolor[HTML]{9FC5E8} 
+          DateJoined & DataType & Constraint & Definition \\ \hline
+          DateJoined & DATE     & Not NULL    & วันที่เข้าร่วมกิจกรรม \\ \hline
+          Role       & STRING   & Not NULL    & ตำแหน่งในกิจกรรม \\ \hline
+          \end{tabular}
+          \captionof{table}{ตารางเก็บข้อมูลสมาชิกเข้าร่วมกิจกรรม}\label{tab:ActivityRelationship}
+        \end{center}
+      \item Activity BELONGS\_TO Club: กิจกรรมถูกจัดโดยชมรม
+        \begin{center}
+          \begin{tabular}{|c|c|c|c|}
+          \hline
+          \rowcolor[HTML]{9FC5E8} 
+          Property   & DataType & Constraint & Definition \\ \hline
+          OpenDate   & DATETIME & Not NULL    & วันแรกของกิจกรรม \\ \hline
+          CloseDate  & DATETIME & Not NULL    & วันสุดท้ายของกิจกรรม \\ \hline
+          \end{tabular}
+          \captionof{table}{ตารางเก็บข้อมูลกิจกรรมถูกจัดโดยชมรม}\label{tab:ClubActivityRelationship}
+        \end{center}
+    \end{itemize}    
+      \subsubsection{ความสัมพันธ์ที่ไม่มีคุณสมบัติ}
+        \normalsize
+        \begin{itemize}
+          \item ชมรมจัดอยู่ในประเภท
+          \item กิจกรรมถูกแนะนำให้แก่ผู้ใช้งาน
+          \item กิจกรรมที่ผู้ใช้งานเข้าร่วมเปิดให้ประเมินได้แล้ว
+          \item กิจกรรมจัดอยู่ในประเภท
+        \end{itemize}
 \makeatletter
 \g@addto@macro{\UrlBreaks}{\UrlOrds}
 \makeatother
