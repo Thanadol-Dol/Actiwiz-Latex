@@ -6,6 +6,8 @@
 \usepackage{multirow}
 \usepackage[table,xcdraw]{xcolor}
 \usepackage{placeins}
+\usepackage{enumitem}
+\usepackage{caption}
 \setdefaultlanguage{thai}
 \setotherlanguage{english}
 \defaultfontfeatures{Mapping=tex-text,Scale=1.23,LetterSpace=0.0}
@@ -1330,7 +1332,7 @@ Sequence diagram สำหรับแสดงการทำงานของ
       \caption{\centering ตารางเก็บข้อมูลของภาควิชาภายในมหาวิทยาลัย}\label{tab:Department node}
     \end{table}
 
-    \subsubsection*{Club node: เก็บข้อมูลของชมรมภายในมหาวิทยาลัย}
+    \subsubsection{Club node: เก็บข้อมูลของชมรมภายในมหาวิทยาลัย}
     \begin{table}[!h]\centering
       \begin{tabular}{|c|c|c|c|}
       \hline
@@ -1397,97 +1399,62 @@ Sequence diagram สำหรับแสดงการทำงานของ
       \caption{\centering ตารางเก็บข้อมูลประเภทของกิจกรรม}\label{tab:Activity Category node}
     \end{table}
 
-  \subsection{Relationship}  
-    \subsubsection{User เป็นนักศึกษาภาควิชา}
-    \begin{table}[!h]\centering
-      \begin{tabular}{|c|c|c|c|}
-      \hline
-      \rowcolor[HTML]{9FC5E8} 
-      Property                          & {\color[HTML]{242424} DataType} & {\color[HTML]{242424} Constain} & Definition                       \\ \hline
-      \rowcolor[HTML]{FFFFFF} 
-      {\color[HTML]{242424} DateJoined} & {\color[HTML]{242424} DATE}     & {\color[HTML]{242424} Not NULL} & วันที่เข้าเป็นนักศึกษาของภาควิชา \\ \hline
-      \end{tabular}
-      \caption{\centering ตารางเก็บข้อมูลนักศึกษาภาควิชา}\label{tab:Relationship}
-    \end{table}
-
-    \subsubsection{User เป็นสมาชิกของชมรม}
-    \begin{table}[!h]\centering
-      \begin{tabular}{cccc}
-      \hline
-      \rowcolor[HTML]{9FC5E8} 
-      \multicolumn{1}{|c|}{\cellcolor[HTML]{9FC5E8}Property} &
-        \multicolumn{1}{c|}{\cellcolor[HTML]{9FC5E8}{\color[HTML]{242424} DataType}} &
-        \multicolumn{1}{c|}{\cellcolor[HTML]{9FC5E8}{\color[HTML]{242424} Constain}} &
-        \multicolumn{1}{c|}{\cellcolor[HTML]{9FC5E8}Definition} \\ \hline
-      \rowcolor[HTML]{FFFFFF} 
-      \multicolumn{1}{|c|}{\cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} DateJoined}} &
-        \multicolumn{1}{c|}{\cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} DATE}} &
-        \multicolumn{1}{c|}{\cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} Not NULL}} &
-        \multicolumn{1}{c|}{\cellcolor[HTML]{FFFFFF}วันที่เริ่มเป็นสมาชิกชมรม} \\ \hline
-      Role &
-        STRING &
-        Not NULL &
-        ตำแหน่งในชมรม
-      \end{tabular}
-      \caption{\centering ตารางเก็บข้อมูลสมาชิกของชมรม}\label{tab:Userเป็นสมาชิกของชมรม}
-      \end{table}
-
-      \newpage
-
-    \subsubsection{ชมรมถูกแนะนำให้แก่ User}
-
-    \subsubsection{ชมรมจัดอยู่ในประเภท}
-
-    \subsubsection{User เข้าร่วมกิจกรรม}
-    \begin{table}[!h]\centering
-      \begin{tabular}{cccc}
-      \hline
-      \rowcolor[HTML]{9FC5E8} 
-      \multicolumn{1}{|c|}{\cellcolor[HTML]{9FC5E8}DateJoined} &
-        \multicolumn{1}{c|}{\cellcolor[HTML]{9FC5E8}{\color[HTML]{242424} DATE}} &
-        \multicolumn{1}{c|}{\cellcolor[HTML]{9FC5E8}{\color[HTML]{242424} Not NULL}} &
-        \multicolumn{1}{c|}{\cellcolor[HTML]{9FC5E8}วันที่เข้าร่วมกิจกรรม} \\ \hline
-      \rowcolor[HTML]{FFFFFF} 
-      \multicolumn{1}{|c|}{\cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} Role}} &
-        \multicolumn{1}{c|}{\cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} STRING}} &
-        \multicolumn{1}{c|}{\cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} Not NULL}} &
-        \multicolumn{1}{c|}{\cellcolor[HTML]{FFFFFF}ตำแหน่งในกิจกรรม} \\ \hline
-      Role &
-        STRING &
-        Not NULL &
-        ตำแหน่งในชมรม
-      \end{tabular}
-      \caption{\centering ตารางเก็บข้อมูลสมาชิกเข้าร่วมกิจกรรม}\label{tab:Userเข้าร่วมกิจกรรม}
-      \end{table}
-
-      \subsubsection{กิจกรรมถูกแนะนำให้แก่ User}
-
-      \subsubsection{กิจกรรมที่ User เข้าร่วมเปิดให้ประเมินได้แล้ว}
-
-      \subsubsection{กิจกรรมจัดอยู่ในประเภท}
-
-      \subsubsection{กิจกรรมถูกจัดโดยชมรม}
-
-      \begin{table}[!h]\centering
-        \begin{tabular}{cccc}
+  \subsection{Relationship มีอยู่ 2 รูปแบบด้วยกัน ได้แก่ Relationship ที่มี Property ระบุข้อมูลเพิ่มเติมและ Relashipship ที่ไม่มี Property}  
+  \subsubsection{Relationship ที่มี Property}
+  \begin{itemize}
+    \normalsize
+    \item \textbf{User เป็นนักศึกษาภาควิชา}
+      \begin{center}
+        \begin{tabular}{|c|c|c|c|}
         \hline
         \rowcolor[HTML]{9FC5E8} 
-        \multicolumn{1}{|c|}{\cellcolor[HTML]{9FC5E8}Property} &
-          \multicolumn{1}{c|}{\cellcolor[HTML]{9FC5E8}{\color[HTML]{242424} DataType}} &
-          \multicolumn{1}{c|}{\cellcolor[HTML]{9FC5E8}{\color[HTML]{242424} Constain}} &
-          \multicolumn{1}{c|}{\cellcolor[HTML]{9FC5E8}Definition} \\ \hline
-        \rowcolor[HTML]{FFFFFF} 
-        \multicolumn{1}{|c|}{\cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} OpenDate}} &
-          \multicolumn{1}{c|}{\cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} DATETIME}} &
-          \multicolumn{1}{c|}{\cellcolor[HTML]{FFFFFF}{\color[HTML]{242424} Not NULL}} &
-          \multicolumn{1}{c|}{\cellcolor[HTML]{FFFFFF}วันแรกของกิจกรรม} \\ \hline
-        CloseDate &
-          DATETIME &
-          Not NULL &
-          วันสุดท้ายของกิจกรรม
+        Property      & DataType & Constain & Definition \\ \hline
+        DateJoined & DATE     & Not NULL & วันที่เข้าเป็นนักศึกษาของภาควิชา \\ \hline
         \end{tabular}
-        \caption{\centering ตารางเก็บข้อมูลกิจกรรมถูกจัดโดยชมรม}\label{tab:กิจกรรมถูกจัดโดยชมรม}
-      \end{table}
+        \captionof{table}{ตารางเก็บข้อมูลนักศึกษาภาควิชา}\label{tab:Relationship}
+      \end{center}
+    \item \textbf{User เป็นสมาชิกของชมรม}
+      \begin{center}
+        \begin{tabular}{|c|c|c|c|}
+        \hline
+        \rowcolor[HTML]{9FC5E8} 
+        Property      & DataType & Constain & Definition \\ \hline
+        DateJoined & DATE     & Not NULL & วันที่เริ่มเป็นสมาชิกชมรม \\ \hline
+        Role          & STRING   & Not NULL & ตำแหน่งในชมรม \\ \hline
+        \end{tabular}
+        \captionof{table}{ตารางเก็บข้อมูลสมาชิกของชมรม}\label{tab:Userเป็นสมาชิกของชมรม}
+      \end{center}
+    \item \textbf{User เข้าร่วมกิจกรรม}
+      \begin{center}
+        \begin{tabular}{|c|c|c|c|}
+        \hline
+        \rowcolor[HTML]{9FC5E8} 
+        DateJoined & DataType & Constain & Definition \\ \hline
+        DateJoined & DATE     & Not NULL & วันที่เข้าร่วมกิจกรรม \\ \hline
+        Role          & STRING   & Not NULL & ตำแหน่งในกิจกรรม \\ \hline
+        \end{tabular}
+        \captionof{table}{ตารางเก็บข้อมูลสมาชิกเข้าร่วมกิจกรรม}\label{tab:Userเข้าร่วมกิจกรรม}
+      \end{center}
+    \item \textbf{กิจกรรมถูกจัดโดยชมรม}
+      \begin{center}
+        \begin{tabular}{|c|c|c|c|}
+        \hline
+        \rowcolor[HTML]{9FC5E8} 
+        Property  & DataType & Constain & Definition \\ \hline
+        OpenDate   & DATETIME & Not NULL & วันแรกของกิจกรรม \\ \hline
+        CloseDate & DATETIME & Not NULL & วันสุดท้ายของกิจกรรม \\ \hline
+        \end{tabular}
+        \captionof{table}{ตารางเก็บข้อมูลกิจกรรมถูกจัดโดยชมรม}\label{tab:กิจกรรมถูกจัดโดยชมรม}
+      \end{center}
+  \end{itemize}
+    \subsubsection{Relationship ที่ไม่มี Property}
+      \normalsize
+      \begin{itemize}
+        \item ชมรมจัดอยู่ในประเภท
+        \item กิจกรรมถูกแนะนำให้แก่ User
+        \item กิจกรรมที่ User เข้าร่วมเปิดให้ประเมินได้แล้ว
+        \item กิจกรรมจัดอยู่ในประเภท
+      \end{itemize}
 \makeatletter
 \g@addto@macro{\UrlBreaks}{\UrlOrds}
 \makeatother
