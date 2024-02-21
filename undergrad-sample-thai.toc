@@ -90,7 +90,10 @@
 \contentsline {section}{\numberline {4.3}ผลการทดสอบ (Test Results)}{49}{section.4.3}%
 \contentsline {chapter}{\normalsize \bf \MakeUppercase []{บทที่ {\numberline {5}\hskip -0.8em สรุปผลการดำเนินงาน}}}{50}{chapter.5}%
 \contentsline {section}{\numberline {5.1}กระบวนการทำงาน (Work Process)}{50}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}การดำเนินงานในภาคการศึกษาที่ 1}{50}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}การดำเนินงานในภาคการศึกษาที่ 2}{50}{subsection.5.1.2}%
 \contentsline {section}{\numberline {5.2}ปัญหาและการแก้ไข (Problems and Solutions)}{50}{section.5.2}%
 \contentsline {section}{\numberline {5.3}แนวทางการพัฒนา (Future Work)}{50}{section.5.3}%
-\contentsline {chapter}{\mdseries \bf \MakeUppercase []{หนังสืออ้างอิง}}{51}{section.5.3}%
+\contentsline {section}{\numberline {5.4}บทสรุป (Conclusion)}{50}{section.5.4}%
+\contentsline {chapter}{\mdseries \bf \MakeUppercase []{หนังสืออ้างอิง}}{51}{section.5.4}%
 \xpginauxfilefalse 
