@@ -4,17 +4,7 @@ The top-level auxiliary file: undergrad-sample-thai.aux
 The style file: kmutt.bst
 Database file #1: string.bib
 Database file #2: cpe.bib
-Warning--I didn't find a database entry for "NLP1"
-Warning--I didn't find a database entry for "NLP2"
-Warning--I didn't find a database entry for "NLP3"
-Warning--I didn't find a database entry for "NLP4"
-Warning--I didn't find a database entry for "NLP5"
-Warning--I didn't find a database entry for "recommendation1"
-Warning--I didn't find a database entry for "recommendation2"
-Warning--I didn't find a database entry for "recommendation3"
 Warning--empty year in DatabaseCompare
-Warning--empty year in UML
-Warning--empty year in PrincipleDesign
 Warning--empty year in Contrast
 Warning--empty year in Repetition
 Warning--empty year in Alignment
@@ -29,40 +19,42 @@ Warning--empty year in WordEmbeddingForCollaborative
 Warning--empty year in Transformers
 Warning--empty year in BERT
 Warning--empty year in LSTM
+Warning--empty year in UML
+Warning--empty year in PrincipleDesign
 Warning--empty year in Pycharm
 Warning--empty year in Colab
 Warning--empty year in Lucidchart
 Warning--empty year in ReactNative
 You've used 38 entries,
             2177 wiz_defined-function locations,
-            967 strings with 17047 characters,
-and the built_in function-call counts, 8228 in all, are:
-= -- 856
-> -- 272
+            954 strings with 16805 characters,
+and the built_in function-call counts, 9012 in all, are:
+= -- 912
+> -- 400
 < -- 0
-+ -- 116
-- -- 78
-* -- 445
-:= -- 1440
++ -- 164
+- -- 126
+* -- 548
+:= -- 1584
 add.period$ -- 38
 call.type$ -- 38
-change.case$ -- 115
+change.case$ -- 139
 chr.to.int$ -- 0
 cite$ -- 59
 duplicate$ -- 266
 empty$ -- 761
-format.name$ -- 78
-if$ -- 1735
+format.name$ -- 126
+if$ -- 1871
 int.to.chr$ -- 0
 int.to.str$ -- 38
 missing$ -- 0
 newline$ -- 193
 num.names$ -- 76
-pop$ -- 309
+pop$ -- 333
 preamble$ -- 1
-purify$ -- 115
+purify$ -- 139
 quote$ -- 0
-skip$ -- 245
+skip$ -- 246
 stack$ -- 0
 substring$ -- 190
 swap$ -- 38
@@ -74,4 +66,4 @@ warning$ -- 21
 while$ -- 76
 width$ -- 40
 write$ -- 437
-(There were 29 warnings)
+(There were 21 warnings)
