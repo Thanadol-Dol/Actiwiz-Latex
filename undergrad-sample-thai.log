@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.18)  21 FEB 2024 14:51
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.18)  22 FEB 2024 00:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -651,7 +651,14 @@ Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \RaggedLeftParindent=\skip71
 \RaggedRightParindent=\skip72
 \JustifyingParindent=\skip73
-) (./undergrad-sample-thai.aux)
+) (./undergrad-sample-thai.aux
+
+LaTeX Warning: Label `tab:functionaltesting' multiply defined.
+
+
+LaTeX Warning: Label `tab:functionaltesting' multiply defined.
+
+)
 \openout1 = `undergrad-sample-thai.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
@@ -1449,6 +1456,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1431--1432
 []\TU/THSarabunNew(1)/m/n/10 ในบทนี้จะกล่าวถึงผลลัพธ์จากการทดสอบฟังก์ชันหลักของระบบในแอปพลิเคชัน รวมถึงความสามารถในการทำงาน ความเหมาะ
  []
 
+
+Underfull \hbox (badness 1337) in paragraph at lines 1505--1506
+[]\TU/THSarabunNew(1)/m/n/10 จากตารางที่ 4.1 เป็นรายการสำหรับทดสอบการทํางานของฟังก์ชันต่างๆในแอพลิเคชัน เพื่อทดสอบว่าการตอบสนองต่อการใช้งาน
+ []
+
 [49
 
 ]
@@ -1456,7 +1468,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1431--1432
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
-(hyperref)                removed on input line 1436.
+(hyperref)                removed on input line 1509.
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 1510--1513
+\TU/THSarabunNew(1)/m/n/10 งานของโครงการทั้งหมดตลอดปีการศึกษา 2023 ที่ผ่านมา โดยจะเป็นการสรุปผลกระบวนการทั้งที่ทางผู้จัดทำได้ทำสำเร็จไปแล้ว และ
+ []
 
 (./undergrad-sample-thai.bbl [50
 
@@ -1706,14 +1723,18 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `undergrad-sample-thai.out' has not changed.
-(rerunfilecheck)             Checksum: E65E67A6FF48C3873D305576BD6EB826;26380.
+(rerunfilecheck)             Checksum: 1F0A7D71C37C8A28096787A918CD9720;27155.
  ) 
 Here is how much of TeX's memory you used:
- 20559 strings out of 474924
- 396187 string characters out of 5765030
- 1972189 words of memory out of 5000000
- 42221 multiletter control sequences out of 15000+600000
+ 20561 strings out of 474924
+ 396223 string characters out of 5765030
+ 1971189 words of memory out of 5000000
+ 42223 multiletter control sequences out of 15000+600000
  560710 words of font info for 81 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  108i,17n,121p,3143b,657s stack positions out of 10000i,1000n,20000p,200000b,200000s
