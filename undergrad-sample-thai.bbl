@@ -2,309 +2,192 @@
 
 \bibitem{MobileAppArchitecture}
 Toni Vujevic,  2566,
-\newblock ``{The Mobile App Architecture Guide},''
-  จากเว็บไซต์
-  \url{https://decode.agency/article/mobile-app-architecture/},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
-
-\bibitem{HTTPProtocol}
-Rufai Mustapha,  2566,
-\newblock ``{What is HTTP? Protocol Overview for Beginners},''
-  จากเว็บไซต์
-  \url{https://www.freecodecamp.org/news/what-is-http/#introduction-to-http},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
-
-\bibitem{RestAPI}
-Settawat Janpuk,  2562,
-\newblock ``{\textthai{มาทำความรู้จักกับ REST
-  API กันดีกว่า}},'' จากเว็บไซต์
-  \url{https://medium.com/@settawatjanpuk/beginner-%E0%B8%A1%E0%B8%B2%E0%B8%97%E0%B8%B3%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B9%E0%B9%89%E0%B8%88%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%B1%E0%B8%9A-rest-api-%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%94%E0%B8%B5%E0%B8%81%E0%B8%A7%E0%B9%88%E0%B8%B2-%E0%B8%A1%E0%B8%B5%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87-c855d93beaf3},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
+\newblock ``{The Mobile App Architecture Guide},'' จากเว็บไซต์ \url{https://decode.agency/article/mobile-app-architecture/},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
 
 \bibitem{RestAPIDesign}
 Jerapa~Beamgo Soonsongthanee,  2563,
-\newblock ``{\textthai{ออกแบบ RESTful API
-  ยังไงให้ปัง}},'' จากเว็บไซต์
-  \url{https://medium.com/@jerapabeamgosoonsongthanee/%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B9%81%E0%B8%9A%E0%B8%9A-restful-api-%E0%B8%A2%E0%B8%B1%E0%B8%87%E0%B9%84%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%9B%E0%B8%B1%E0%B8%87-69d2015bcc31},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
-
-\bibitem{GraphDatabase}
-Tanabodin Kamol,  2562,
-\newblock ``{\textthai{Graph database
-  มากกว่าที่คุณคิด}},''
-  จากเว็บไซต์
-  \url{https://medium.com/icreativesystems/what-is-graph-database-d0206466f5ca},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
+\newblock ``{\textthai{ออกแบบ RESTful API ยังไงให้ปัง}},'' จากเว็บไซต์ \url{https://medium.com/@jerapabeamgosoonsongthanee/%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B9%81%E0%B8%9A%E0%B8%9A-restful-api-%E0%B8%A2%E0%B8%B1%E0%B8%87%E0%B9%84%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%9B%E0%B8%B1%E0%B8%87-69d2015bcc31},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
 
 \bibitem{GraphDatabaseProperty}
 Tanabodin Kamol,  2562,
-\newblock ``{\textthai{Graph database property}},''
-  จากเว็บไซต์
-  \url{https://miro.medium.com/v2/resize:fit:4800/format:webp/0*lsbatEPo6529Qcxw.jpg},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
+\newblock ``{\textthai{Graph database property}},'' จากเว็บไซต์ \url{https://miro.medium.com/v2/resize:fit:4800/format:webp/0*lsbatEPo6529Qcxw.jpg},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
 
 \bibitem{DatabaseCompare}
 Amazon~Web Services,
-\newblock
-  ``{\textthai{ฐานข้อมูลแบบกราฟและฐานข้อมูลแบบเชิงสัมพันธ์แตกต่างกันอย่างไร}},''
-  จากเว็บไซต์
-  \url{https://aws.amazon.com/th/compare/the-difference-between-graph-and-relational-database/},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
-
-\bibitem{UML}
-Saladpuk,
-\newblock ``{\textthai{UML พื้นฐาน - Saladpuk.com}},''
-  จากเว็บไซต์ \url{https://www.saladpuk.com/basic/uml},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
-
-\bibitem{PrincipleDesign}
-Tao,
-\newblock ``{\textthai{Principle Design คือ อะไร ทำไม
-  UX/UI Designer ต้องทำตาม}},''
-  จากเว็บไซต์
-  \url{https://blog.clicknext.com/principle-design/},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
+\newblock ``{\textthai{ฐานข้อมูลแบบกราฟและฐานข้อมูลแบบเชิงสัมพันธ์แตกต่างกันอย่างไร}},'' จากเว็บไซต์ \url{https://aws.amazon.com/th/compare/the-difference-between-graph-and-relational-database/},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
 
 \bibitem{MobileAppArchitectureOverview}
 Toni Vujevic,  2566,
-\newblock ``{Mobile App Architecture Overview},''
-  จากเว็บไซต์
-  \url{https://decode.agency/wp-content/uploads/2023/05/Frame-6435.svg},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
+\newblock ``{Mobile App Architecture Overview},'' จากเว็บไซต์ \url{https://decode.agency/wp-content/uploads/2023/05/Frame-6435.svg},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
 
 \bibitem{PresentationLayer}
 Toni Vujevic,  2566,
-\newblock ``{Presentation Layer},'' จากเว็บไซต์
-  \url{https://decode.agency/wp-content/uploads/2023/05/1.30-Investment-stock-Detail.svg},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
+\newblock ``{Presentation Layer},'' จากเว็บไซต์ \url{https://decode.agency/wp-content/uploads/2023/05/1.30-Investment-stock-Detail.svg},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
 
 \bibitem{BusinessLayer}
 Toni Vujevic,  2566,
-\newblock ``{Business Layer},'' จากเว็บไซต์
-  \url{https://decode.agency/wp-content/uploads/2023/05/Group-6376.svg},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
+\newblock ``{Business Layer},'' จากเว็บไซต์ \url{https://decode.agency/wp-content/uploads/2023/05/Group-6376.svg},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
 
 \bibitem{HTTPCycle}
 Rufai Mustapha,  2566,
-\newblock ``{HTTP Request-Response Cycle},'' จากเว็บไซต์
-  \url{https://www.freecodecamp.org/news/content/images/2023/04/http-client-server-RR.jpg},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
+\newblock ``{HTTP Request-Response Cycle},'' จากเว็บไซต์ \url{https://www.freecodecamp.org/news/content/images/2023/04/http-client-server-RR.jpg},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
 
 \bibitem{Contrast}
 Tao,
-\newblock ``{Contrast},'' จากเว็บไซต์
-  \url{https://blog.clicknext.com/wp-content/uploads/2020/12/cn_crap-01-1024x535.jpg},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
+\newblock ``{Contrast},'' จากเว็บไซต์ \url{https://blog.clicknext.com/wp-content/uploads/2020/12/cn_crap-01-1024x535.jpg},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
 
 \bibitem{Repetition}
 Tao,
-\newblock ``{Repetition},'' จากเว็บไซต์
-  \url{https://blog.clicknext.com/wp-content/uploads/2020/12/cn_crap-02jpg-1024x535.jpg},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
+\newblock ``{Repetition},'' จากเว็บไซต์ \url{https://blog.clicknext.com/wp-content/uploads/2020/12/cn_crap-02jpg-1024x535.jpg},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
 
 \bibitem{Alignment}
 Tao,
-\newblock ``{Alignment},'' จากเว็บไซต์
-  \url{https://blog.clicknext.com/wp-content/uploads/2020/12/cn_crap-03-1024x535.jpg},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
+\newblock ``{Alignment},'' จากเว็บไซต์ \url{https://blog.clicknext.com/wp-content/uploads/2020/12/cn_crap-03-1024x535.jpg},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
 
 \bibitem{Proximity}
 Tao,
-\newblock ``{Proximity},'' จากเว็บไซต์
-  \url{https://blog.clicknext.com/wp-content/uploads/2020/12/cn_crap-04-1024x535.jpg},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
+\newblock ``{Proximity},'' จากเว็บไซต์ \url{https://blog.clicknext.com/wp-content/uploads/2020/12/cn_crap-04-1024x535.jpg},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
 
 \bibitem{Content-Based}
-Michael J. Pazzani และ~Daniel Billsus,
-\newblock ``{\textthai{Content-Based Recommendation Systems}},''
-  จากเว็บไซต์
-  \url{https://link.springer.com/chapter/10.1007/978-3-540-72079-9_10},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
+Michael~J. Pazzani and Daniel Billsus,
+\newblock ``{\textthai{Content-Based Recommendation Systems}},'' จากเว็บไซต์ \url{https://link.springer.com/chapter/10.1007/978-3-540-72079-9_10},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
 
 \bibitem{Item-Based}
-Badrul Sarwar และ George Karypis และ Joseph~Konstan และ and
-  John Ried,
-\newblock ``{\textthai{Item-Based Collaborative Filtering Recommendation
-  Algorithms}},'' จากเว็บไซต์
-  \url{https://www.ra.ethz.ch/cdstore/www10/papers/pdf/p519.pdf},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
+Badrul Sarwar, George Karypis, Joseph Konstan, , and John Ried,
+\newblock ``{\textthai{Item-Based Collaborative Filtering Recommendation Algorithms}},'' จากเว็บไซต์ \url{https://www.ra.ethz.ch/cdstore/www10/papers/pdf/p519.pdf},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
 
 \bibitem{Content-Boosted}
-Prem Melville และ Raymond J. Mooney และ~Ramadass Nagarajan,
-\newblock ``{\textthai{Content-Boosted Collaborative Filtering for Improved
-  Recommendations}},'' จากเว็บไซต์
-  \url{https://www.cs.utexas.edu/~ml/papers/cbcf-aaai-02.pdf},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
+Prem Melville, Raymond~J. Mooney, and Ramadass Nagarajan,
+\newblock ``{\textthai{Content-Boosted Collaborative Filtering for Improved Recommendations}},'' จากเว็บไซต์ \url{https://www.cs.utexas.edu/~ml/papers/cbcf-aaai-02.pdf},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
 
 \bibitem{recommendation}
-Francesco Ricci และ Lior Rokach และ Bracha Shapira และ
-  Paul~B. Kantor,
-\newblock ``{\textthai{Recommender Systems Handbook}},''
-  จากเว็บไซต์
-  \url{https://link.springer.com/book/10.1007/978-0-387-85820-3},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
+Francesco Ricci, Lior Rokach, Bracha Shapira, and Paul~B. Kantor,
+\newblock ``{\textthai{Recommender Systems Handbook}},'' จากเว็บไซต์ \url{https://link.springer.com/book/10.1007/978-0-387-85820-3},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
 
 \bibitem{NLPforContentbase}
 Melania Berbatova,
-\newblock ``{\textthai{Overview on NLP Techniques for Content-Based Recommender
-  Systems for Books}},'' จากเว็บไซต์
-  \url{https://aclanthology.org/R19-2009.pdf},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
+\newblock ``{\textthai{Overview on NLP Techniques for Content-Based Recommender Systems for Books}},'' จากเว็บไซต์ \url{https://aclanthology.org/R19-2009.pdf},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
 
 \bibitem{WordEmbedding}
-Oren Barkan และ~Noam Koenigstein,
-\newblock ``{\textthai{ITEM2VEC: Neural item embedding for collaborative
-  filtering}},'' จากเว็บไซต์
-  \url{https://ieeexplore.ieee.org/abstract/document/7738886},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
+Oren Barkan and Noam Koenigstein,
+\newblock ``{\textthai{ITEM2VEC: Neural item embedding for collaborative filtering}},'' จากเว็บไซต์ \url{https://ieeexplore.ieee.org/abstract/document/7738886},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
 
 \bibitem{WordEmbeddingForCollaborative}
-Daniel Valcarcea และ Alfonso Landina และ Javier
-  Parapara~และAlvaro Barreiroa,
-\newblock ``{\textthai{Collaborative Filtering Embeddingsfor Memory-based
-  Recommender Systems}},'' จากเว็บไซต์
-  \url{https://www.researchgate.net/publication/334697349_Collaborative_filtering_embeddings_for_memory-based_recommender_systems},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
+Daniel Valcarcea, Alfonso Landina, and Javier~Parapara andAlvaro Barreiroa,
+\newblock ``{\textthai{Collaborative Filtering Embeddingsfor Memory-based Recommender Systems}},'' จากเว็บไซต์ \url{https://www.researchgate.net/publication/334697349_Collaborative_filtering_embeddings_for_memory-based_recommender_systems},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
 
 \bibitem{Transformers}
-Ashish Vaswani และ Noam Shazeer และ Niki Parmar และ Jakob
-  Uszkoreit และ Llion Jones และ Aidan N. Gomez และ Lukasz
-  Kaiser และ~Illia Polosukhin,
-\newblock ``{\textthai{Attention Is All You Need}},''
-  จากเว็บไซต์ \url{https://arxiv.org/abs/1706.03762},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan~N. Gomez, Lukasz Kaiser, and Illia Polosukhin,
+\newblock ``{\textthai{Attention Is All You Need}},'' จากเว็บไซต์ \url{https://arxiv.org/abs/1706.03762},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
 
 \bibitem{BERT}
-Jacob Devlin และ Ming-Wei Chang และ Kenton Lee และ~Kristina
-  Toutanova,
-\newblock ``{\textthai{BERT: Pre-training of Deep Bidirectional Transformers
-  for Language Understanding}},'' จากเว็บไซต์
-  \url{https://arxiv.org/abs/1810.04805},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova,
+\newblock ``{\textthai{BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding}},'' จากเว็บไซต์ \url{https://arxiv.org/abs/1810.04805},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
 
 \bibitem{LSTM}
-Stephen Merity และ Nitish Shirish Keskar และ~Richard Socher,
-\newblock ``{\textthai{Regularizing and Optimizing LSTM Language Models}},''
-  จากเว็บไซต์ \url{https://arxiv.org/abs/1708.02182},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
+Stephen Merity, Nitish~Shirish Keskar, and Richard Socher,
+\newblock ``{\textthai{Regularizing and Optimizing LSTM Language Models}},'' จากเว็บไซต์ \url{https://arxiv.org/abs/1708.02182},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
+
+\bibitem{HTTPProtocol}
+Rufai Mustapha,  2566,
+\newblock ``{What is HTTP? Protocol Overview for Beginners},'' จากเว็บไซต์ \url{https://www.freecodecamp.org/news/what-is-http/#introduction-to-http},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
+
+\bibitem{RestAPI}
+Settawat Janpuk,  2562,
+\newblock ``{\textthai{มาทำความรู้จักกับ REST API กันดีกว่า}},'' จากเว็บไซต์ \url{https://medium.com/@settawatjanpuk/beginner-%E0%B8%A1%E0%B8%B2%E0%B8%97%E0%B8%B3%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B9%E0%B9%89%E0%B8%88%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%B1%E0%B8%9A-rest-api-%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%94%E0%B8%B5%E0%B8%81%E0%B8%A7%E0%B9%88%E0%B8%B2-%E0%B8%A1%E0%B8%B5%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87-c855d93beaf3},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
 
 \bibitem{Pagination}
 Jerapa~Beamgo Soonsongthanee,  2563,
-\newblock ``{Pagination},'' จากเว็บไซต์
-  \url{https://miro.medium.com/v2/resize:fit:1400/format:webp/1*nBaoHvynrhkWFWifMW3avA.png},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
+\newblock ``{Pagination},'' จากเว็บไซต์ \url{https://miro.medium.com/v2/resize:fit:1400/format:webp/1*nBaoHvynrhkWFWifMW3avA.png},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
+
+\bibitem{GraphDatabase}
+Tanabodin Kamol,  2562,
+\newblock ``{\textthai{Graph database มากกว่าที่คุณคิด}},'' จากเว็บไซต์ \url{https://medium.com/icreativesystems/what-is-graph-database-d0206466f5ca},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
+
+\bibitem{UML}
+Saladpuk,
+\newblock ``{\textthai{UML พื้นฐาน - Saladpuk.com}},'' จากเว็บไซต์ \url{https://www.saladpuk.com/basic/uml},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
+
+\bibitem{PrincipleDesign}
+Tao,
+\newblock ``{\textthai{Principle Design คือ อะไร ทำไม UX/UI Designer ต้องทำตาม}},'' จากเว็บไซต์ \url{https://blog.clicknext.com/principle-design/},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
 
 \bibitem{VSCode}
 mindphp,  2560,
-\newblock ``{\textthai{รู้จักกับ Visual Studio Code
-  (วิชวล สตูดิโอ โค้ด)
-  โปรแกรมฟรีจากค่ายไมโครซอฟท์}},''
-  จากเว็บไซต์
-  \url{https://www.mindphp.com/%E0%B8%9A%E0%B8%97%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1/microsoft/4829-visual-studio-code.html},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
+\newblock ``{\textthai{รู้จักกับ Visual Studio Code (วิชวล สตูดิโอ โค้ด) โปรแกรมฟรีจากค่ายไมโครซอฟท์}},'' จากเว็บไซต์ \url{https://www.mindphp.com/%E0%B8%9A%E0%B8%97%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1/microsoft/4829-visual-studio-code.html},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
 
 \bibitem{Pycharm}
 thaiall,
-\newblock ``{\textthai{ไพชาม (pycharm)
-  ใช้เขียนไพทอน (python)}},''
-  จากเว็บไซต์ \url{https://www.thaiall.com/pycharm/},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
+\newblock ``{\textthai{ไพชาม (pycharm) ใช้เขียนไพทอน (python)}},'' จากเว็บไซต์ \url{https://www.thaiall.com/pycharm/},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
 
 \bibitem{Colab}
 google research,
-\newblock ``{\textthai{ยินดีต้อนรับสู่
-  Colaboratory}},'' จากเว็บไซต์
-  \url{https://colab.research.google.com/?hl=th},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
+\newblock ``{\textthai{ยินดีต้อนรับสู่ Colaboratory}},'' จากเว็บไซต์ \url{https://colab.research.google.com/?hl=th},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
 
 \bibitem{Figma}
 skooldio,  2565,
-\newblock ``{\textthai{Figma คืออะไร
-  ทำไมถึงเป็น Tool
-  มาแรงที่สุดในวงการ Design}},''
-  จากเว็บไซต์
-  \url{https://blog.skooldio.com/figma-ui-design-tool/},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
+\newblock ``{\textthai{Figma คืออะไร ทำไมถึงเป็น Tool มาแรงที่สุดในวงการ Design}},'' จากเว็บไซต์ \url{https://blog.skooldio.com/figma-ui-design-tool/},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
 
 \bibitem{Lucidchart}
 ets kmutt,
-\newblock ``{Lucidchart},'' จากเว็บไซต์
-  \url{https://techintegration.ets.kmutt.ac.th/content/tech-review/lucidchart},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
+\newblock ``{Lucidchart},'' จากเว็บไซต์ \url{https://techintegration.ets.kmutt.ac.th/content/tech-review/lucidchart},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
 
 \bibitem{ReactNative}
 codemobiles,
-\newblock ``{React-Native Programming},'' จากเว็บไซต์
-  \url{https://www.codemobiles.co.th/online/course.php?id=react_native},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
+\newblock ``{React-Native Programming},'' จากเว็บไซต์ \url{https://www.codemobiles.co.th/online/course.php?id=react_native},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
 
 \bibitem{FastAPI}
 Sirasit Boonklang,  2565,
-\newblock ``{\textthai{มาทำความรู้จักกับ Fast
-  API}},'' จากเว็บไซต์
-  \url{https://www.borntodev.com/2021/10/08/%E0%B8%A1%E0%B8%B2%E0%B8%97%E0%B8%B3%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B9%E0%B9%89%E0%B8%88%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%B1%E0%B8%9A-fast-api/},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
+\newblock ``{\textthai{มาทำความรู้จักกับ Fast API}},'' จากเว็บไซต์ \url{https://www.borntodev.com/2021/10/08/%E0%B8%A1%E0%B8%B2%E0%B8%97%E0%B8%B3%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B9%E0%B9%89%E0%B8%88%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%B1%E0%B8%9A-fast-api/},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
 
 \bibitem{Neo4j}
 AppMaster,  2565,
-\newblock ``{\textthai{ฐานข้อมูลกราฟ Neo4j:
-  ความสามารถและผลกำไรสำหรับธุรกิจของคุณ}},''
-  จากเว็บไซต์
-  \url{https://appmaster.io/th/blog/thaankh-muulkraaf-neo4j},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
+\newblock ``{\textthai{ฐานข้อมูลกราฟ Neo4j: ความสามารถและผลกำไรสำหรับธุรกิจของคุณ}},'' จากเว็บไซต์ \url{https://appmaster.io/th/blog/thaankh-muulkraaf-neo4j},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
 
 \bibitem{Git}
 stackpython,  2563,
-\newblock ``{\textthai{ทำความรู้จัก Git และ
-  GitHub พร้อมการใช้งานร่วมกับ VS
-  Code เบื้องต้น}},'' จากเว็บไซต์
-  \url{https://stackpython.medium.com/%E0%B8%97%E0%B8%B3%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B9%E0%B9%89%E0%B8%88%E0%B8%B1%E0%B8%81-git-github-%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1%E0%B8%81%E0%B8%B1%E0%B8%9A-vs-code-%E0%B9%80%E0%B8%9A%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%95%E0%B9%89%E0%B8%99-f848f41a39e9},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
+\newblock ``{\textthai{ทำความรู้จัก Git \& GitHub พร้อมการใช้งานร่วมกับ VS Code เบื้องต้น}},'' จากเว็บไซต์ \url{https://stackpython.medium.com/%E0%B8%97%E0%B8%B3%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B9%E0%B9%89%E0%B8%88%E0%B8%B1%E0%B8%81-git-github-%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1%E0%B8%81%E0%B8%B1%E0%B8%9A-vs-code-%E0%B9%80%E0%B8%9A%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%95%E0%B9%89%E0%B8%99-f848f41a39e9},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
 
 \bibitem{Jest}
 stackpython,  2562,
-\newblock ``{\textthai{Jest คืออะไร
-  เริ่มต้นเขียน Test ด้วย Jest
-  กันดีกว่า}},'' จากเว็บไซต์
-  \url{https://blog.devahoy.com/blog/2019/08/getting-started-with-testing-and-jest},
-\newblock [ออนไลน์; วันที่สืบค้น 28
-  พฤศจิกายน 2566].
+\newblock ``{\textthai{Jest คืออะไร เริ่มต้นเขียน Test ด้วย Jest กันดีกว่า}},'' จากเว็บไซต์ \url{https://blog.devahoy.com/blog/2019/08/getting-started-with-testing-and-jest},
+\newblock [ออนไลน์; วันที่สืบค้น 28 พฤศจิกายน 2566].
 
 \end{thebibliography}
