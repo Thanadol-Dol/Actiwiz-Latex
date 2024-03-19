@@ -1431,6 +1431,48 @@ Instagram คือ แอปพลิเคชันบน smartphone และ
         \end{itemize}
 \chapter{ผลการทดลองและอภิปรายผล}
 ในบทนี้จะกล่าวถึงผลลัพธ์จากการทดสอบฟังก์ชันหลักของระบบในแอปพลิเคชัน รวมถึงความสามารถในการทำงาน ความเหมาะสมในการใช้งาน การตอบสนองต่อผู้ใช้ และความพึงพอใจของผู้ใช้
+\section{การเปลี่ยนแปลงรายละเอียดของโครงการ}
+รายละเอียดของโครงการที่เปลี่ยนแปลงไปจากภาคการศึกษาที่ 1 ประกอบไปด้วยส่วนของการออกแบบแอปพลิเคชันต่าง ๆ ดังนี้
+ \subsection{รายการคุณลักษณะ (Feature List)}
+   นำ Feature สำหรับการลงทะเบียนผู้ใช้กับระบบของแอปพลิเคชันออก
+   และเปลี่ยนเป็นการ Login และ Authenticate ผู้ใช้ผ่านระบบของ Microsoft Entra ID
+   ที่ให้ผู้ใช้สามารถ Login ด้วย Kmutt Internet Account ที่่ผู้ใช้ลงทะเบียนไว้กับมหาวิทยาลัยไว้แล้ว
+   โดยไม่ต้องลงทะเบียนแอปพลิเคชันซ้ำอีก
+ \subsection{เเผนภาพที่ใช้เเสดงปฎิสัมพันธ์ระหว่างระบบงานเเละสิ่งที่อยู่นอกระบบงาน (Use Case Diagram)}
+   นำ Use Case ที่เกี่ยวกับการลงทะเบียนออก และแผนภาพที่ได้ทำการแก้ไขใหม่จะออกมาเป็นดังนี้
+   \begin{figure}[!h]\centering
+    \setlength{\fboxrule}{0.5mm} % can define this in the preamble
+    \setlength{\fboxsep}{0.5cm}
+    \fbox{\includegraphics[width=13cm]{./Pictures/V4_Use_Cases_Diagram.png}}
+    \caption{Edited Use Case Diagram}\label{fig:editedusecasediagram}
+   \end{figure}
+ \subsection{เเผนภาพที่ใช้เเสดงการทำงานของระบบ (Sequence Diagram)}
+   นำแผนภาพที่เกี่ยวกับการลงทะเบียนออก และแก้ไขแผนภาพที่แสดงขั้นตอนการ login เข้าสู่ระบบใหม่ เพื่อแสดงขั้นตอนที่เปลี่ยนไป
+   และแผนภาพที่ได้ทำการแก้ไขใหม่จะออกมาเป็นดังนี้
+   \begin{figure}[!h]\centering
+    \setlength{\fboxrule}{0.5mm} % can define this in the preamble
+    \setlength{\fboxsep}{0.5cm}
+    \fbox{\includegraphics[width=15cm]{./Pictures/V5_Sequence_Diagram.png}}
+    \caption{Edited Login Sequence Diagram}\label{fig:editedloginsequencediagram}
+  \end{figure}
+  \section{การพัฒนาของโครงการ}
+  \begin{table}[!h]
+    \centering
+    \begin{tabular}{|l|c|c|}
+    \hline
+    \rowcolor[HTML]{9FC5E8} 
+    \multicolumn{1}{|c|}{\cellcolor[HTML]{9FC5E8}รายการฟังก์ชั่นที่จะส่งมอบ}                                                                    & หลักฐาน & สถานะ      \\ \hline
+    ระบบ Log in ผ่านอีเมลของมหาวิทยาลัย                                                                                                         &         & กำลังพัฒนา \\ \hline
+    \begin{tabular}[c]{@{}l@{}}ระบบรวบรวมข้อมูลของชมรมต่าง ๆ เอาไว้ โดยผู้ใช้สามารถค้นหาและ\\ ติดตามข้อมูลของชมรมที่ตนเองสนใจได้\end{tabular}   &         & กำลังพัฒนา \\ \hline
+    ระบบแจ้งเตือนกิจกรรมที่เกี่ยวข้องกับชมรมหรือความสนใจของนักศึกษา                                                                             &         & กำลังพัฒนา \\ \hline
+    ระบบแจ้งเตือนการประเมินผลกิจกรรม เมื่อฟอร์มการประเมินพร้อมใช้งาน                                                                            &         & กำลังพัฒนา \\ \hline
+    \begin{tabular}[c]{@{}l@{}}ระบบแนะนํากิจกรรมและชมรม ตามความสนใจของผู้ใช้โดยอ้างอิง\\ จาก tag ของกิจกรรม\end{tabular}                        &         & กำลังพัฒนา \\ \hline
+    \begin{tabular}[c]{@{}l@{}}ระบบวิเคราะห์ความสนใจของผู้ใช้ผ่านเนื้อหาของกิจกรรมที่ผู้ใช้เคยเข้าร่วม\\  เข้าไปอ่านรายละเอียด หรือเกี่ยวข้องกับชมรมที่สนใจ\end{tabular} &
+       &
+      กำลังพัฒนา \\ \hline
+    \begin{tabular}[c]{@{}l@{}}ระบบแยกประเภทกิจกรรมอัตโนมัติโดยวิเคราะห์จากเนื้อหา \\ ออกมาเป็น tag ต่าง ๆ โดยใช้ Machine Learning\end{tabular} &         & กำลังพัฒนา \\ \hline
+    \end{tabular}
+    \end{table}
 \section{การทดสอบการทำงาน (Functional Testing)}
 \begin{table}[!h]
   \centering

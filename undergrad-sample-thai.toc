@@ -1,4 +1,3 @@
-\xpginauxfiletrue 
 \selectlanguage *{thai}
 \contentsline {chapterx}{\mdseries กิตติกรรมประกาศ}{iii}{Doc-Start}%
 \contentsline {chapterx}{\mdseries สารบัญ}{iv}{Doc-Start}%
@@ -81,28 +80,32 @@
 \contentsline {subsubsection}{\numberline {3.7.1.4}โหนด Club Category: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับรายละเอียดประเภทชมรมภายในมหาวิทยาลัย}{46}{subsubsection.3.7.1.4}%
 \contentsline {subsubsection}{\numberline {3.7.1.5}โหนด Activity: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับรายละเอียดของชมรมภายในมหาวิทยาลัย}{47}{subsubsection.3.7.1.5}%
 \contentsline {subsubsection}{\numberline {3.7.1.6}โหนด Activity Category: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับประเภทของกิจกรรมภายในมหาวิทยาลัย}{47}{subsubsection.3.7.1.6}%
-\contentsline {subsection}{\numberline {3.7.2}ความสัมพันธ์ \\ ความสัมพันธ์ภายในแบบจำลองข้อมูลแบบกราฟของแอพพลิเคชัน Actiwiz เป็นการสร้างความเชื่อมโยงและการมีปฏิสัมพันธ์ระหว่างโหนดต่าง ๆ ซึ่งมีส่วนช่วยในการนำเสนอเรื่องราวการเข้าร่วมกิจกรรมและชมรมภายในมหาวิทยาลัยแบบยืดหยุ่นและเชื่อมโยงถึงกัน โดยความสัมพันธ์จะมีอยู่ 2 รูปแบบด้วยกัน ได้แก่ความสัมพันธ์ที่มีคุณสมบัติที่บอกข้อมูลเพิ่มเติมและความสัมพันธ์ที่ไม่มีคุณสมบัติเพิ่มเติม}{47}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {3.7.2}ความสัมพันธ์}{47}{subsection.3.7.2}%
 \contentsline {subsubsection}{\numberline {3.7.2.1}ความสัมพันธ์ที่มีคุณสมบัติ}{47}{subsubsection.3.7.2.1}%
 \contentsline {subsubsection}{\numberline {3.7.2.2}ความสัมพันธ์ที่ไม่มีคุณสมบัติ}{48}{subsubsection.3.7.2.2}%
 \contentsline {chapter}{\normalsize \bf \MakeUppercase []{บทที่ {\numberline {4}\hskip -0.8em ผลการทดลองและอภิปรายผล}}}{49}{chapter.4}%
-\contentsline {section}{\numberline {4.1}การทดสอบการทำงาน (Functional Testing)}{49}{section.4.1}%
-\contentsline {section}{\numberline {4.2}การทดสอบคุณภาพของระบบ (Non Functional Testing)}{49}{section.4.2}%
-\contentsline {section}{\numberline {4.3}ผลการทดสอบ (Test Results)}{49}{section.4.3}%
-\contentsline {chapter}{\normalsize \bf \MakeUppercase []{บทที่ {\numberline {5}\hskip -0.8em สรุปผลการดำเนินงาน}}}{50}{chapter.5}%
-\contentsline {section}{\numberline {5.1}กระบวนการทำงาน (Work Process)}{50}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}การดำเนินงานในภาคการศึกษาที่ 1}{50}{subsection.5.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.1.1}การเตรียมการเริ่มต้นโครงการ}{50}{subsubsection.5.1.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.1.2}ศึกษาวิธีการพัฒนาแอปพลิเคชัน}{50}{subsubsection.5.1.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.1.3}ออกแบบแอปพลิเคชัน}{50}{subsubsection.5.1.1.3}%
-\contentsline {subsubsection}{\numberline {5.1.1.4}จัดเตรียมข้อมูล}{50}{subsubsection.5.1.1.4}%
-\contentsline {subsection}{\numberline {5.1.2}การดำเนินงานในภาคการศึกษาที่ 2}{51}{subsection.5.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.2.1}การพัฒนาแอปพลิเคชัน}{51}{subsubsection.5.1.2.1}%
-\contentsline {subsubsection}{\numberline {5.1.2.2}การทดสอบแอปพลิเคชัน}{51}{subsubsection.5.1.2.2}%
-\contentsline {section}{\numberline {5.2}ปัญหาที่พบในโครงการและการแก้ไข (Problems and Solutions)}{51}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}ความไม่คุ้นชินกับเทคโนโลยีที่ใช้ในการพัฒนา}{51}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}จำนวนข้อมูลที่สามารถใช้ได้มีน้อย}{51}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}ความลำบากในการขอข้อมูลจากมหาวิทยาลัย}{51}{subsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.2.4}หน่วยประมวลผลที่ใช้ในการพัฒนา Machine Learning มีจำนวนน้อย}{51}{subsection.5.2.4}%
-\contentsline {section}{\numberline {5.3}แนวทางการพัฒนาในอนาคต (Future Work)}{51}{section.5.3}%
-\contentsline {chapter}{\mdseries \bf \MakeUppercase []{หนังสืออ้างอิง}}{52}{section.5.3}%
-\xpginauxfilefalse 
+\contentsline {section}{\numberline {4.1}การเปลี่ยนแปลงรายละเอียดของโครงการ}{49}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}รายการคุณลักษณะ (Feature List)}{49}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}เเผนภาพที่ใช้เเสดงปฎิสัมพันธ์ระหว่างระบบงานเเละสิ่งที่อยู่นอกระบบงาน (Use Case Diagram)}{49}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}เเผนภาพที่ใช้เเสดงการทำงานของระบบ (Sequence Diagram)}{50}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}การพัฒนาของโครงการ}{51}{section.4.2}%
+\contentsline {section}{\numberline {4.3}การทดสอบการทำงาน (Functional Testing)}{51}{section.4.3}%
+\contentsline {section}{\numberline {4.4}การทดสอบคุณภาพของระบบ (Non Functional Testing)}{51}{section.4.4}%
+\contentsline {section}{\numberline {4.5}ผลการทดสอบ (Test Results)}{52}{section.4.5}%
+\contentsline {chapter}{\normalsize \bf \MakeUppercase []{บทที่ {\numberline {5}\hskip -0.8em สรุปผลการดำเนินงาน}}}{53}{chapter.5}%
+\contentsline {section}{\numberline {5.1}กระบวนการทำงาน (Work Process)}{53}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}การดำเนินงานในภาคการศึกษาที่ 1}{53}{subsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.1.1}การเตรียมการเริ่มต้นโครงการ}{53}{subsubsection.5.1.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.1.2}ศึกษาวิธีการพัฒนาแอปพลิเคชัน}{53}{subsubsection.5.1.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.1.3}ออกแบบแอปพลิเคชัน}{53}{subsubsection.5.1.1.3}%
+\contentsline {subsubsection}{\numberline {5.1.1.4}จัดเตรียมข้อมูล}{53}{subsubsection.5.1.1.4}%
+\contentsline {subsection}{\numberline {5.1.2}การดำเนินงานในภาคการศึกษาที่ 2}{54}{subsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.1}การพัฒนาแอปพลิเคชัน}{54}{subsubsection.5.1.2.1}%
+\contentsline {subsubsection}{\numberline {5.1.2.2}การทดสอบแอปพลิเคชัน}{54}{subsubsection.5.1.2.2}%
+\contentsline {section}{\numberline {5.2}ปัญหาที่พบในโครงการและการแก้ไข (Problems and Solutions)}{54}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}ความไม่คุ้นชินกับเทคโนโลยีที่ใช้ในการพัฒนา}{54}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}จำนวนข้อมูลที่สามารถใช้ได้มีน้อย}{54}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}ความลำบากในการขอข้อมูลจากมหาวิทยาลัย}{54}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}หน่วยประมวลผลที่ใช้ในการพัฒนา Machine Learning มีจำนวนน้อย}{54}{subsection.5.2.4}%
+\contentsline {section}{\numberline {5.3}แนวทางการพัฒนาในอนาคต (Future Work)}{54}{section.5.3}%
+\contentsline {chapter}{\mdseries \bf \MakeUppercase []{หนังสืออ้างอิง}}{55}{section.5.3}%
