@@ -67,29 +67,29 @@
 \setforeignlanguage {thai}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces \centering Sequence diagram ของการเข้าสู่ระบบ\relax }}{33}{figure.caption.39}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces \centering การสมัครเข้าใช้งาน\relax }}{34}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \centering การสมัครเข้าใช้งาน\relax }}{35}{figure.caption.40}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces การออกจากระบบ\relax }}{35}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces การออกจากระบบ\relax }}{37}{figure.caption.41}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces การค้นหากิจกรรม\relax }}{36}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces การค้นหากิจกรรม\relax }}{39}{figure.caption.42}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces การอ่านรายละเอียดของกิจกรรมและเข้าร่วมกิจกรรม\relax }}{37}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces การอ่านรายละเอียดของกิจกรรมและเข้าร่วมกิจกรรม\relax }}{41}{figure.caption.43}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces การประเมินกิจกรรม\relax }}{38}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces การประเมินกิจกรรม\relax }}{43}{figure.caption.44}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces การแจ้งเตือนกิจกรรมชมรม\relax }}{39}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces การแจ้งเตือนกิจกรรมชมรม\relax }}{45}{figure.caption.45}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces การค้นหาชมรม\relax }}{40}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces การค้นหาชมรม\relax }}{47}{figure.caption.46}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces อ่านรายละเอียดของชมรมและการเข้าร่วมชมรม\relax }}{41}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces อ่านรายละเอียดของชมรมและการเข้าร่วมชมรม\relax }}{49}{figure.caption.47}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces การลาออกจากชมรม\relax }}{42}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces การลาออกจากชมรม\relax }}{51}{figure.caption.48}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces การแนะนำกิจกรรมให้ผู้ใช้งาน\relax }}{43}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces การแนะนำกิจกรรมให้ผู้ใช้งาน\relax }}{53}{figure.caption.49}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces การ Train Model การเรียนรู้ของเครื่อง\relax }}{44}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces การ Train Model การเรียนรู้ของเครื่อง\relax }}{55}{figure.caption.50}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Graph Data Model\relax }}{45}{figure.caption.51}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Graph Data Model\relax }}{57}{figure.caption.51}%
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
@@ -102,9 +102,10 @@
 \setforeignlanguage {thai}
 \addvspace {0em}
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Edited Use Case Diagram\relax }}{49}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Edited Use Case Diagram\relax }}{62}{figure.caption.58}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Edited Login Sequence Diagram\relax }}{50}{figure.caption.59}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Edited Login Sequence Diagram\relax }}{64}{figure.caption.60}%
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
