@@ -63,51 +63,51 @@
 \contentsline {section}{\numberline {3.5}เเผนภาพที่ใช้เเสดงปฎิสัมพันธ์ระหว่างระบบงานเเละสิ่งที่อยู่นอกระบบงาน (Use Case Diagram)}{29}{section.3.5}%
 \contentsline {section}{\numberline {3.6}Sequence diagram}{33}{section.3.6}%
 \contentsline {subsection}{\numberline {3.6.1}การเข้าสู่ระบบ}{33}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}การสมัครเข้าใช้งาน}{35}{subsection.3.6.2}%
-\contentsline {subsection}{\numberline {3.6.3}การออกจากระบบ}{37}{subsection.3.6.3}%
-\contentsline {subsection}{\numberline {3.6.4}การค้นหากิจกรรม}{39}{subsection.3.6.4}%
-\contentsline {subsection}{\numberline {3.6.5}การอ่านรายละเอียดของกิจกรรมและเข้าร่วมกิจกรรม}{41}{subsection.3.6.5}%
-\contentsline {subsection}{\numberline {3.6.6}การประเมินกิจกรรม}{43}{subsection.3.6.6}%
-\contentsline {subsection}{\numberline {3.6.7}การแจ้งเตือนกิจกรรมชมรม}{45}{subsection.3.6.7}%
-\contentsline {subsection}{\numberline {3.6.8}การค้นหาชมรม}{47}{subsection.3.6.8}%
-\contentsline {subsection}{\numberline {3.6.9}อ่านรายละเอียดของชมรมและการเข้าร่วมชมรม}{49}{subsection.3.6.9}%
-\contentsline {subsection}{\numberline {3.6.10}การลาออกจากชมรม}{51}{subsection.3.6.10}%
-\contentsline {subsection}{\numberline {3.6.11}การแนะนำกิจกรรมให้ผู้ใช้งาน}{53}{subsection.3.6.11}%
-\contentsline {subsection}{\numberline {3.6.12}การ Train Model การเรียนรู้ของเครื่อง}{55}{subsection.3.6.12}%
-\contentsline {section}{\numberline {3.7}แบบจำลองข้อมูลแบบกราฟ (Graph Data Model)}{57}{section.3.7}%
-\contentsline {subsection}{\numberline {3.7.1}โหนด}{58}{subsection.3.7.1}%
-\contentsline {subsubsection}{\numberline {3.7.1.1}โหนด User: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับรายละเอียดส่วนตัวของผู้ใช้งานภายในมหาวิทยาลัย}{58}{subsubsection.3.7.1.1}%
-\contentsline {subsubsection}{\numberline {3.7.1.2}โหนด Department: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับรายละเอียดของภาควิชาภายในมหาวิทยาลัย}{58}{subsubsection.3.7.1.2}%
-\contentsline {subsubsection}{\numberline {3.7.1.3}โหนด Club: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับรายละเอียดของชมรมภายในมหาวิทยาลัย}{58}{subsubsection.3.7.1.3}%
-\contentsline {subsubsection}{\numberline {3.7.1.4}โหนด Club Category: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับรายละเอียดประเภทชมรมภายในมหาวิทยาลัย}{59}{subsubsection.3.7.1.4}%
-\contentsline {subsubsection}{\numberline {3.7.1.5}โหนด Activity: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับรายละเอียดของกิจกรรมภายในมหาวิทยาลัย}{59}{subsubsection.3.7.1.5}%
-\contentsline {subsubsection}{\numberline {3.7.1.6}โหนด Activity Category: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับประเภทของกิจกรรมภายในมหาวิทยาลัย}{60}{subsubsection.3.7.1.6}%
-\contentsline {subsection}{\numberline {3.7.2}ความสัมพันธ์}{60}{subsection.3.7.2}%
-\contentsline {subsubsection}{\numberline {3.7.2.1}ความสัมพันธ์ที่มีคุณสมบัติ}{60}{subsubsection.3.7.2.1}%
-\contentsline {subsubsection}{\numberline {3.7.2.2}ความสัมพันธ์ที่ไม่มีคุณสมบัติ}{61}{subsubsection.3.7.2.2}%
-\contentsline {chapter}{\normalsize \bf \MakeUppercase []{บทที่ {\numberline {4}\hskip -0.8em ผลการทดลองและอภิปรายผล}}}{62}{chapter.4}%
-\contentsline {section}{\numberline {4.1}การเปลี่ยนแปลงรายละเอียดของโครงการ}{62}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}รายการคุณลักษณะ (Feature List)}{62}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}เเผนภาพที่ใช้เเสดงปฎิสัมพันธ์ระหว่างระบบงานเเละสิ่งที่อยู่นอกระบบงาน (Use Case Diagram)}{62}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}เเผนภาพที่ใช้เเสดงการทำงานของระบบ (Sequence Diagram)}{64}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}การพัฒนาของโครงการ}{66}{section.4.2}%
-\contentsline {section}{\numberline {4.3}การทดสอบการทำงาน (Functional Testing)}{66}{section.4.3}%
-\contentsline {section}{\numberline {4.4}การทดสอบคุณภาพของระบบ (Non Functional Testing)}{66}{section.4.4}%
-\contentsline {section}{\numberline {4.5}ผลการทดสอบ (Test Results)}{66}{section.4.5}%
-\contentsline {chapter}{\normalsize \bf \MakeUppercase []{บทที่ {\numberline {5}\hskip -0.8em สรุปผลการดำเนินงาน}}}{68}{chapter.5}%
-\contentsline {section}{\numberline {5.1}กระบวนการทำงาน (Work Process)}{68}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}การดำเนินงานในภาคการศึกษาที่ 1}{68}{subsection.5.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.1.1}การเตรียมการเริ่มต้นโครงการ}{68}{subsubsection.5.1.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.1.2}ศึกษาวิธีการพัฒนาแอปพลิเคชัน}{68}{subsubsection.5.1.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.1.3}ออกแบบแอปพลิเคชัน}{68}{subsubsection.5.1.1.3}%
-\contentsline {subsubsection}{\numberline {5.1.1.4}จัดเตรียมข้อมูล}{68}{subsubsection.5.1.1.4}%
-\contentsline {subsection}{\numberline {5.1.2}การดำเนินงานในภาคการศึกษาที่ 2}{69}{subsection.5.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.2.1}การพัฒนาแอปพลิเคชัน}{69}{subsubsection.5.1.2.1}%
-\contentsline {subsubsection}{\numberline {5.1.2.2}การทดสอบแอปพลิเคชัน}{69}{subsubsection.5.1.2.2}%
-\contentsline {section}{\numberline {5.2}ปัญหาที่พบในโครงการและการแก้ไข (Problems and Solutions)}{69}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}ความไม่คุ้นชินกับเทคโนโลยีที่ใช้ในการพัฒนา}{69}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}จำนวนข้อมูลที่สามารถใช้ได้มีน้อย}{69}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}ความลำบากในการขอข้อมูลจากมหาวิทยาลัย}{69}{subsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.2.4}หน่วยประมวลผลที่ใช้ในการพัฒนา Machine Learning มีจำนวนน้อย}{69}{subsection.5.2.4}%
-\contentsline {section}{\numberline {5.3}แนวทางการพัฒนาในอนาคต (Future Work)}{69}{section.5.3}%
-\contentsline {chapter}{\mdseries \bf \MakeUppercase []{หนังสืออ้างอิง}}{70}{section.5.3}%
+\contentsline {subsection}{\numberline {3.6.2}การสมัครเข้าใช้งาน}{34}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}การออกจากระบบ}{35}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.4}การค้นหากิจกรรม}{36}{subsection.3.6.4}%
+\contentsline {subsection}{\numberline {3.6.5}การอ่านรายละเอียดของกิจกรรมและเข้าร่วมกิจกรรม}{37}{subsection.3.6.5}%
+\contentsline {subsection}{\numberline {3.6.6}การประเมินกิจกรรม}{38}{subsection.3.6.6}%
+\contentsline {subsection}{\numberline {3.6.7}การแจ้งเตือนกิจกรรมชมรม}{39}{subsection.3.6.7}%
+\contentsline {subsection}{\numberline {3.6.8}การค้นหาชมรม}{40}{subsection.3.6.8}%
+\contentsline {subsection}{\numberline {3.6.9}อ่านรายละเอียดของชมรมและการเข้าร่วมชมรม}{41}{subsection.3.6.9}%
+\contentsline {subsection}{\numberline {3.6.10}การลาออกจากชมรม}{42}{subsection.3.6.10}%
+\contentsline {subsection}{\numberline {3.6.11}การแนะนำกิจกรรมให้ผู้ใช้งาน}{43}{subsection.3.6.11}%
+\contentsline {subsection}{\numberline {3.6.12}การ Train Model การเรียนรู้ของเครื่อง}{44}{subsection.3.6.12}%
+\contentsline {section}{\numberline {3.7}แบบจำลองข้อมูลแบบกราฟ (Graph Data Model)}{45}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}โหนด}{46}{subsection.3.7.1}%
+\contentsline {subsubsection}{\numberline {3.7.1.1}โหนด User: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับรายละเอียดส่วนตัวของผู้ใช้งานภายในมหาวิทยาลัย}{46}{subsubsection.3.7.1.1}%
+\contentsline {subsubsection}{\numberline {3.7.1.2}โหนด Department: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับรายละเอียดของภาควิชาภายในมหาวิทยาลัย}{46}{subsubsection.3.7.1.2}%
+\contentsline {subsubsection}{\numberline {3.7.1.3}โหนด Club: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับรายละเอียดของชมรมภายในมหาวิทยาลัย}{46}{subsubsection.3.7.1.3}%
+\contentsline {subsubsection}{\numberline {3.7.1.4}โหนด Club Category: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับรายละเอียดประเภทชมรมภายในมหาวิทยาลัย}{47}{subsubsection.3.7.1.4}%
+\contentsline {subsubsection}{\numberline {3.7.1.5}โหนด Activity: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับรายละเอียดของกิจกรรมภายในมหาวิทยาลัย}{47}{subsubsection.3.7.1.5}%
+\contentsline {subsubsection}{\numberline {3.7.1.6}โหนด Activity Category: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับประเภทของกิจกรรมภายในมหาวิทยาลัย}{48}{subsubsection.3.7.1.6}%
+\contentsline {subsection}{\numberline {3.7.2}ความสัมพันธ์}{48}{subsection.3.7.2}%
+\contentsline {subsubsection}{\numberline {3.7.2.1}ความสัมพันธ์ที่มีคุณสมบัติ}{48}{subsubsection.3.7.2.1}%
+\contentsline {subsubsection}{\numberline {3.7.2.2}ความสัมพันธ์ที่ไม่มีคุณสมบัติ}{49}{subsubsection.3.7.2.2}%
+\contentsline {chapter}{\normalsize \bf \MakeUppercase []{บทที่ {\numberline {4}\hskip -0.8em ผลการทดลองและอภิปรายผล}}}{50}{chapter.4}%
+\contentsline {section}{\numberline {4.1}การเปลี่ยนแปลงรายละเอียดของโครงการ}{50}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}รายการคุณลักษณะ (Feature List)}{50}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}เเผนภาพที่ใช้เเสดงปฎิสัมพันธ์ระหว่างระบบงานเเละสิ่งที่อยู่นอกระบบงาน (Use Case Diagram)}{50}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}เเผนภาพที่ใช้เเสดงการทำงานของระบบ (Sequence Diagram)}{52}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}การพัฒนาของโครงการ}{54}{section.4.2}%
+\contentsline {section}{\numberline {4.3}การทดสอบคุณภาพของระบบ (Non Functional Testing)}{54}{section.4.3}%
+\contentsline {section}{\numberline {4.4}การทดสอบการทำงาน (Functional Testing)}{55}{section.4.4}%
+\contentsline {section}{\numberline {4.5}ผลการทดสอบ (Test Results)}{55}{section.4.5}%
+\contentsline {chapter}{\normalsize \bf \MakeUppercase []{บทที่ {\numberline {5}\hskip -0.8em สรุปผลการดำเนินงาน}}}{56}{chapter.5}%
+\contentsline {section}{\numberline {5.1}กระบวนการทำงาน (Work Process)}{56}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}การดำเนินงานในภาคการศึกษาที่ 1}{56}{subsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.1.1}การเตรียมการเริ่มต้นโครงการ}{56}{subsubsection.5.1.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.1.2}ศึกษาวิธีการพัฒนาแอปพลิเคชัน}{56}{subsubsection.5.1.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.1.3}ออกแบบแอปพลิเคชัน}{56}{subsubsection.5.1.1.3}%
+\contentsline {subsubsection}{\numberline {5.1.1.4}จัดเตรียมข้อมูล}{56}{subsubsection.5.1.1.4}%
+\contentsline {subsection}{\numberline {5.1.2}การดำเนินงานในภาคการศึกษาที่ 2}{57}{subsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.1}การพัฒนาแอปพลิเคชัน}{57}{subsubsection.5.1.2.1}%
+\contentsline {subsubsection}{\numberline {5.1.2.2}การทดสอบแอปพลิเคชัน}{57}{subsubsection.5.1.2.2}%
+\contentsline {section}{\numberline {5.2}ปัญหาที่พบในโครงการและการแก้ไข (Problems and Solutions)}{57}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}ความไม่คุ้นชินกับเทคโนโลยีที่ใช้ในการพัฒนา}{57}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}จำนวนข้อมูลที่สามารถใช้ได้มีน้อย}{57}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}ความลำบากในการขอข้อมูลจากมหาวิทยาลัย}{57}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}หน่วยประมวลผลที่ใช้ในการพัฒนา Machine Learning มีจำนวนน้อย}{57}{subsection.5.2.4}%
+\contentsline {section}{\numberline {5.3}แนวทางการพัฒนาในอนาคต (Future Work)}{57}{section.5.3}%
+\contentsline {chapter}{\mdseries \bf \MakeUppercase []{หนังสืออ้างอิง}}{58}{section.5.3}%
