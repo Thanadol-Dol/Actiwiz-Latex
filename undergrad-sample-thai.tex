@@ -1128,11 +1128,9 @@ Instagram คือ แอปพลิเคชันบน smartphone และ
   \begin{figure}[!h]\centering
     \setlength{\fboxrule}{0.5mm} % can define this in the preamble
     \setlength{\fboxsep}{0.5cm}
-    \fbox{\includegraphics[width=15cm]{./Pictures/login.png}}
+    \fbox{\includegraphics[width=12cm]{./Pictures/login.png}}
     \caption{\centering Sequence diagram ของการเข้าสู่ระบบ}\label{fig:Sequence diagram ของ login}
   \end{figure}
-
-\newpage
 
 จากภาพ Sequence Diagram ในรูปที่\ref{fig:Sequence diagram ของ login} แสดงขั้นตอนการทำงานของระบบเมื่อผู้ใช้งานต้องการเข้าสู่ระบบ โดยมีรายละเอียดดังนี้
   \begin{enumerate}
@@ -1152,11 +1150,10 @@ Instagram คือ แอปพลิเคชันบน smartphone และ
   \begin{figure}[!h]\centering
     \setlength{\fboxrule}{0.5mm} % can define this in the preamble
     \setlength{\fboxsep}{0.5cm}
-    \fbox{\includegraphics[width=15cm]{./Pictures/regis.png}}
+    \fbox{\includegraphics[width=12cm]{./Pictures/regis.png}}
     \caption{\centering การสมัครเข้าใช้งาน}\label{fig:regis}
   \end{figure}
 
-\newpage
 
 จากภาพ Sequence Diagram ในรูปที่ \ref{fig:regis} แสดงขั้นตอนการทำงานของระบบเมื่อผู้ใช้งานต้องการสมัครเข้าใช้งานระบบ โดยมีรายละเอียดดังนี้
 \begin{enumerate}
@@ -1178,11 +1175,9 @@ Instagram คือ แอปพลิเคชันบน smartphone และ
   \begin{figure}[!h]\centering
     \setlength{\fboxrule}{0.5mm} % can define this in the preamble
     \setlength{\fboxsep}{0.5cm}
-    \fbox{\includegraphics[width=15cm]{./Pictures/logout.png}}
+    \fbox{\includegraphics[width=12cm]{./Pictures/logout.png}}
     \caption{การออกจากระบบ}\label{fig:logout}
-  \end{figure}
-
-  \newpage 
+  \end{figure} 
 
   จากภาพ Sequence Diagram ในรูปที่ \ref{fig:logout} แสดงขั้นตอนการทำงานของระบบเมื่อผู้ใช้งานต้องการออกจากระบบ โดยมีรายละเอียดดังนี้
   \begin{enumerate}
@@ -1202,11 +1197,9 @@ Instagram คือ แอปพลิเคชันบน smartphone และ
   \begin{figure}[!h]\centering
     \setlength{\fboxrule}{0.5mm} % can define this in the preamble
     \setlength{\fboxsep}{0.5cm}
-    \fbox{\includegraphics[width=15cm]{./Pictures/searchev.png}}
+    \fbox{\includegraphics[width=10cm]{./Pictures/searchev.png}}
     \caption{การค้นหากิจกรรม}\label{fig:Search Event}
   \end{figure}
-
-  \newpage
 
   จากภาพ Sequence Diagram ในรูปที่ \ref{fig:Search Event} แสดงขั้นตอนการทำงานของระบบเมื่อผู้ใช้งานต้องการค้นหากิจกรรม โดยมีรายละเอียดดังนี้
   \begin{enumerate}
@@ -1228,11 +1221,9 @@ Instagram คือ แอปพลิเคชันบน smartphone และ
   \begin{figure}[!h]\centering
     \setlength{\fboxrule}{0.5mm} % can define this in the preamble
     \setlength{\fboxsep}{0.5cm}
-    \fbox{\includegraphics[width=13cm]{./Pictures/selectandjoin.png}}
+    \fbox{\includegraphics[width=10cm]{./Pictures/selectandjoin.png}}
     \caption{การอ่านรายละเอียดของกิจกรรมและเข้าร่วมกิจกรรม}\label{fig:Select and join event}
   \end{figure}
- 
-  \newpage
 
   จากภาพ Sequence Diagram ในรูปที่ \ref{fig:Select and join event} แสดงขั้นตอนการทำงานของระบบเมื่อผู้ใช้งานต้องการอ่านรายละเอียดของกิจกรรม และเข้าร่วมกิจกรรมนั้น โดยมีรายละเอียดดังนี้
   \begin{enumerate}
@@ -1240,38 +1231,30 @@ Instagram คือ แอปพลิเคชันบน smartphone และ
     \item UI จะตรวจสอบว่ามีข้อมูลรายละเอียดของกิจกรรมดังกล่าวอยู่ในระบบหรือไม่
     \item หากมีข้อมูลรายละเอียดของกิจกรรมอยู่แล้ว UI จะแสดงข้อมูลรายละเอียดนั้นให้ผู้ใช้งานเห็น
     \item หากไม่มีข้อมูลรายละเอียดของกิจกรรม UI จะส่งคำขอไปยัง Backend System เพื่อให้ดึงข้อมูลรายละเอียดของกิจกรรมมาจาก Database
-    \item Backend System จะค้นหาและดึงข้อมูลรายละเอียดของกิจกรรมที่ต้องการจาก Database
-    \item Backend System จะส่งข้อมูลรายละเอียดของกิจกรรมกลับไปยัง UI
+    \item Backend System จะค้นหาและดึงข้อมูลรายละเอียดของกิจกรรมที่ต้องการจาก Database และส่งข้อมูลรายละเอียดกิจกรรมกลับไปยัง UI
     \item UI จะแสดงข้อมูลรายละเอียดของกิจกรรมให้ผู้ใช้งานเห็น
-    \item หากผู้ใช้งานต้องการเข้าร่วมกิจกรรมนั้น ผู้ใช้งานจะกดปุ่มเข้าร่วมกิจกรรมบนหน้า UI
-    \item UI จะแสดงหน้าจอยืนยันการเข้าร่วมกิจกรรมอีกครั้งให้ผู้ใช้งาน เพื่อป้องกันการเข้าร่วมกิจกรรมโดยไม่ได้ตั้งใจ
+    \item หากผู้ใช้งานต้องการเข้าร่วมกิจกรรมนั้น ผู้ใช้งานจะกดปุ่มเข้าร่วมกิจกรรมบนหน้า UI และจะแสดงข้อความยืนยันการเข้าร่วมชมรมให้ผู้ใช้งาน
     \item หากผู้ใช้งานยืนยันการเข้าร่วมกิจกรรม UI จะส่งข้อมูลการเข้าร่วมกิจกรรมของผู้ใช้งานไปยัง Backend System
     \item Backend System จะบันทึกข้อมูลการเข้าร่วมกิจกรรมของผู้ใช้งานลงใน Database
   \end{enumerate}
   โดยสรุป Sequence Diagram นี้แสดงให้เห็นถึงขั้นตอนการทำงานร่วมกันระหว่าง User Interface, Backend System และ Database ในการแสดงรายละเอียดของกิจกรรมให้ผู้ใช้งาน และรับข้อมูลการเข้าร่วมกิจกรรมจากผู้ใช้งาน โดยมีการยืนยันการเข้าร่วมกิจกรรมจากผู้ใช้งานก่อน เพื่อป้องกันการเข้าร่วมกิจกรรมโดยไม่ได้ตั้งใจ
-
-\newpage
 
 \subsection{การประเมินกิจกรรม}
 
   \begin{figure}[!h]\centering
     \setlength{\fboxrule}{0.5mm} % can define this in the preamble
     \setlength{\fboxsep}{0.5cm}
-    \fbox{\includegraphics[width=15cm]{./Pictures/evaluate.png}}
+    \fbox{\includegraphics[width=13cm]{./Pictures/evaluate.png}}
     \caption{การประเมินกิจกรรม}\label{fig:Event evaluation}
   \end{figure}
-
-  \newpage
 
   จากภาพ Sequence Diagram ในรูปที่ \ref{fig:Event evaluation} แสดงขั้นตอนการทำงานของระบบแจ้งเตือนการประเมินกิจกรรม โดยมีรายละเอียดดังนี้
   \begin{enumerate}
     \item Backend System จะตรวจสอบกำหนดการหรือเงื่อนไขที่ต้องแจ้งเตือนการประเมินกิจกรรมให้กับผู้ใช้งาน เช่น หลังจากกิจกรรมสิ้นสุดลงภายในระยะเวลาที่กำหนด
     \item เมื่อถึงกำหนดการหรือเงื่อนไขที่ต้องแจ้งเตือน Backend System จะส่งคำเตือนการประเมินกิจกรรมไปยัง User Interface (UI) ของผู้ใช้งาน
     \item UI จะแสดงข้อความแจ้งเตือนการประเมินกิจกรรมให้ผู้ใช้งานทราบ พร้อมกับลิงก์หรือปุ่มสำหรับเข้าไปประเมินกิจกรรม
-    \item เมื่อผู้ใช้งานกดเข้าลิงก์หรือปุ่มประเมินกิจกรรม UI จะเปิดหน้าต่างหรือหน้าจอสำหรับให้ผู้ใช้งานประเมินกิจกรรมนั้น
-    \item ผู้ใช้งานสามารถกรอกข้อมูลการประเมินกิจกรรม เช่น คะแนนประเมิน ข้อคิดเห็น หรือข้อเสนอแนะต่าง ๆ ลงในหน้าประเมินกิจกรรม
-    \item หลังจากผู้ใช้งานกรอกข้อมูลการประเมินกิจกรรมเสร็จแล้ว UI จะส่งข้อมูลการประเมินดังกล่าวไปยัง Backend System
-    \item Backend System จะบันทึกข้อมูลการประเมินกิจกรรมของผู้ใช้งานลงใน Database
+    \item เมื่อผู้ใช้งานกดเข้าลิงก์หรือปุ่มประเมินกิจกรรม UI จะเปิดหน้าต่างหรือหน้าจอสำหรับให้ผู้ใช้งานประเมินกิจกรรมนั้น เพื่อให้ผู้ใช้งานกรอกข้อมูลและประเมินกิจกรรมลงในหน้าประเมินกิจกรรม
+    \item หลังจากผู้ใช้งานกรอกข้อมูลการประเมินกิจกรรมเสร็จแล้ว UI จะส่งข้อมูลการประเมินดังกล่าวไปยัง Backend System และจะบันทึกข้อมูลการประเมินกิจกรรมของผู้ใช้งานลงใน Database
   \end{enumerate}
   โดยสรุป Sequence Diagram นี้แสดงให้เห็นถึงขั้นตอนการทำงานร่วมกันระหว่าง Backend System, User Interface และ Database ในการแจ้งเตือนให้ผู้ใช้งานประเมินกิจกรรม โดย Backend System จะเป็นผู้ส่งคำเตือนไปยัง UI เพื่อให้ UI แสดงข้อความแจ้งเตือนและลิงก์สำหรับเข้าประเมินกิจกรรมให้ผู้ใช้งาน หลังจากผู้ใช้งานประเมินกิจกรรมเสร็จแล้ว ข้อมูลการประเมินจะถูกส่งกลับไปบันทึกยัง Backend System และ Database
 
@@ -1282,11 +1265,9 @@ Instagram คือ แอปพลิเคชันบน smartphone และ
   \begin{figure}[!h]\centering
     \setlength{\fboxrule}{0.5mm} % can define this in the preamble
     \setlength{\fboxsep}{0.5cm}
-    \fbox{\includegraphics[width=15cm]{./Pictures/Noti.png}}
+    \fbox{\includegraphics[width=12cm]{./Pictures/Noti.png}}
     \caption{การแจ้งเตือนกิจกรรมชมรม}\label{fig:Notification about event from club}
   \end{figure}
-
-  \newpage
 
   จากภาพ Sequence Diagram ในรูปที่ \ref{fig:Notification about event from club} แสดงขั้นตอนการทำงานของระบบแจ้งเตือนกิจกรรมชมรม โดยมีรายละเอียดดังนี้
   \begin{enumerate}
@@ -1308,11 +1289,9 @@ Instagram คือ แอปพลิเคชันบน smartphone และ
   \begin{figure}[!h]\centering
     \setlength{\fboxrule}{0.5mm} % can define this in the preamble
     \setlength{\fboxsep}{0.5cm}
-    \fbox{\includegraphics[width=15cm]{./Pictures/searchclub.png}}
+    \fbox{\includegraphics[width=11cm]{./Pictures/searchclub.png}}
     \caption{การค้นหาชมรม}\label{fig:Seacrh club}
   \end{figure}
-
-  \newpage
 
   จากภาพ Sequence Diagram ในรูปที่ \ref{fig:Seacrh club} แสดงขั้นตอนการทำงานของระบบเมื่อผู้ใช้งานต้องการค้นหาชมรม โดยมีรายละเอียดดังนี้
   \begin{enumerate}
@@ -1335,41 +1314,32 @@ Instagram คือ แอปพลิเคชันบน smartphone และ
   \begin{figure}[!h]\centering
     \setlength{\fboxrule}{0.5mm} % can define this in the preamble
     \setlength{\fboxsep}{0.5cm}
-    \fbox{\includegraphics[width=13cm]{./Pictures/selectandjoinclub.png}}
+    \fbox{\includegraphics[width=10cm]{./Pictures/selectandjoinclub.png}}
     \caption{อ่านรายละเอียดของชมรมและการเข้าร่วมชมรม}\label{fig:Select and join club}
   \end{figure}
-
-  \newpage
 
   จากภาพ Sequence Diagram ในรูปที่ \ref{fig:Select and join club} แสดงขั้นตอนการทำงานของระบบเมื่อผู้ใช้งานต้องการอ่านรายละเอียดของชมรม และเข้าร่วมชมรมนั้น โดยมีรายละเอียดดังนี้
   \begin{enumerate}
     \item ผู้ใช้งานเลือกชมรมที่ต้องการอ่านรายละเอียดจากหน้า User Interface (UI) ของระบบ
-    \item UI จะตรวจสอบว่ามีข้อมูลรายละเอียดของชมรมดังกล่าวอยู่ในระบบหรือไม่
-    \item หากมีข้อมูลรายละเอียดของชมรมอยู่แล้ว UI จะแสดงข้อมูลรายละเอียดนั้นให้ผู้ใช้งานเห็น
+    \item UI จะตรวจสอบว่ามีข้อมูลรายละเอียดของชมรมดังกล่าวอยู่ในระบบหรือไม่ และจะแสดงข้อมูลรายละเอียดนั้นให้ผู้ใช้งานเห็น
     \item หากไม่มีข้อมูลรายละเอียดของชมรม UI จะส่งคำขอไปยัง Backend System เพื่อให้ดึงข้อมูลรายละเอียดของชมรมมาจาก Database
-    \item Backend System จะค้นหาและดึงข้อมูลรายละเอียดของชมรมที่ต้องการจาก Database
-    \item Backend System จะส่งข้อมูลรายละเอียดของชมรมกลับไปยัง UI
-    \item UI จะแสดงข้อมูลรายละเอียดของชมรมให้ผู้ใช้งานเห็น
-    \item หากผู้ใช้งานต้องการเข้าร่วมชมรมนั้น ผู้ใช้งานจะกดปุ่มเข้าร่วมชมรมบนหน้า UI
-    \item UI จะแสดงหน้าจอยืนยันการเข้าร่วมชมรมอีกครั้งให้ผู้ใช้งาน เพื่อป้องกันการเข้าร่วมชมรมโดยไม่ได้ตั้งใจ
+    \item Backend System จะค้นหาและดึงข้อมูลรายละเอียดของชมรมที่ต้องการจาก Database และส่งไปยัง UI และแสดงให้ผู้ใช้งานเห็น
+    \item หากผู้ใช้งานต้องการเข้าร่วมชมรมนั้น ผู้ใช้งานจะกดปุ่มเข้าร่วมชมรมบนหน้า UI และจะแสดงข้อความยืนยันการเข้าร่วมชมรมให้ผู้ใช้งาน
     \item หากผู้ใช้งานยืนยันการเข้าร่วมชมรม UI จะส่งข้อมูลการเข้าร่วมชมรมของผู้ใช้งานไปยัง Backend System
     \item Backend System จะบันทึกข้อมูลการเข้าร่วมชมรมของผู้ใช้งานลงใน Database
   \end{enumerate}
 
   โดยสรุป Sequence Diagram นี้แสดงให้เห็นถึงขั้นตอนการทำงานร่วมกันระหว่าง User Interface, Backend System และ Database ในการแสดงรายละเอียดของชมรมให้ผู้ใช้งาน และรับข้อมูลการเข้าร่วมชมรมจากผู้ใช้งาน โดยมีการยืนยันการเข้าร่วมชมรมจากผู้ใช้งานก่อน เพื่อป้องกันการเข้าร่วมชมรมโดยไม่ได้ตั้งใจ
 
-  \newpage
 
 \subsection{การลาออกจากชมรม}
 
   \begin{figure}[!h]\centering
     \setlength{\fboxrule}{0.5mm} % can define this in the preamble
     \setlength{\fboxsep}{0.5cm}
-    \fbox{\includegraphics[width=15cm]{./Pictures/clubresign.png}}
+    \fbox{\includegraphics[width=13cm]{./Pictures/clubresign.png}}
     \caption{การลาออกจากชมรม}\label{fig:Club resignation}
   \end{figure}
-  
-  \newpage
 
   จากที่คุณอธิบายเกี่ยวกับ Sequence diagram ในรูปที่ \ref{fig:Club resignation} ซึ่งแสดงการทำงานของระบบขณะที่ผู้ใช้งานทำการลาออกจากชมรม ดังนี้
   \begin{enumerate}
@@ -1389,11 +1359,9 @@ Instagram คือ แอปพลิเคชันบน smartphone และ
   \begin{figure}[!h]\centering
     \setlength{\fboxrule}{0.5mm} % can define this in the preamble
     \setlength{\fboxsep}{0.5cm}
-    \fbox{\includegraphics[width=15cm]{./Pictures/Recommend.png}}
+    \fbox{\includegraphics[width=12cm]{./Pictures/Recommend.png}}
     \caption{การแนะนำกิจกรรมให้ผู้ใช้งาน}\label{fig:Feed recommendation}
   \end{figure}
-
-  \newpage
 
   จากที่คุณอธิบายเกี่ยวกับ Sequence diagram ในรูปที่ \ref{fig:Feed recommendation} ซึึ่งแสดงการทำงานของระบบในการแนะนำกิจกรรมให้แก่ผู้ใช้งาน ดังนี้
   \begin{enumerate}
@@ -1418,11 +1386,9 @@ Instagram คือ แอปพลิเคชันบน smartphone และ
   \begin{figure}[!h]\centering
     \setlength{\fboxrule}{0.5mm} % can define this in the preamble
     \setlength{\fboxsep}{0.5cm}
-    \fbox{\includegraphics[width=15cm]{./Pictures/Machinelearning.png}}
+    \fbox{\includegraphics[width=12cm]{./Pictures/Machinelearning.png}}
     \caption{การ Train Model การเรียนรู้ของเครื่อง}\label{fig:Machine learning training}
   \end{figure}
-
-  \newpage
   
   จากที่คุณอธิบายถึง Sequence Diagram ในรูปที่ \ref{fig:Machine learning training} ซึ่งแสดงการทำงานของระบบในขณะที่มีการ Train Model การเรียนรู้ของเครื่องใหม่ สามารถขยายความได้ดังนี้
   \begin{enumerate}
@@ -1695,43 +1661,7 @@ Instagram คือ แอปพลิเคชันบน smartphone และ
     \end{tabular}
     \captionof{table}{\centering ตารางการทดสอบการทดสอบการทํางาน}
   \end{table}
-\section{การทดสอบการทำงาน (Functional Testing)}
-\begin{table}[!h]
-  \centering
-  \captionsetup{justification=centering}
-  \begin{tabular}{|l|p{3cm}|p{5cm}|p{3cm}|} 
-  \hline
-  \multicolumn{1}{|c|}{\cellcolor[HTML]{9FC5E8}Feature} & \multicolumn{1}{c|}{\cellcolor[HTML]{9FC5E8}Scenario} & \multicolumn{1}{c|}{\cellcolor[HTML]{9FC5E8}ผลที่คาดว่าจะได้รับ} & \multicolumn{1}{c|}{\cellcolor[HTML]{9FC5E8}ผลที่ได้รับ} \\
-  \hline
-  \multirow{4}{*}{Login} & ผู้ใช้งานไม่กรอกอีเมล หมายเลขโทรศัพท์ หรือชื่อ Skype ที่ถูกต้อง & ระบบ Microsoft Login แจ้งเตือน "ใส่ที่อยู่อีเมล หมายเลขโทรศัพท์ หรือชื่อ Skype ที่ถูกต้อง" & \\
-  \cline{2-4} 
-  & ผู้ใช้งานไม่กรอกรหัสผ่าน & ระบบ Microsoft Login แจ้งเตือน "โปรดป้อนรหัสผ่านของคุณ" & \\
-  \cline{2-4}
-  & ผู้ใช้งานกรอกอีเมลผิด & ระบบ Microsoft Login แจ้งเตือน "เราไม่พบบัญชีที่มีชื่อผู้ใช้ดังกล่าว" & \\
-  \cline{2-4}
-  & ผู้ใช้งานกรอกรหัสผ่านผิด & ระบบ Microsoft Login แจ้งเตือน "บัญชีหรือรหัสผ่านของคุณไม่ถูกต้อง" & \\
-  \hline
-  \multirow{2}{*}{Feed page} & ผู้ใช้งานกดดูรายละเอียดกิจกรรม & ระบบแสดงหน้ารายละเอียดของกิจกรรม & \\
-  \cline{2-4}
-  & ผู้ใช้งานกดดูรายละเอียดของชมรม & ระบบแสดงหน้ารายละเอียดของชมรม & \\
-  \hline
-  \multirow{2}{*}{Join Event} & ผู้ใช้งานกดเข้าร่วมกิจกรรม & ระบบแสดงหน้าจอว่าผู้ใช้ได้เข้าร่วมกิจกรรมแล้ว & \\
-  \cline{2-4}
-  & ผู้ใช้งานกดยกเลิกการเข้าร่วมกิจกรรม & \begin{tabular}[c]{@{}l@{}}ระบบแสดงหน้าจอว่าผู้ใช้ได้ยกเลิก\\การเข้าร่วมกิจกรรมแล้ว\end{tabular} & \\
-  \hline
-  \multirow{2}{*}{Join Club} & ผู้ใช้งานกดเข้าร่วมชมรม & ระบบแสดงหน้าจอว่าผู้ใช้ได้เข้าร่วมชมรมแล้ว & \\
-  \cline{2-4}
-  & ผู้ใช้งานกดยกเลิกการเข้าร่วมชมรม & ระบบแสดงหน้าจอว่าผู้ใช้ได้ยกเลิกการเข้าร่วมชมรมแล้ว & \\
-  \hline
-  Notification & ผู้ใช้กดเข้าไปดูแจ้งเตือนจากทางระบบ & \begin{tabular}[c]{@{}l@{}}ระบบแสดงหน้าจอเกี่ยวกับการแจ้งเตือนนั้น ๆ \\ เช่น ระบบแสดงหน้าจอการประเมินกิจกรรม\end{tabular} & \\
-  \hline
-  Evaluate Page & ผู้ใช้กดเพื่อเข้าไปประเมินกิจกรรม & ระบบพาผู้ใช้เข้าสู่หน้า login เพื่อประเมินกิจกรรม & \\
-  \hline
-  \end{tabular}
-  \captionof{table}{\centering ตารางการทดสอบการทดสอบการทำงาน}\label{tab:functionaltesting}
-  จากตารางที่ \ref{tab:functionaltesting} เป็นรายการสำหรับทดสอบการทำงานของฟังก์ชันต่าง ๆ ในแอพลิเคชัน เพื่อทดสอบว่าการตอบสนองต่อการใช้งานต่าง ๆ เป็นไปตามที่ออกแบบไว้หรือไม่
-\end{table}
-\section{การทดสอบคุณภาพของระบบ (Non Functional Testing)}
+  \section{การทดสอบคุณภาพของระบบ (Non Functional Testing)}
 Problem
 \begin{itemize}
   \item คิดว่า Application นี้ตอบโจทย์กับปัญหาหรือไม่ ?
@@ -1782,8 +1712,49 @@ Problem
   \end{table}
   \item คิดว่า Application นี้ตอบโจทย์กับปัญหาหรือไม่ ?
 \end{itemize}
+
+\newpage
+
+\section{การทดสอบการทำงาน (Functional Testing)}
+\begin{table}[!h]
+  \centering
+  \captionsetup{justification=centering}
+  \begin{tabular}{|l|p{3cm}|p{5cm}|p{3cm}|} 
+  \hline
+  \multicolumn{1}{|c|}{\cellcolor[HTML]{9FC5E8}Feature} & \multicolumn{1}{c|}{\cellcolor[HTML]{9FC5E8}Scenario} & \multicolumn{1}{c|}{\cellcolor[HTML]{9FC5E8}ผลที่คาดว่าจะได้รับ} & \multicolumn{1}{c|}{\cellcolor[HTML]{9FC5E8}ผลที่ได้รับ} \\
+  \hline
+  \multirow{4}{*}{Login} & ผู้ใช้งานไม่กรอกอีเมล หมายเลขโทรศัพท์ หรือชื่อ Skype ที่ถูกต้อง & ระบบ Microsoft Login แจ้งเตือน "ใส่ที่อยู่อีเมล หมายเลขโทรศัพท์ หรือชื่อ Skype ที่ถูกต้อง" & \\
+  \cline{2-4} 
+  & ผู้ใช้งานไม่กรอกรหัสผ่าน & ระบบ Microsoft Login แจ้งเตือน "โปรดป้อนรหัสผ่านของคุณ" & \\
+  \cline{2-4}
+  & ผู้ใช้งานกรอกอีเมลผิด & ระบบ Microsoft Login แจ้งเตือน "เราไม่พบบัญชีที่มีชื่อผู้ใช้ดังกล่าว" & \\
+  \cline{2-4}
+  & ผู้ใช้งานกรอกรหัสผ่านผิด & ระบบ Microsoft Login แจ้งเตือน "บัญชีหรือรหัสผ่านของคุณไม่ถูกต้อง" & \\
+  \hline
+  \multirow{2}{*}{Feed page} & ผู้ใช้งานกดดูรายละเอียดกิจกรรม & ระบบแสดงหน้ารายละเอียดของกิจกรรม & \\
+  \cline{2-4}
+  & ผู้ใช้งานกดดูรายละเอียดของชมรม & ระบบแสดงหน้ารายละเอียดของชมรม & \\
+  \hline
+  \multirow{2}{*}{Join Event} & ผู้ใช้งานกดเข้าร่วมกิจกรรม & ระบบแสดงหน้าจอว่าผู้ใช้ได้เข้าร่วมกิจกรรมแล้ว & \\
+  \cline{2-4}
+  & ผู้ใช้งานกดยกเลิกการเข้าร่วมกิจกรรม & \begin{tabular}[c]{@{}l@{}}ระบบแสดงหน้าจอว่าผู้ใช้ได้ยกเลิก\\การเข้าร่วมกิจกรรมแล้ว\end{tabular} & \\
+  \hline
+  \multirow{2}{*}{Join Club} & ผู้ใช้งานกดเข้าร่วมชมรม & ระบบแสดงหน้าจอว่าผู้ใช้ได้เข้าร่วมชมรมแล้ว & \\
+  \cline{2-4}
+  & ผู้ใช้งานกดยกเลิกการเข้าร่วมชมรม & ระบบแสดงหน้าจอว่าผู้ใช้ได้ยกเลิกการเข้าร่วมชมรมแล้ว & \\
+  \hline
+  Notification & ผู้ใช้กดเข้าไปดูแจ้งเตือนจากทางระบบ & \begin{tabular}[c]{@{}l@{}}ระบบแสดงหน้าจอเกี่ยวกับการแจ้งเตือนนั้น ๆ \\ เช่น ระบบแสดงหน้าจอการประเมินกิจกรรม\end{tabular} & \\
+  \hline
+  Evaluate Page & ผู้ใช้กดเพื่อเข้าไปประเมินกิจกรรม & ระบบพาผู้ใช้เข้าสู่หน้า login เพื่อประเมินกิจกรรม & \\
+  \hline
+  \end{tabular}
+  \captionof{table}{\centering ตารางการทดสอบการทดสอบการทำงาน}\label{tab:functionaltesting}
+  จากตารางที่ \ref{tab:functionaltesting} เป็นรายการสำหรับทดสอบการทำงานของฟังก์ชันต่าง ๆ ในแอพลิเคชัน เพื่อทดสอบว่าการตอบสนองต่อการใช้งานต่าง ๆ เป็นไปตามที่ออกแบบไว้หรือไม่
+\end{table}
+
 \section{ผลการทดสอบ (Test Results)}
 
+\newpage
 \chapter{สรุปผลการดำเนินงาน}
 หลังจากการออกแบบ พัฒนา และทดสอบการทํางานของแอปพลิเคชันในบทที่ 4 ในบทที่ 5 นี้จะเป็นการกล่าวถึง
 ผลสรุปการดำเนินงานของโครงการทั้งหมดตลอดปีการศึกษา 2023 ที่ผ่านมา โดยจะเป็นการสรุปผลกระบวนการทั้งที่ทางผู้จัดทำได้ทำสำเร็จไปแล้ว 
