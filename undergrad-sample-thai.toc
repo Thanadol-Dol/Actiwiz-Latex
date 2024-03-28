@@ -1,4 +1,6 @@
 \selectlanguage *{thai}
+\contentsline {chapterx}{\mdseries บทคัดย่อ}{iii}{Doc-Start}%
+\contentsline {chapterx}{\mdseries ABSTRACT}{ii}{Doc-Start}%
 \contentsline {chapterx}{\mdseries กิตติกรรมประกาศ}{iii}{Doc-Start}%
 \contentsline {chapterx}{\mdseries สารบัญ}{iv}{Doc-Start}%
 \contentsline {chapterx}{\mdseries สารบัญตาราง}{vii}{Doc-Start}%
@@ -73,13 +75,13 @@
 \contentsline {subsection}{\numberline {3.6.11}การแนะนำกิจกรรมให้ผู้ใช้งาน}{53}{subsection.3.6.11}%
 \contentsline {subsection}{\numberline {3.6.12}การ Train Model การเรียนรู้ของเครื่อง}{55}{subsection.3.6.12}%
 \contentsline {section}{\numberline {3.7}แบบจำลองข้อมูลแบบกราฟ (Graph Data Model)}{57}{section.3.7}%
-\contentsline {subsection}{\numberline {3.7.1}โหนด}{57}{subsection.3.7.1}%
-\contentsline {subsubsection}{\numberline {3.7.1.1}โหนด User: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับรายละเอียดส่วนตัวของผู้ใช้งานภายในมหาวิทยาลัย}{57}{subsubsection.3.7.1.1}%
+\contentsline {subsection}{\numberline {3.7.1}โหนด}{58}{subsection.3.7.1}%
+\contentsline {subsubsection}{\numberline {3.7.1.1}โหนด User: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับรายละเอียดส่วนตัวของผู้ใช้งานภายในมหาวิทยาลัย}{58}{subsubsection.3.7.1.1}%
 \contentsline {subsubsection}{\numberline {3.7.1.2}โหนด Department: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับรายละเอียดของภาควิชาภายในมหาวิทยาลัย}{58}{subsubsection.3.7.1.2}%
 \contentsline {subsubsection}{\numberline {3.7.1.3}โหนด Club: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับรายละเอียดของชมรมภายในมหาวิทยาลัย}{58}{subsubsection.3.7.1.3}%
-\contentsline {subsubsection}{\numberline {3.7.1.4}โหนด Club Category: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับรายละเอียดประเภทชมรมภายในมหาวิทยาลัย}{58}{subsubsection.3.7.1.4}%
+\contentsline {subsubsection}{\numberline {3.7.1.4}โหนด Club Category: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับรายละเอียดประเภทชมรมภายในมหาวิทยาลัย}{59}{subsubsection.3.7.1.4}%
 \contentsline {subsubsection}{\numberline {3.7.1.5}โหนด Activity: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับรายละเอียดของกิจกรรมภายในมหาวิทยาลัย}{59}{subsubsection.3.7.1.5}%
-\contentsline {subsubsection}{\numberline {3.7.1.6}โหนด Activity Category: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับประเภทของกิจกรรมภายในมหาวิทยาลัย}{59}{subsubsection.3.7.1.6}%
+\contentsline {subsubsection}{\numberline {3.7.1.6}โหนด Activity Category: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับประเภทของกิจกรรมภายในมหาวิทยาลัย}{60}{subsubsection.3.7.1.6}%
 \contentsline {subsection}{\numberline {3.7.2}ความสัมพันธ์}{60}{subsection.3.7.2}%
 \contentsline {subsubsection}{\numberline {3.7.2.1}ความสัมพันธ์ที่มีคุณสมบัติ}{60}{subsubsection.3.7.2.1}%
 \contentsline {subsubsection}{\numberline {3.7.2.2}ความสัมพันธ์ที่ไม่มีคุณสมบัติ}{61}{subsubsection.3.7.2.2}%
@@ -88,9 +90,9 @@
 \contentsline {subsection}{\numberline {4.1.1}รายการคุณลักษณะ (Feature List)}{62}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}เเผนภาพที่ใช้เเสดงปฎิสัมพันธ์ระหว่างระบบงานเเละสิ่งที่อยู่นอกระบบงาน (Use Case Diagram)}{62}{subsection.4.1.2}%
 \contentsline {subsection}{\numberline {4.1.3}เเผนภาพที่ใช้เเสดงการทำงานของระบบ (Sequence Diagram)}{64}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}การพัฒนาของโครงการ}{65}{section.4.2}%
-\contentsline {section}{\numberline {4.3}การทดสอบการทำงาน (Functional Testing)}{65}{section.4.3}%
-\contentsline {section}{\numberline {4.4}การทดสอบคุณภาพของระบบ (Non Functional Testing)}{65}{section.4.4}%
+\contentsline {section}{\numberline {4.2}การพัฒนาของโครงการ}{66}{section.4.2}%
+\contentsline {section}{\numberline {4.3}การทดสอบการทำงาน (Functional Testing)}{66}{section.4.3}%
+\contentsline {section}{\numberline {4.4}การทดสอบคุณภาพของระบบ (Non Functional Testing)}{67}{section.4.4}%
 \contentsline {section}{\numberline {4.5}ผลการทดสอบ (Test Results)}{67}{section.4.5}%
 \contentsline {chapter}{\normalsize \bf \MakeUppercase []{บทที่ {\numberline {5}\hskip -0.8em สรุปผลการดำเนินงาน}}}{68}{chapter.5}%
 \contentsline {section}{\numberline {5.1}กระบวนการทำงาน (Work Process)}{68}{section.5.1}%
