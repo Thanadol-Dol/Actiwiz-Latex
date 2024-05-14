@@ -3,8 +3,8 @@
 \contentsline {chapterx}{\mdseries บทคัดย่อ}{iii}{Doc-Start}%
 \contentsline {chapterx}{\mdseries กิตติกรรมประกาศ}{iv}{Doc-Start}%
 \contentsline {chapterx}{\mdseries สารบัญ}{v}{Doc-Start}%
-\contentsline {chapterx}{\mdseries สารบัญตาราง}{vi}{Doc-Start}%
-\contentsline {chapterx}{\mdseries สารบัญรูปภาพ}{vii}{Doc-Start}%
+\contentsline {chapterx}{\mdseries สารบัญตาราง}{viii}{Doc-Start}%
+\contentsline {chapterx}{\mdseries สารบัญรูปภาพ}{ix}{Doc-Start}%
 \contentsline {chapter}{\normalsize \bf \MakeUppercase []{บทที่ {\numberline {1}\hskip -0.8em บทนำ}}}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}คำสำคัญ}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}ที่มาและความสำคัญ}{1}{section.1.2}%
@@ -108,20 +108,20 @@
 \contentsline {subsubsection}{\numberline {4.5.2.4}Feature:Join Club}{69}{subsubsection.4.5.2.4}%
 \contentsline {subsubsection}{\numberline {4.5.2.5}Feature:Notification}{71}{subsubsection.4.5.2.5}%
 \contentsline {subsection}{\numberline {4.5.3}การทดสอบคุณภาพของระบบ (Non Functional Testing)}{72}{subsection.4.5.3}%
-\contentsline {chapter}{\normalsize \bf \MakeUppercase []{บทที่ {\numberline {5}\hskip -0.8em สรุปผลการดำเนินงาน}}}{73}{chapter.5}%
-\contentsline {section}{\numberline {5.1}กระบวนการทำงาน (Work Process)}{73}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}การดำเนินงานในภาคการศึกษาที่ 1}{73}{subsection.5.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.1.1}การเตรียมการเริ่มต้นโครงการ}{73}{subsubsection.5.1.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.1.2}ศึกษาวิธีการพัฒนาแอปพลิเคชัน}{73}{subsubsection.5.1.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.1.3}ออกแบบแอปพลิเคชัน}{73}{subsubsection.5.1.1.3}%
-\contentsline {subsubsection}{\numberline {5.1.1.4}จัดเตรียมข้อมูล}{73}{subsubsection.5.1.1.4}%
-\contentsline {subsection}{\numberline {5.1.2}การดำเนินงานในภาคการศึกษาที่ 2}{74}{subsection.5.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.2.1}การพัฒนาแอปพลิเคชัน}{74}{subsubsection.5.1.2.1}%
-\contentsline {subsubsection}{\numberline {5.1.2.2}การทดสอบแอปพลิเคชัน}{74}{subsubsection.5.1.2.2}%
-\contentsline {section}{\numberline {5.2}ปัญหาที่พบในโครงการและการแก้ไข (Problems and Solutions)}{74}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}ความไม่คุ้นชินกับเทคโนโลยีที่ใช้ในการพัฒนา}{74}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}จำนวนข้อมูลที่สามารถใช้ได้มีน้อย}{74}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}ความลำบากในการขอข้อมูลจากมหาวิทยาลัย}{74}{subsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.2.4}หน่วยประมวลผลที่ใช้ในการพัฒนา Machine Learning มีจำนวนน้อย}{74}{subsection.5.2.4}%
-\contentsline {section}{\numberline {5.3}แนวทางการพัฒนาในอนาคต (Future Work)}{74}{section.5.3}%
-\contentsline {chapter}{\mdseries \bf \MakeUppercase []{หนังสืออ้างอิง}}{75}{section.5.3}%
+\contentsline {chapter}{\normalsize \bf \MakeUppercase []{บทที่ {\numberline {5}\hskip -0.8em สรุปผลการดำเนินงาน}}}{75}{chapter.5}%
+\contentsline {section}{\numberline {5.1}กระบวนการทำงาน (Work Process)}{75}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}การดำเนินงานในภาคการศึกษาที่ 1}{75}{subsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.1.1}การเตรียมการเริ่มต้นโครงการ}{75}{subsubsection.5.1.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.1.2}ศึกษาวิธีการพัฒนาแอปพลิเคชัน}{75}{subsubsection.5.1.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.1.3}ออกแบบแอปพลิเคชัน}{75}{subsubsection.5.1.1.3}%
+\contentsline {subsubsection}{\numberline {5.1.1.4}จัดเตรียมข้อมูล}{75}{subsubsection.5.1.1.4}%
+\contentsline {subsection}{\numberline {5.1.2}การดำเนินงานในภาคการศึกษาที่ 2}{76}{subsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.1}การพัฒนาแอปพลิเคชัน}{76}{subsubsection.5.1.2.1}%
+\contentsline {subsubsection}{\numberline {5.1.2.2}การทดสอบแอปพลิเคชัน}{76}{subsubsection.5.1.2.2}%
+\contentsline {section}{\numberline {5.2}ปัญหาที่พบในโครงการและการแก้ไข (Problems and Solutions)}{76}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}ความไม่คุ้นชินกับเทคโนโลยีที่ใช้ในการพัฒนา}{76}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}จำนวนข้อมูลที่สามารถใช้ได้มีน้อย}{76}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}ความลำบากในการขอข้อมูลจากมหาวิทยาลัย}{76}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}หน่วยประมวลผลที่ใช้ในการพัฒนา Machine Learning มีจำนวนน้อย}{76}{subsection.5.2.4}%
+\contentsline {section}{\numberline {5.3}แนวทางการพัฒนาในอนาคต (Future Work)}{76}{section.5.3}%
+\contentsline {chapter}{\mdseries \bf \MakeUppercase []{หนังสืออ้างอิง}}{78}{section.5.3}%
