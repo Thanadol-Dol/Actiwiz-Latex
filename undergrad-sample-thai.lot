@@ -31,29 +31,27 @@
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
+\contentsline {table}{\numberline {3.1}{\ignorespaces \centering การสมัครเข้าใช้งาน\relax }}{30}{table.caption.28}%
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.1}{\ignorespaces \centering การสมัครเข้าใช้งาน\relax }}{32}{table.caption.29}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces \centering การเข้าสู่ระบบ\relax }}{30}{table.caption.29}%
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.2}{\ignorespaces \centering การเข้าสู่ระบบ\relax }}{32}{table.caption.30}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces \centering การออกจากระบบ\relax }}{30}{table.caption.30}%
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.3}{\ignorespaces \centering การออกจากระบบ\relax }}{32}{table.caption.31}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces \centering การค้นหากิจกรรม\relax }}{30}{table.caption.31}%
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.4}{\ignorespaces \centering การค้นหากิจกรรม\relax }}{32}{table.caption.32}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces \centering การอ่านรายละเอียดกิจกรรม\relax }}{31}{table.caption.32}%
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.5}{\ignorespaces \centering การอ่านรายละเอียดกิจกรรม\relax }}{32}{table.caption.33}%
+\contentsline {table}{\numberline {3.6}{\ignorespaces \centering การเข้าร่วมกิจกรรม\relax }}{31}{table.caption.33}%
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.6}{\ignorespaces \centering การเข้าร่วมกิจกรรม\relax }}{33}{table.caption.34}%
+\contentsline {table}{\numberline {3.7}{\ignorespaces \centering การประเมินกิจกรรม\relax }}{31}{table.caption.34}%
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.7}{\ignorespaces \centering การประเมินกิจกรรม\relax }}{33}{table.caption.35}%
+\contentsline {table}{\numberline {3.8}{\ignorespaces \centering การค้นหาชมรม\relax }}{31}{table.caption.35}%
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.8}{\ignorespaces \centering การค้นหาชมรม\relax }}{33}{table.caption.36}%
+\contentsline {table}{\numberline {3.9}{\ignorespaces \centering การอ่านรายละเอียดชมรม\relax }}{31}{table.caption.36}%
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.9}{\ignorespaces \centering การอ่านรายละเอียดชมรม\relax }}{33}{table.caption.37}%
+\contentsline {table}{\numberline {3.10}{\ignorespaces \centering การสมัครชมรม\relax }}{32}{table.caption.37}%
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.10}{\ignorespaces \centering การสมัครชมรม\relax }}{33}{table.caption.38}%
-\setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.11}{\ignorespaces \centering การลาออกจากชมรม\relax }}{34}{table.caption.39}%
-\setforeignlanguage {thai}
+\contentsline {table}{\numberline {3.11}{\ignorespaces \centering การลาออกจากชมรม\relax }}{32}{table.caption.38}%
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
@@ -67,37 +65,42 @@
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.12}{\ignorespaces \centering ตารางเก็บข้อมูลของผู้ใช้งานที่ใช้งานแอปพลิเคชัน\relax }}{47}{table.caption.53}%
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.13}{\ignorespaces \centering ตารางเก็บข้อมูลของภาควิชาภายในมหาวิทยาลัย\relax }}{47}{table.caption.54}%
+\contentsline {table}{\numberline {3.12}{\ignorespaces \centering ตารางเก็บข้อมูลของผู้ใช้งานที่ใช้งานแอปพลิเคชัน\relax }}{46}{table.caption.52}%
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.14}{\ignorespaces \centering ตารางเก็บข้อมูลของชมรมภายในมหาวิทยาลัย\relax }}{47}{table.caption.55}%
+\contentsline {table}{\numberline {3.13}{\ignorespaces \centering ตารางเก็บข้อมูลของภาควิชาภายในมหาวิทยาลัย\relax }}{46}{table.caption.53}%
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.15}{\ignorespaces \centering ตารางเก็บข้อมูลประเภทชมรม\relax }}{48}{table.caption.56}%
+\contentsline {table}{\numberline {3.14}{\ignorespaces \centering ตารางเก็บข้อมูลของชมรมภายในมหาวิทยาลัย\relax }}{46}{table.caption.54}%
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.16}{\ignorespaces \centering ตารางเก็บข้อมูลของชมรมภายในมหาวิทยาลัย\relax }}{48}{table.caption.57}%
+\contentsline {table}{\numberline {3.15}{\ignorespaces \centering ตารางเก็บข้อมูลประเภทชมรม\relax }}{47}{table.caption.55}%
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.17}{\ignorespaces \centering ตารางเก็บข้อมูลประเภทของกิจกรรม\relax }}{49}{table.caption.58}%
+\contentsline {table}{\numberline {3.16}{\ignorespaces \centering ตารางเก็บข้อมูลของชมรมภายในมหาวิทยาลัย\relax }}{47}{table.caption.56}%
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.18}{\ignorespaces ตารางเก็บข้อมูลนักศึกษาภาควิชา\relax }}{49}{table.3.18}%
+\contentsline {table}{\numberline {3.17}{\ignorespaces \centering ตารางเก็บข้อมูลประเภทของกิจกรรม\relax }}{48}{table.caption.57}%
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.19}{\ignorespaces ตารางเก็บข้อมูลสมาชิกของชมรม\relax }}{49}{table.3.19}%
+\contentsline {table}{\numberline {3.18}{\ignorespaces ตารางเก็บข้อมูลนักศึกษาภาควิชา\relax }}{48}{table.3.18}%
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.20}{\ignorespaces ตารางเก็บข้อมูลสมาชิกเข้าร่วมกิจกรรม\relax }}{50}{table.3.20}%
+\contentsline {table}{\numberline {3.19}{\ignorespaces ตารางเก็บข้อมูลสมาชิกของชมรม\relax }}{48}{table.3.19}%
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.21}{\ignorespaces ตารางเก็บข้อมูลกิจกรรมถูกจัดโดยชมรม\relax }}{50}{table.3.21}%
+\contentsline {table}{\numberline {3.20}{\ignorespaces ตารางเก็บข้อมูลสมาชิกเข้าร่วมกิจกรรม\relax }}{49}{table.3.20}%
+\setforeignlanguage {thai}
+\contentsline {table}{\numberline {3.21}{\ignorespaces ตารางเก็บข้อมูลกิจกรรมถูกจัดโดยชมรม\relax }}{49}{table.3.21}%
+\setforeignlanguage {thai}
 \addvspace {0em}
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {4.1}{\ignorespaces \centering การเข้าสู่ระบบ\relax }}{52}{table.caption.60}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces \centering การเข้าสู่ระบบ\relax }}{53}{table.caption.60}%
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {4.2}{\ignorespaces \centering ตารางการทดสอบการทดสอบการทำงาน\relax }}{55}{table.caption.62}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces \centering ตารางการทดสอบการทำงานของระบบ\relax }}{56}{table.caption.62}%
+\setforeignlanguage {thai}
+\contentsline {table}{\numberline {4.3}{\ignorespaces \centering ตารางความพึงพอใจในการแก้ปัญหา\relax }}{57}{table.caption.63}%
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
+\contentsline {table}{\numberline {4.4}{\ignorespaces \centering ตารางความสะดวกในการใช้งาน Application\relax }}{58}{table.caption.65}%
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
-\setforeignlanguage {thai}
+\contentsline {table}{\numberline {4.5}{\ignorespaces \centering ตารางความพึงพอใจโดยรวมของ Application\relax }}{59}{table.caption.67}%
 \setforeignlanguage {thai}
 \addvspace {0em}
 \setforeignlanguage {thai}
