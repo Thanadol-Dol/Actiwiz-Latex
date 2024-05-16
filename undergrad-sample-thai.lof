@@ -52,7 +52,9 @@
 \setforeignlanguage {thai}
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Architecture diagram\relax }}{28}{figure.caption.26}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Use Case Diagram\relax }}{29}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces ตัวอย่าง Cluster\relax }}{29}{figure.caption.27}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Use Case Diagram\relax }}{31}{figure.caption.28}%
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
@@ -65,31 +67,31 @@
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces \centering Sequence diagram ของการเข้าสู่ระบบ\relax }}{33}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \centering Sequence diagram ของการเข้าสู่ระบบ\relax }}{34}{figure.caption.40}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces \centering การสมัครเข้าใช้งาน\relax }}{34}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces \centering การสมัครเข้าใช้งาน\relax }}{35}{figure.caption.41}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces การออกจากระบบ\relax }}{35}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces การออกจากระบบ\relax }}{36}{figure.caption.42}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces การค้นหากิจกรรม\relax }}{36}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces การค้นหากิจกรรม\relax }}{37}{figure.caption.43}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces การอ่านรายละเอียดของกิจกรรมและเข้าร่วมกิจกรรม\relax }}{37}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces การอ่านรายละเอียดของกิจกรรมและเข้าร่วมกิจกรรม\relax }}{38}{figure.caption.44}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces การประเมินกิจกรรม\relax }}{38}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces การประเมินกิจกรรม\relax }}{39}{figure.caption.45}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces การแจ้งเตือนกิจกรรมชมรม\relax }}{39}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces การแจ้งเตือนกิจกรรมชมรม\relax }}{40}{figure.caption.46}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces การค้นหาชมรม\relax }}{40}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces การค้นหาชมรม\relax }}{41}{figure.caption.47}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces อ่านรายละเอียดของชมรมและการเข้าร่วมชมรม\relax }}{41}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces อ่านรายละเอียดของชมรมและการเข้าร่วมชมรม\relax }}{42}{figure.caption.48}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces การลาออกจากชมรม\relax }}{42}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces การลาออกจากชมรม\relax }}{43}{figure.caption.49}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces การแนะนำกิจกรรมให้ผู้ใช้งาน\relax }}{43}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces การแนะนำกิจกรรมให้ผู้ใช้งาน\relax }}{44}{figure.caption.50}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces การ Train Model การเรียนรู้ของเครื่อง\relax }}{44}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces การ Train Model การเรียนรู้ของเครื่อง\relax }}{45}{figure.caption.51}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Graph Data Model\relax }}{45}{figure.caption.51}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Graph Data Model\relax }}{46}{figure.caption.52}%
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
@@ -102,54 +104,53 @@
 \setforeignlanguage {thai}
 \addvspace {0em}
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Edited Use Case Diagram\relax }}{50}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Edited Use Case Diagram\relax }}{51}{figure.caption.59}%
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Edited Login Sequence Diagram\relax }}{52}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Edited Login Sequence Diagram\relax }}{53}{figure.caption.61}%
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces หน้า Login ของแอปพลิเคชัน ACTIWIZ\relax }}{56}{figure.caption.63}%
 \setforeignlanguage {thai}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces ฐานข้อมูลของชมรมในมหาวิทยาลัย\relax }}{57}{figure.caption.64}%
 \setforeignlanguage {thai}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces ระบบ Notification ของแอปพลิเคชัน ACTIWIZ \relax }}{58}{figure.caption.65}%
 \setforeignlanguage {thai}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces ความเชื่อมโยงของผู้ใช้กับ tag ต่างๆของกิจกรรม\relax }}{59}{figure.caption.66}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces หน้า Login ของแอปพลิเคชัน ACTIWIZ\relax }}{56}{figure.caption.66}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces การวิเคราะห์ความสนใจจากเนื้อหาที่ผู้ใช้เข้าไปอ่าน\relax }}{59}{figure.caption.67}%
 \setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces ฐานข้อมูลของชมรมในมหาวิทยาลัย\relax }}{57}{figure.caption.67}%
-\setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces ระบบ Notification ของแอปพลิเคชัน ACTIWIZ \relax }}{58}{figure.caption.68}%
-\setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces ความเชื่อมโยงของผู้ใช้กับ tag ต่างๆของกิจกรรม\relax }}{59}{figure.caption.69}%
-\setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces การวิเคราะห์ความสนใจจากเนื้อหาที่ผู้ใช้เข้าไปอ่าน\relax }}{60}{figure.caption.70}%
-\setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces ตัวอย่างของกิจกรรมที่ถูกแบ่งโดย tag ต่างๆ\relax }}{61}{figure.caption.71}%
-\setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces กรณีผู้ใช้งานไม่กรอกอีเมล\relax }}{62}{figure.caption.72}%
-\setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces กรณีผู้ใช้งานไม่กรอกอีเมลไม่ถูกต้อง\relax }}{63}{figure.caption.73}%
-\setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces กรณีผู้ใช้ไม่กรอกรหัสผ่าน\relax }}{64}{figure.caption.74}%
-\setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces กรณีผู้ใช้กรอกรหัสผ่านผิด\relax }}{65}{figure.caption.75}%
-\setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces กรณีผู้ใช้งานลองกดเข้าไปดูรายละเอียดของกิจกรรม\relax }}{66}{figure.caption.76}%
-\setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces กรณีผู้ใช้งานลองกดเข้าไปดูรายละเอียดของชมรม\relax }}{67}{figure.caption.77}%
-\setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces กรณีผู้ใช้งานกดเข้าร่วมกิจกรรม\relax }}{68}{figure.caption.78}%
-\setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces กรณีผู้ใช้งานกดเข้าร่วมชมรม\relax }}{69}{figure.caption.79}%
-\setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces กรณีผู้ใช้งานยกเลิกการเข้าร่วมชมรม\relax }}{70}{figure.caption.80}%
-\setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces กรณีผู้ใช้ตรวจสอบการแจ้งเตือนของตัวแอปพลิเคชั่น\relax }}{71}{figure.caption.81}%
-\setforeignlanguage {thai}
-\setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces แผนภาพคะแนนความพึงพอใจในการแก้ปัญหาของ Application\relax }}{72}{figure.caption.83}%
-\setforeignlanguage {thai}
-\setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.20}{\ignorespaces แผนภาพคะแนนความสะดวกในการใช้งาน Application\relax }}{73}{figure.caption.85}%
-\setforeignlanguage {thai}
-\setforeignlanguage {thai}
-\contentsline {figure}{\numberline {4.21}{\ignorespaces แผนภาพคะแนนความพึงพอใจโดยรวมของ Application\relax }}{74}{figure.caption.87}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces ตัวอย่างของกิจกรรมที่ถูกแบ่งโดย tag ต่างๆ\relax }}{60}{figure.caption.68}%
 \addvspace {0em}
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces หน้า Login ของแอปพลิเคชัน ACTIWIZ\relax }}{69}{figure.caption.75}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces ฐานข้อมูลของชมรมในมหาวิทยาลัย\relax }}{70}{figure.caption.76}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces ระบบ Notification ของแอปพลิเคชัน ACTIWIZ\relax }}{70}{figure.caption.77}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces ความเชื่อมโยงของผู้ใช้กับ tag ต่างๆของกิจกรรม\relax }}{71}{figure.caption.78}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces การวิเคราะห์ความสนใจจากเนื้อหาที่ผู้ใช้เข้าไปอ่าน\relax }}{71}{figure.caption.79}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces ตัวอย่างของกิจกรรมที่ถูกแบ่งโดย tag ต่างๆ\relax }}{72}{figure.caption.80}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces กรณีผู้ใช้งานไม่กรอกอีเมล\relax }}{74}{figure.caption.81}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces กรณีผู้ใช้งานไม่กรอกอีเมลไม่ถูกต้อง\relax }}{75}{figure.caption.82}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces กรณีผู้ใช้ไม่กรอกรหัสผ่าน\relax }}{76}{figure.caption.83}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {B.4}{\ignorespaces กรณีผู้ใช้กรอกรหัสผ่านผิด\relax }}{77}{figure.caption.84}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {B.5}{\ignorespaces กรณีผู้ใช้งานลองกดเข้าไปดูรายละเอียดของกิจกรรม\relax }}{78}{figure.caption.85}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {B.6}{\ignorespaces กรณีผู้ใช้งานลองกดเข้าไปดูรายละเอียดของชมรม\relax }}{79}{figure.caption.86}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {B.7}{\ignorespaces กรณีผู้ใช้งานกดเข้าร่วมกิจกรรม\relax }}{80}{figure.caption.87}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {B.8}{\ignorespaces กรณีผู้ใช้งานกดเข้าร่วมชมรม\relax }}{81}{figure.caption.88}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {B.9}{\ignorespaces กรณีผู้ใช้งานยกเลิกการเข้าร่วมชมรม\relax }}{82}{figure.caption.89}%
+\setforeignlanguage {thai}
+\contentsline {figure}{\numberline {B.10}{\ignorespaces กรณีผู้ใช้ตรวจสอบการแจ้งเตือนของตัวแอปพลิเคชั่น\relax }}{83}{figure.caption.90}%
