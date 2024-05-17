@@ -39,19 +39,21 @@
 \contentsline {subsubsection}{\numberline {2.1.6.1}UML Diagram คืออะไร}{15}{subsubsection.2.1.6.1}%
 \contentsline {subsubsection}{\numberline {2.1.6.2}Use case Diagram}{15}{subsubsection.2.1.6.2}%
 \contentsline {subsubsection}{\numberline {2.1.6.3}Sequence Diagram}{15}{subsubsection.2.1.6.3}%
-\contentsline {subsection}{\numberline {2.1.7}Principle Design}{15}{subsection.2.1.7}%
-\contentsline {subsubsection}{\numberline {2.1.7.1}Principle Design คืออะไร}{15}{subsubsection.2.1.7.1}%
-\contentsline {subsubsection}{\numberline {2.1.7.2}C.R.A.P. Principle Design}{16}{subsubsection.2.1.7.2}%
-\contentsline {section}{\numberline {2.2}เทคโนโลยี}{18}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Integrated Development Environment (IDE)}{18}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Design}{18}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Frontend}{18}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Backend}{18}{subsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.2.5}Database}{18}{subsection.2.2.5}%
-\contentsline {subsection}{\numberline {2.2.6}Machine Learning}{19}{subsection.2.2.6}%
-\contentsline {subsection}{\numberline {2.2.7}Version Control}{19}{subsection.2.2.7}%
-\contentsline {subsection}{\numberline {2.2.8}Testing}{19}{subsection.2.2.8}%
-\contentsline {section}{\numberline {2.3}แบบสำรวจผลิตภัณฑ์}{20}{section.2.3}%
+\contentsline {section}{\numberline {2.2}Principle Design}{15}{section.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.0.1}Principle Design คืออะไร}{15}{subsubsection.2.2.0.1}%
+\contentsline {subsubsection}{\numberline {2.2.0.2}C.R.A.P. Principle Design}{16}{subsubsection.2.2.0.2}%
+\contentsline {section}{\numberline {2.3}F-Shape Pattern}{17}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}F-Shaped Pattern คืออะไร}{17}{subsection.2.3.1}%
+\contentsline {section}{\numberline {2.4}เทคโนโลยี}{18}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Integrated Development Environment (IDE)}{18}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Design}{18}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Frontend}{18}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Backend}{18}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Database}{18}{subsection.2.4.5}%
+\contentsline {subsection}{\numberline {2.4.6}Machine Learning}{19}{subsection.2.4.6}%
+\contentsline {subsection}{\numberline {2.4.7}Version Control}{19}{subsection.2.4.7}%
+\contentsline {subsection}{\numberline {2.4.8}Testing}{19}{subsection.2.4.8}%
+\contentsline {section}{\numberline {2.5}แบบสำรวจผลิตภัณฑ์}{20}{section.2.5}%
 \contentsline {chapter}{\normalsize \bf \MakeUppercase []{บทที่ {\numberline {3}\hskip -0.8em วิธีการทำงาน กระบวนการและการออกแบบ}}}{26}{chapter.3}%
 \contentsline {section}{\numberline {3.1}บทนำ}{26}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}สำรวจความต้องการของผู้ใช้เชิงคุณภาพ}{26}{subsection.3.1.1}%
@@ -60,80 +62,90 @@
 \contentsline {section}{\numberline {3.2}ความต้องการของผู้ใช้ (Requirement List)}{26}{section.3.2}%
 \contentsline {section}{\numberline {3.3}รายการคุณลักษณะ (Feature List)}{27}{section.3.3}%
 \contentsline {section}{\numberline {3.4}แผนภาพสถาปัตยกรรมของระบบ (System Architecture Diagram)}{28}{section.3.4}%
-\contentsline {section}{\numberline {3.5}การแบ่งประเภทของกิจกรรมและชมรม}{29}{section.3.5}%
-\contentsline {section}{\numberline {3.6}หลักการพิจารณาสิ่งที่จะแนะนำให้ผู้ใช้}{30}{section.3.6}%
-\contentsline {subsubsection}{\numberline {3.6.0.1}Content-Based Filtering}{30}{subsubsection.3.6.0.1}%
-\contentsline {subsubsection}{\numberline {3.6.0.2}Collaborative Filtering}{30}{subsubsection.3.6.0.2}%
-\contentsline {section}{\numberline {3.7}เเผนภาพที่ใช้เเสดงปฎิสัมพันธ์ระหว่างระบบงานเเละสิ่งที่อยู่นอกระบบงาน (Use Case Diagram)}{31}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Sequence diagram}{34}{section.3.8}%
-\contentsline {subsection}{\numberline {3.8.1}การเข้าสู่ระบบ}{34}{subsection.3.8.1}%
-\contentsline {subsection}{\numberline {3.8.2}การสมัครเข้าใช้งาน}{35}{subsection.3.8.2}%
-\contentsline {subsection}{\numberline {3.8.3}การออกจากระบบ}{36}{subsection.3.8.3}%
-\contentsline {subsection}{\numberline {3.8.4}การค้นหากิจกรรม}{37}{subsection.3.8.4}%
-\contentsline {subsection}{\numberline {3.8.5}การอ่านรายละเอียดของกิจกรรมและเข้าร่วมกิจกรรม}{38}{subsection.3.8.5}%
-\contentsline {subsection}{\numberline {3.8.6}การประเมินกิจกรรม}{39}{subsection.3.8.6}%
-\contentsline {subsection}{\numberline {3.8.7}การแจ้งเตือนกิจกรรมชมรม}{40}{subsection.3.8.7}%
-\contentsline {subsection}{\numberline {3.8.8}การค้นหาชมรม}{41}{subsection.3.8.8}%
-\contentsline {subsection}{\numberline {3.8.9}อ่านรายละเอียดของชมรมและการเข้าร่วมชมรม}{42}{subsection.3.8.9}%
-\contentsline {subsection}{\numberline {3.8.10}การลาออกจากชมรม}{42}{subsection.3.8.10}%
-\contentsline {subsection}{\numberline {3.8.11}การแนะนำกิจกรรมให้ผู้ใช้}{44}{subsection.3.8.11}%
-\contentsline {subsection}{\numberline {3.8.12}การ Train Model การเรียนรู้ของเครื่อง}{45}{subsection.3.8.12}%
-\contentsline {section}{\numberline {3.9}แบบจำลองข้อมูลแบบกราฟ (Graph Data Model)}{46}{section.3.9}%
-\contentsline {subsection}{\numberline {3.9.1}โหนด}{47}{subsection.3.9.1}%
-\contentsline {subsubsection}{\numberline {3.9.1.1}โหนด User: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับรายละเอียดส่วนตัวของผู้ใช้ภายในมหาวิทยาลัย}{47}{subsubsection.3.9.1.1}%
-\contentsline {subsubsection}{\numberline {3.9.1.2}โหนด Department: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับรายละเอียดของภาควิชาภายในมหาวิทยาลัย}{47}{subsubsection.3.9.1.2}%
-\contentsline {subsubsection}{\numberline {3.9.1.3}โหนด Club: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับรายละเอียดของชมรมภายในมหาวิทยาลัย}{47}{subsubsection.3.9.1.3}%
-\contentsline {subsubsection}{\numberline {3.9.1.4}โหนด Club Category: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับรายละเอียดประเภทชมรมภายในมหาวิทยาลัย}{48}{subsubsection.3.9.1.4}%
-\contentsline {subsubsection}{\numberline {3.9.1.5}โหนด Activity: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับรายละเอียดของกิจกรรมภายในมหาวิทยาลัย}{48}{subsubsection.3.9.1.5}%
-\contentsline {subsubsection}{\numberline {3.9.1.6}โหนด Activity Category: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับประเภทของกิจกรรมภายในมหาวิทยาลัย}{49}{subsubsection.3.9.1.6}%
-\contentsline {subsection}{\numberline {3.9.2}ความสัมพันธ์}{49}{subsection.3.9.2}%
-\contentsline {subsubsection}{\numberline {3.9.2.1}ความสัมพันธ์ที่มีคุณสมบัติ}{49}{subsubsection.3.9.2.1}%
-\contentsline {subsubsection}{\numberline {3.9.2.2}ความสัมพันธ์ที่ไม่มีคุณสมบัติ}{50}{subsubsection.3.9.2.2}%
-\contentsline {section}{\numberline {3.10}การแบ่งประเภทของกิจกรรมและชมรม}{51}{section.3.10}%
-\contentsline {section}{\numberline {3.11}หลักการพิจารณาสิ่งที่จะแนะนำให้ผู้ใช้งาน}{52}{section.3.11}%
-\contentsline {subsection}{\numberline {3.11.1}Content-Based Filtering}{52}{subsection.3.11.1}%
-\contentsline {subsection}{\numberline {3.11.2}Collaborative Filtering}{52}{subsection.3.11.2}%
-\contentsline {section}{\numberline {3.12}User Interface}{53}{section.3.12}%
-\contentsline {subsection}{\numberline {3.12.1}Login Page}{53}{subsection.3.12.1}%
-\contentsline {subsection}{\numberline {3.12.2}Feed Page}{54}{subsection.3.12.2}%
-\contentsline {subsection}{\numberline {3.12.3}Notification Page}{55}{subsection.3.12.3}%
-\contentsline {subsection}{\numberline {3.12.4}Profile Page}{56}{subsection.3.12.4}%
-\contentsline {subsection}{\numberline {3.12.5}Club Page}{57}{subsection.3.12.5}%
-\contentsline {subsection}{\numberline {3.12.6}Register Page}{58}{subsection.3.12.6}%
-\contentsline {subsection}{\numberline {3.12.7}Event Page}{59}{subsection.3.12.7}%
-\contentsline {subsection}{\numberline {3.12.8}Evaluate Page}{60}{subsection.3.12.8}%
-\contentsline {chapter}{\normalsize \bf \MakeUppercase []{บทที่ {\numberline {4}\hskip -0.8em ผลการทดลองและอภิปรายผล}}}{61}{chapter.4}%
-\contentsline {section}{\numberline {4.1}การเปลี่ยนแปลงรายละเอียดของโครงการ}{61}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}รายการคุณลักษณะ (Feature List)}{61}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}เเผนภาพที่ใช้เเสดงปฎิสัมพันธ์ระหว่างระบบงานเเละสิ่งที่อยู่นอกระบบงาน (Use Case Diagram)}{61}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}เเผนภาพที่ใช้เเสดงการทำงานของระบบ (Sequence Diagram)}{63}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}การพัฒนาของโครงการ}{65}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}ลงชื่อเพื่อเข้าใช้งานแอปพลิเคชัน}{65}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}กรณีที่เคยลงชื่อเข้าใช้ในแอปพลิเคชัน}{66}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}ลงทะเบียนผู้ใช้กับแอปพลิเคชัน}{68}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}การแบ่งประเภทของกิจกรรมและชมรม}{69}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5}หลักการพิจารณาสิ่งที่จะแนะนําให้ผู้ใช้งาน}{69}{subsection.4.2.5}%
-\contentsline {subsubsection}{\numberline {4.2.5.1}Content-Based Filtering}{70}{subsubsection.4.2.5.1}%
-\contentsline {subsubsection}{\numberline {4.2.5.2}Collaborative Filtering}{70}{subsubsection.4.2.5.2}%
-\contentsline {section}{\numberline {4.3}การทดสอบการทำงาน (Functional Testing)}{70}{section.4.3}%
-\contentsline {section}{\numberline {4.4}การทดสอบคุณภาพของระบบ (Non Functional Testing)}{71}{section.4.4}%
-\contentsline {chapter}{\normalsize \bf \MakeUppercase []{บทที่ {\numberline {5}\hskip -0.8em สรุปผลการดำเนินงาน}}}{74}{chapter.5}%
-\contentsline {section}{\numberline {5.1}กระบวนการทำงาน (Work Process)}{74}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}การดำเนินงานในภาคการศึกษาที่ 1}{74}{subsection.5.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.1.1}การเตรียมการเริ่มต้นโครงการ}{74}{subsubsection.5.1.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.1.2}ศึกษาวิธีการพัฒนาแอปพลิเคชัน}{74}{subsubsection.5.1.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.1.3}ออกแบบแอปพลิเคชัน}{74}{subsubsection.5.1.1.3}%
-\contentsline {subsubsection}{\numberline {5.1.1.4}จัดเตรียมข้อมูล}{74}{subsubsection.5.1.1.4}%
-\contentsline {subsection}{\numberline {5.1.2}การดำเนินงานในภาคการศึกษาที่ 2}{75}{subsection.5.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.2.1}การพัฒนาแอปพลิเคชัน}{75}{subsubsection.5.1.2.1}%
-\contentsline {subsubsection}{\numberline {5.1.2.2}การทดสอบแอปพลิเคชัน}{75}{subsubsection.5.1.2.2}%
-\contentsline {section}{\numberline {5.2}ปัญหาที่พบในโครงการและการแก้ไข (Problems and Solutions)}{75}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}ความไม่คุ้นชินกับเทคโนโลยีที่ใช้ในการพัฒนา}{75}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}จำนวนข้อมูลที่สามารถใช้ได้มีน้อย}{75}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}ความลำบากในการขอข้อมูลจากมหาวิทยาลัย}{75}{subsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.2.4}หน่วยประมวลผลที่ใช้ในการพัฒนา Machine Learning มีจำนวนน้อย}{75}{subsection.5.2.4}%
-\contentsline {section}{\numberline {5.3}แนวทางการพัฒนาในอนาคต (Future Work)}{75}{section.5.3}%
-\contentsline {chapter}{\mdseries \bf \MakeUppercase []{หนังสืออ้างอิง}}{77}{section.5.3}%
-\contentsline {chapter}{\mdseries \bf \MakeUppercase []{Appendix}}{80}{section.5.3}%
-\contentsline {apdx}{A\hskip 1em หลักฐานการพัฒนาโครงการ}{81}{section.5.3}%
-\contentsline {apdx}{B\hskip 1em Functional Test}{86}{figure.caption.94}%
+\contentsline {section}{\numberline {3.5}เเผนภาพที่ใช้เเสดงปฎิสัมพันธ์ระหว่างระบบงานเเละสิ่งที่อยู่นอกระบบงาน (Use Case Diagram)}{30}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Sequence diagram}{33}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}การเข้าสู่ระบบ}{33}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}การสมัครเข้าใช้งาน}{34}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}การออกจากระบบ}{35}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.4}การค้นหากิจกรรม}{36}{subsection.3.6.4}%
+\contentsline {subsection}{\numberline {3.6.5}การอ่านรายละเอียดของกิจกรรมและเข้าร่วมกิจกรรม}{37}{subsection.3.6.5}%
+\contentsline {subsection}{\numberline {3.6.6}การประเมินกิจกรรม}{38}{subsection.3.6.6}%
+\contentsline {subsection}{\numberline {3.6.7}การแจ้งเตือนกิจกรรมชมรม}{39}{subsection.3.6.7}%
+\contentsline {subsection}{\numberline {3.6.8}การค้นหาชมรม}{40}{subsection.3.6.8}%
+\contentsline {subsection}{\numberline {3.6.9}อ่านรายละเอียดของชมรมและการเข้าร่วมชมรม}{41}{subsection.3.6.9}%
+\contentsline {subsection}{\numberline {3.6.10}การลาออกจากชมรม}{41}{subsection.3.6.10}%
+\contentsline {subsection}{\numberline {3.6.11}การแนะนำกิจกรรมให้ผู้ใช้}{43}{subsection.3.6.11}%
+\contentsline {subsection}{\numberline {3.6.12}การ Train Model การเรียนรู้ของเครื่อง}{44}{subsection.3.6.12}%
+\contentsline {section}{\numberline {3.7}แบบจำลองข้อมูลแบบกราฟ (Graph Data Model)}{45}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}โหนด}{46}{subsection.3.7.1}%
+\contentsline {subsubsection}{\numberline {3.7.1.1}โหนด User: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับรายละเอียดส่วนตัวของผู้ใช้ภายในมหาวิทยาลัย}{46}{subsubsection.3.7.1.1}%
+\contentsline {subsubsection}{\numberline {3.7.1.2}โหนด Department: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับรายละเอียดของภาควิชาภายในมหาวิทยาลัย}{46}{subsubsection.3.7.1.2}%
+\contentsline {subsubsection}{\numberline {3.7.1.3}โหนด Club: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับรายละเอียดของชมรมภายในมหาวิทยาลัย}{46}{subsubsection.3.7.1.3}%
+\contentsline {subsubsection}{\numberline {3.7.1.4}โหนด Club Category: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับรายละเอียดประเภทชมรมภายในมหาวิทยาลัย}{47}{subsubsection.3.7.1.4}%
+\contentsline {subsubsection}{\numberline {3.7.1.5}โหนด Activity: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับรายละเอียดของกิจกรรมภายในมหาวิทยาลัย}{47}{subsubsection.3.7.1.5}%
+\contentsline {subsubsection}{\numberline {3.7.1.6}โหนด Activity Category: เป็นโหนดที่จะเก็บข้อมูลเกี่ยวกับประเภทของกิจกรรมภายในมหาวิทยาลัย}{48}{subsubsection.3.7.1.6}%
+\contentsline {subsection}{\numberline {3.7.2}ความสัมพันธ์}{48}{subsection.3.7.2}%
+\contentsline {subsubsection}{\numberline {3.7.2.1}ความสัมพันธ์ที่มีคุณสมบัติ}{48}{subsubsection.3.7.2.1}%
+\contentsline {subsubsection}{\numberline {3.7.2.2}ความสัมพันธ์ที่ไม่มีคุณสมบัติ}{49}{subsubsection.3.7.2.2}%
+\contentsline {section}{\numberline {3.8}การแบ่งประเภทของกิจกรรมและชมรม}{50}{section.3.8}%
+\contentsline {section}{\numberline {3.9}หลักการพิจารณาสิ่งที่จะแนะนำให้ผู้ใช้}{51}{section.3.9}%
+\contentsline {subsubsection}{\numberline {3.9.0.1}Content-Based Filtering}{51}{subsubsection.3.9.0.1}%
+\contentsline {subsubsection}{\numberline {3.9.0.2}Collaborative Filtering}{51}{subsubsection.3.9.0.2}%
+\contentsline {section}{\numberline {3.10}User Interface}{52}{section.3.10}%
+\contentsline {subsection}{\numberline {3.10.1}Login Page}{52}{subsection.3.10.1}%
+\contentsline {subsection}{\numberline {3.10.2}Feed Page}{53}{subsection.3.10.2}%
+\contentsline {subsection}{\numberline {3.10.3}Notification Page}{54}{subsection.3.10.3}%
+\contentsline {subsection}{\numberline {3.10.4}Profile Page}{55}{subsection.3.10.4}%
+\contentsline {subsection}{\numberline {3.10.5}Club Page}{56}{subsection.3.10.5}%
+\contentsline {subsection}{\numberline {3.10.6}Register Page}{57}{subsection.3.10.6}%
+\contentsline {subsection}{\numberline {3.10.7}Event Page}{58}{subsection.3.10.7}%
+\contentsline {subsection}{\numberline {3.10.8}Evaluate Page}{59}{subsection.3.10.8}%
+\contentsline {chapter}{\normalsize \bf \MakeUppercase []{บทที่ {\numberline {4}\hskip -0.8em ผลการทดลองและอภิปรายผล}}}{60}{chapter.4}%
+\contentsline {section}{\numberline {4.1}การเปลี่ยนแปลงรายละเอียดของโครงการ}{60}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}รายการคุณลักษณะ (Feature List)}{60}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}เเผนภาพที่ใช้เเสดงปฎิสัมพันธ์ระหว่างระบบงานเเละสิ่งที่อยู่นอกระบบงาน (Use Case Diagram)}{60}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}เเผนภาพที่ใช้เเสดงการทำงานของระบบ (Sequence Diagram)}{62}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}การพัฒนาของโครงการ}{64}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}ระบบแนะนำกิจกรรมและชมรม}{64}{subsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.1.1}การแบ่งประเภทของกิจกรรมและชมรม}{64}{subsubsection.4.2.1.1}%
+\contentsline {subsubsection}{\numberline {4.2.1.2}หลักการพิจารณาสิ่งที่จะแนะนําให้ผู้ใช้งาน}{64}{subsubsection.4.2.1.2}%
+\contentsline {paragraph}{\numberline {4.2.1.2.1}Content-Based Filtering}{64}{paragraph.4.2.1.2.1}%
+\contentsline {paragraph}{\numberline {4.2.1.2.2}Collaborative Filtering}{64}{paragraph.4.2.1.2.2}%
+\contentsline {subsection}{\numberline {4.2.2}การพัฒนาแอปพลิเคชัน}{65}{subsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.1}ลงชื่อเพื่อเข้าใช้งานแอปพลิเคชัน}{65}{subsubsection.4.2.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2.2}กรณีที่เคยลงชื่อเข้าใช้ในแอปพลิเคชัน}{66}{subsubsection.4.2.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.3}ลงทะเบียนผู้ใช้กับแอปพลิเคชัน}{68}{subsubsection.4.2.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.2.4}แนะนํากิจกรรมตามความสนใจของผู้ใช้โดยอ้างอิงจาก tag ของกิจกรรม}{69}{subsubsection.4.2.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.2.5}แนะนําชมรม ตามความสนใจของผู้ใช้โดยอ้างอิงจาก tag ของกิจกรรม}{70}{subsubsection.4.2.2.5}%
+\contentsline {subsubsection}{\numberline {4.2.2.6}ค้นหากิจกรรมที่สนใจ}{71}{subsubsection.4.2.2.6}%
+\contentsline {subsubsection}{\numberline {4.2.2.7}ค้นหาชมรมที่สนใจ}{72}{subsubsection.4.2.2.7}%
+\contentsline {subsubsection}{\numberline {4.2.2.8}เลือกอ่านรายละเอียดกิจกรรมที่สนใจ}{75}{subsubsection.4.2.2.8}%
+\contentsline {subsubsection}{\numberline {4.2.2.9}เลือกอ่านรายละเอียดชมรมที่สนใจ}{76}{subsubsection.4.2.2.9}%
+\contentsline {subsubsection}{\numberline {4.2.2.10}ลงชื่อเข้าร่วมกิจกรรมที่สนใจ}{77}{subsubsection.4.2.2.10}%
+\contentsline {subsubsection}{\numberline {4.2.2.11}ลงชื่อเข้าร่วมชมรมที่สนใจ}{79}{subsubsection.4.2.2.11}%
+\contentsline {subsubsection}{\numberline {4.2.2.12}ถอนชื่อจากการเป็นสมาชิกชมรม}{80}{subsubsection.4.2.2.12}%
+\contentsline {subsubsection}{\numberline {4.2.2.13}แจ้งเตือนกิจกรรมที่เกี่ยวข้องกับชมรมหรือความสนใจของนักศึกษา}{80}{subsubsection.4.2.2.13}%
+\contentsline {subsubsection}{\numberline {4.2.2.14}แจ้งเตือนการประเมินกิจกรรม}{81}{subsubsection.4.2.2.14}%
+\contentsline {subsubsection}{\numberline {4.2.2.15}ออกจากระบบ}{81}{subsubsection.4.2.2.15}%
+\contentsline {section}{\numberline {4.3}การทดสอบการทำงาน (Functional Testing)}{83}{section.4.3}%
+\contentsline {section}{\numberline {4.4}การทดสอบคุณภาพของระบบ (Non Functional Testing)}{84}{section.4.4}%
+\contentsline {chapter}{\normalsize \bf \MakeUppercase []{บทที่ {\numberline {5}\hskip -0.8em สรุปผลการดำเนินงาน}}}{87}{chapter.5}%
+\contentsline {section}{\numberline {5.1}กระบวนการทำงาน (Work Process)}{87}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}การดำเนินงานในภาคการศึกษาที่ 1}{87}{subsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.1.1}การเตรียมการเริ่มต้นโครงการ}{87}{subsubsection.5.1.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.1.2}ศึกษาวิธีการพัฒนาแอปพลิเคชัน}{87}{subsubsection.5.1.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.1.3}ออกแบบแอปพลิเคชัน}{87}{subsubsection.5.1.1.3}%
+\contentsline {subsubsection}{\numberline {5.1.1.4}จัดเตรียมข้อมูล}{87}{subsubsection.5.1.1.4}%
+\contentsline {subsection}{\numberline {5.1.2}การดำเนินงานในภาคการศึกษาที่ 2}{88}{subsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.1}การพัฒนาแอปพลิเคชัน}{88}{subsubsection.5.1.2.1}%
+\contentsline {subsubsection}{\numberline {5.1.2.2}การทดสอบแอปพลิเคชัน}{88}{subsubsection.5.1.2.2}%
+\contentsline {section}{\numberline {5.2}ปัญหาที่พบในโครงการและการแก้ไข (Problems and Solutions)}{88}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}ความไม่คุ้นชินกับเทคโนโลยีที่ใช้ในการพัฒนา}{88}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}จำนวนข้อมูลที่สามารถใช้ได้มีน้อย}{88}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}ความลำบากในการขอข้อมูลจากมหาวิทยาลัย}{88}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}หน่วยประมวลผลที่ใช้ในการพัฒนา Machine Learning มีจำนวนน้อย}{88}{subsection.5.2.4}%
+\contentsline {section}{\numberline {5.3}แนวทางการพัฒนาในอนาคต (Future Work)}{88}{section.5.3}%
+\contentsline {chapter}{\mdseries \bf \MakeUppercase []{หนังสืออ้างอิง}}{90}{section.5.3}%
+\contentsline {chapter}{\mdseries \bf \MakeUppercase []{Appendix}}{92}{section.5.3}%
+\contentsline {apdx}{A\hskip 1em หลักฐานการพัฒนาโครงการ}{93}{section.5.3}%
+\contentsline {apdx}{B\hskip 1em Functional Test}{98}{figure.caption.107}%
