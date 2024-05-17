@@ -25,45 +25,45 @@ Warning--empty year in Pycharm
 Warning--empty year in Colab
 Warning--empty year in Lucidchart
 Warning--empty year in ReactNative
-You've used 38 entries,
+You've used 39 entries,
             2177 wiz_defined-function locations,
-            954 strings with 16805 characters,
-and the built_in function-call counts, 9012 in all, are:
-= -- 912
-> -- 400
+            959 strings with 16279 characters,
+and the built_in function-call counts, 9227 in all, are:
+= -- 935
+> -- 407
 < -- 0
-+ -- 164
-- -- 126
-* -- 548
-:= -- 1584
-add.period$ -- 38
-call.type$ -- 38
-change.case$ -- 139
++ -- 167
+- -- 128
+* -- 559
+:= -- 1622
+add.period$ -- 39
+call.type$ -- 39
+change.case$ -- 142
 chr.to.int$ -- 0
-cite$ -- 59
-duplicate$ -- 266
-empty$ -- 761
-format.name$ -- 126
-if$ -- 1871
+cite$ -- 60
+duplicate$ -- 273
+empty$ -- 781
+format.name$ -- 128
+if$ -- 1917
 int.to.chr$ -- 0
-int.to.str$ -- 38
+int.to.str$ -- 39
 missing$ -- 0
-newline$ -- 193
-num.names$ -- 76
-pop$ -- 333
+newline$ -- 198
+num.names$ -- 78
+pop$ -- 340
 preamble$ -- 1
-purify$ -- 139
+purify$ -- 142
 quote$ -- 0
-skip$ -- 246
+skip$ -- 253
 stack$ -- 0
-substring$ -- 190
-swap$ -- 38
+substring$ -- 195
+swap$ -- 39
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 152
+type$ -- 156
 warning$ -- 21
-while$ -- 76
-width$ -- 40
-write$ -- 437
+while$ -- 78
+width$ -- 41
+write$ -- 449
 (There were 21 warnings)
