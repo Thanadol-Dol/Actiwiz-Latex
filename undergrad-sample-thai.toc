@@ -40,10 +40,9 @@
 \contentsline {subsubsection}{\numberline {2.1.6.2}Use case Diagram}{15}{subsubsection.2.1.6.2}%
 \contentsline {subsubsection}{\numberline {2.1.6.3}Sequence Diagram}{15}{subsubsection.2.1.6.3}%
 \contentsline {section}{\numberline {2.2}Principle Design}{15}{section.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.0.1}Principle Design คืออะไร}{15}{subsubsection.2.2.0.1}%
-\contentsline {subsubsection}{\numberline {2.2.0.2}C.R.A.P. Principle Design}{16}{subsubsection.2.2.0.2}%
+\contentsline {subsection}{\numberline {2.2.1}Principle Design คืออะไร}{15}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}C.R.A.P. Principle Design}{16}{subsection.2.2.2}%
 \contentsline {section}{\numberline {2.3}F-Shape Pattern}{17}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}F-Shaped Pattern คืออะไร}{17}{subsection.2.3.1}%
 \contentsline {section}{\numberline {2.4}เทคโนโลยี}{18}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Integrated Development Environment (IDE)}{18}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Design}{18}{subsection.2.4.2}%
@@ -89,17 +88,17 @@
 \contentsline {subsubsection}{\numberline {3.7.2.2}ความสัมพันธ์ที่ไม่มีคุณสมบัติ}{48}{subsubsection.3.7.2.2}%
 \contentsline {section}{\numberline {3.8}การแบ่งประเภทของกิจกรรมและชมรม}{49}{section.3.8}%
 \contentsline {section}{\numberline {3.9}หลักการพิจารณาสิ่งที่จะแนะนำให้ผู้ใช้}{50}{section.3.9}%
-\contentsline {subsubsection}{\numberline {3.9.0.1}Content-Based Filtering}{50}{subsubsection.3.9.0.1}%
-\contentsline {subsubsection}{\numberline {3.9.0.2}Collaborative Filtering}{50}{subsubsection.3.9.0.2}%
+\contentsline {subsection}{\numberline {3.9.1}Content-Based Filtering}{50}{subsection.3.9.1}%
+\contentsline {subsection}{\numberline {3.9.2}Collaborative Filtering}{50}{subsection.3.9.2}%
 \contentsline {section}{\numberline {3.10}ส่วนติดต่อผู้ใช้ (User Interface)}{51}{section.3.10}%
-\contentsline {subsection}{\numberline {3.10.1}Login Page}{51}{subsection.3.10.1}%
-\contentsline {subsection}{\numberline {3.10.2}Feed Page}{52}{subsection.3.10.2}%
-\contentsline {subsection}{\numberline {3.10.3}Notification Page}{53}{subsection.3.10.3}%
-\contentsline {subsection}{\numberline {3.10.4}Profile Page}{54}{subsection.3.10.4}%
-\contentsline {subsection}{\numberline {3.10.5}Club Page}{55}{subsection.3.10.5}%
-\contentsline {subsection}{\numberline {3.10.6}Register Page}{56}{subsection.3.10.6}%
-\contentsline {subsection}{\numberline {3.10.7}Event Page}{57}{subsection.3.10.7}%
-\contentsline {subsection}{\numberline {3.10.8}Evaluate Page}{58}{subsection.3.10.8}%
+\contentsline {subsection}{\numberline {3.10.1}หน้าลงชื่อเข้าใช้ระบบ}{51}{subsection.3.10.1}%
+\contentsline {subsection}{\numberline {3.10.2}หน้าแนะนำกิจกรรมและชมรม}{52}{subsection.3.10.2}%
+\contentsline {subsection}{\numberline {3.10.3}หน้าแสดงการแจ้งเตือน}{53}{subsection.3.10.3}%
+\contentsline {subsection}{\numberline {3.10.4}หน้าแสดงข้อมูลผู้ใช้}{54}{subsection.3.10.4}%
+\contentsline {subsection}{\numberline {3.10.5}หน้ารายละเอียดชมรม}{55}{subsection.3.10.5}%
+\contentsline {subsection}{\numberline {3.10.6}หน้าลงทะเบียนผู้ใช้}{56}{subsection.3.10.6}%
+\contentsline {subsection}{\numberline {3.10.7}หน้ารายละเอียดกิจกรรม}{57}{subsection.3.10.7}%
+\contentsline {subsection}{\numberline {3.10.8}หน้าประเมินกิจกรรม}{58}{subsection.3.10.8}%
 \contentsline {chapter}{\normalsize \bf \MakeUppercase []{บทที่ {\numberline {4}\hskip -0.8em ผลการทดลองและอภิปรายผล}}}{59}{chapter.4}%
 \contentsline {section}{\numberline {4.1}การเปลี่ยนแปลงรายละเอียดของโครงการ}{59}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}รายการคุณลักษณะ (Feature List)}{59}{subsection.4.1.1}%
@@ -112,8 +111,6 @@
 \contentsline {subsection}{\numberline {4.2.1}ระบบแนะนำกิจกรรมและชมรม}{65}{subsection.4.2.1}%
 \contentsline {subsubsection}{\numberline {4.2.1.1}การแบ่งประเภทของกิจกรรมและชมรม}{65}{subsubsection.4.2.1.1}%
 \contentsline {subsubsection}{\numberline {4.2.1.2}หลักการพิจารณาสิ่งที่จะแนะนําให้ผู้ใช้งาน}{65}{subsubsection.4.2.1.2}%
-\contentsline {paragraph}{\numberline {4.2.1.2.1}Content-Based Filtering}{65}{paragraph.4.2.1.2.1}%
-\contentsline {paragraph}{\numberline {4.2.1.2.2}Collaborative Filtering}{65}{paragraph.4.2.1.2.2}%
 \contentsline {subsection}{\numberline {4.2.2}การพัฒนาแอปพลิเคชัน}{66}{subsection.4.2.2}%
 \contentsline {subsubsection}{\numberline {4.2.2.1}ลงชื่อเพื่อเข้าใช้งานแอปพลิเคชัน}{66}{subsubsection.4.2.2.1}%
 \contentsline {subsubsection}{\numberline {4.2.2.2}กรณีที่เคยลงชื่อเข้าใช้ในแอปพลิเคชัน}{68}{subsubsection.4.2.2.2}%
@@ -147,7 +144,7 @@
 \contentsline {subsection}{\numberline {5.2.2}จำนวนข้อมูลที่สามารถใช้ได้มีน้อย}{88}{subsection.5.2.2}%
 \contentsline {subsection}{\numberline {5.2.3}ความลำบากในการขอข้อมูลจากมหาวิทยาลัย}{88}{subsection.5.2.3}%
 \contentsline {subsection}{\numberline {5.2.4}หน่วยประมวลผลที่ใช้ในการพัฒนา Machine Learning มีจำนวนน้อย}{88}{subsection.5.2.4}%
-\contentsline {section}{\numberline {5.3}แนวทางการพัฒนาในอนาคต (Future Work)}{88}{section.5.3}%
+\contentsline {section}{\numberline {5.3}แนวทางการพัฒนาในอนาคต (Future Work)}{89}{section.5.3}%
 \contentsline {chapter}{\mdseries \bf \MakeUppercase []{หนังสืออ้างอิง}}{90}{section.5.3}%
 \contentsline {chapter}{\mdseries \bf \MakeUppercase []{Appendix}}{92}{section.5.3}%
 \contentsline {apdx}{A\hskip 1em หลักฐานการพัฒนาโครงการ}{93}{section.5.3}%
