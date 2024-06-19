@@ -36,7 +36,7 @@
 % The ones that are optional can be left blank. 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % First line of title
-\def\disstitleone{Actiwiz: Application for recommended event and club for KMUTT student}
+\def\disstitleone{Actiwiz: A mobile application for recommended event and club for KMUTT student}
 \def\disstitletwo{Actiwiz: แอปพลิเคชันสำหรับการแนะนำกิจกรรมและชมรมสำหรับนักศึกษามหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี}
 \def\disstitlethree{(Application for recommended event and club for KMUTT student)}      
 % Your first name and lastname
@@ -129,13 +129,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \abstract
 
-King Mongkut's University of Technology Thonburi (KMUTT) requires undergraduate students to accumulate no less than 100 hours of extracurricular activities to graduate. Participation in these activities is crucial for degree completion. The university organizes at least 150 events each academic year. However, being a large institution with over 10,000 students, KMUTT faces challenges in effectively disseminating information about these activities. As a result, students often miss opportunities to participate in events aligning with their interests, and some activities receive less engagement than deserve.
-Currently, KMUTT has the Modlink application for sharing university announcements and updates. Aside from tracking academic progress and announcements, Modlink's ability to recommend activities to students is relatively ineffective. Examples include suggesting expired events, prioritizing staff-led activities over student-centric ones, providing limited event details, or recommending activities inaccessible to students from certain departments without considering their majors.
-Through a survey of event organizers within the university, it was found that despite their efforts to plan beneficial activities for students, the lack of a centralized information hub hinders the dissemination of event details to interested students.
-To address these issues, the project team aims to develop an AI-powered application to facilitate student participation in extracurricular activities and serve as a centralized platform for event information. The application will leverage artificial intelligence to recommend activities tailored to each student's interests, considering factors such as academic department, previously attended events, and preferences of students in similar majors.
-The goal is to enable students to easily access and engage with university-organized activities, streamlining the process of accumulating the required activity hours. The application is expected to enhance the efficiency of event communication within the university, ultimately aligning activities more closely with students' interests and needs. 
+King Mongkut's University of Technology Thonburi has established a curriculum that emphasizes the importance of participating in various activities for graduation. As a result, the university organizes no less than 150 activities each academic year. However, the dissemination of information about these activities is inefficient because the university's application for disseminating information, Modlink, recommends activities based on what the university wants to present rather than what students are interested in.
 
-\begin{flushleft}
+To address these issues, the project team proposes developing a mobile application using technologies such as React Native, which supports mobile applications. The focus will be on developing for the Android operating system to facilitate student participation in various activities and serve as a hub for disseminating information about activities in Thai. Artificial intelligence technology, written in Python, with its numerous libraries for AI development, will be used to recommend activities to students based on their individual interests. Factors such as the student's department, activities they have participated in, or activities that other students in the same department have participated in will be considered. This will make it easier for students to access university-organized activities and facilitate their participation in exchange for activity hours.
+
+All data will be stored using a Graph Database like Neo4j, which stores data in the form of nodes and relationships, making it convenient to store user interests for the recommendation system. The application will support operations through APIs developed with one of Python's popular frameworks, FastAPI, ensuring seamless integration with the recommendation system developed in Python.
+
+The project team aims to develop an application that facilitates student participation in activities and improves the efficiency of disseminating information about activities organized within the university. The goal is to recommend activities that best match the students' interests and needs.\begin{flushleft}
+
 \begin{tabular*}{\textwidth}{@{}lp{0.8\textwidth}}
 \textbf{Keywords}: & Native Mobile Application, Machine Learning, Recommendation System
 \end{tabular*}
@@ -150,9 +151,8 @@ The goal is to enable students to easily access and engage with university-organ
 % \XeTeXlinebreaklocale "th_TH"	
 % \thaifont
 \thaiabstract
-มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรีนั้นกำหนดหลักสูตรให้ผู้ที่จะสำเร็จการศึกษาชั้นปริญญาตรีได้นั้นต้องมีชั่วโมงกิจกรรมสะสมไม่น้อยกว่า 100 ชั่วโมง ทำให้การเข้าร่วมกิจกรรมต่าง ๆ นั้นมีความสำคัญกับการสำเร็จการศึกษา ซึ่งทางมหาวิทยาลัยนั้นได้มีการจัดกิจกรรมขึ้นมาในแต่ล่ะปีการศึกษาไม่น้อยกว่า 150 รายการ อย่างไรก็ตามเนื่องจากมหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรีเป็นสถาบันการศึกษาขนาดใหญ่ซึ่งมีจำนวนนักศึกษาไม่น้อยกว่า 10000 คน ทำให้การกระจายข่าวสารของกิจกรรมต่าง ๆ ที่ทางมหาวิทยาลัยจัดขึ้นไม่มีประสิทธิภาพ ซึ่งส่งผลให้นักศึกษาเองก็มีพลาดโอกาสที่จะเข้าร่วมกิจกรรมตามความสนใจของตนเอง และบางกิจกรรมไม่ได้รับการตอบรับเท่าที่ควร
-ในปัจจุบันนั้นทางมหาวิทยาลัยมีแอปพลิเคชันสำหรับการกระจายข่าวสารต่าง ๆ ของทางมหาวิทยาลัยอย่าง Modlink ให้นักศึกษาใช้งาน อย่างไรก็ตามนอกจากการใช้งานในการติดตามผลการเรียนและประกาศต่าง ๆของทางมหาวิทยาลัยแล้ว Modlink นั้นค่อนข้างที่จะมีความสามารถในการแนะนำกิจกรรมให้แก่นักศึกษาที่ค่อนข้างจะไม่มีประสิทธิภาพ ยกตัวอย่างเช่น การที่เลือกที่จะแนะนำกิจกรรมที่หมดเวลาเข้าร่วมไปแล้ว การที่ตัวแอปเลือกแนะนำกิจกรรมโดยเน้นไปที่บุคคลากรกรของมหาวิทยาลัยมากกว่าที่จะเป็นกิจกรรมที่นักศึกษาสามารถเข้าร่วมและได้ชั่วโมงกิจกรรม การที่ระบุลายระเอียดของกิจกรรมเอาไว้น้อย หรือการที่แนะนำกิจกรรมที่นักศึกษาจากต่างภาควิชาไม่สามารถเข้าร่วมได้โดยไม่คำนึงว่าผู้ใช้นั้นศึกษาในภาควิชาใด อีกทั้งจากในการสำรวจผู้จัดงานกิจกรรมต่าง ๆ ในมหาวิทยาลัยซึ่งแม้จะพยายามจัดกิจกรรมให้เอื้อประโยชน์แก่นักศึกษา แต่ด้วยความไม่เป็นศูนย์กลางในการกระจายข่าวสารก็ทำให้กิจกรรมที่ถูกจัดขึ้นไม่สามารถแพร่กระจายไม่นักศึกษาที่สนใจได้เท่าที่ควร จากปัญหาเหล่านี้ทำให้คณะผู้จัดทำจึงมีแนวคิดทีจะพัฒนาแอปพลิเคชันที่จะอำนวยความสะดวกในการเข้าร่วมกิจกรรมต่าง ๆ ของนักศึกษาและเป็นศูนย์กลางในการกระจายข่าวสารของกิจกรรมต่าง ๆ โดยมีการนำเทคโนโลยีปัญญาประดิษฐ์มาใช้ในการแนะนำกิจกรรมต่าง ๆ ให้แก่นักศึกษาตามความสนใจของนึกษาคนนั้น ๆ โดย พิจารณาจากปัจจัยต่าง ๆ เช่น  ภาควิชาที่เข้าศึกษา กิจกรรมที่นักศึกษาเคยเข้าร่วม หรือ กิจกรรมที่นักศึกษาในภาควิชาเดียวกันเคยเข้าร่วมเป็นต้น ซึ่งจะทำให้นักศึกษาสามารถเข้าถึงกิจกรรมต่าง ๆ ที่ทางมหาวิทยาลัยเป็นผู้จัดได้ง่ายขึ้น และอำนวยความสะดวกในการทำกิจกรรมต่าง ๆ กับทางมหาวิทยาลัย เพื่อแลกกับชั่วโมงการทำกิจกรรม
-ผู้จัดทำนั้นคาดหวังที่จะพัฒนาแอปพลิเคชันที่จะอำนวยความสะดวกในการทำกิจกรรมของนักศึกษา และช่วยกระจายข่าวสารของกิจกรรมต่าง ๆ ที่ถูกจัดขึ้นภายในมหาวิทยาลัยให้มีประสิทธิภาพยิ่งขึ้น โดยมุ่งไปที่การแนะนำกิจกรรมที่ตรงกับความสนใจและความต้องการของนักศึกษาให้มากที่สุด 
+มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรีกำหนดหลักสูตรให้การเข้าร่วมกิจกรรมต่าง ๆ มีความสำคัญกับการสำเร็จการศึกษา ทำให้มีการจัดกิจกรรมขึ้นมาในแต่ละปีการศึกษาไม่น้อยกว่า 150 รายการ แต่การกระจายข่าวสารของกิจกรรมต่าง ๆ ที่ทางมหาวิทยาลัยจัดขึ้นกลับไม่มีประสิทธิภาพ เนื่องจากแอปพลิเคชันสำหรับการกระจายข่าวสารต่าง ๆ ของทางมหาวิทยาลัยอย่าง Modlink มีวิธีการแนะนำกิจกรรมให้แก่นักศึกษาโดยเน้นไปที่ข่าวสารที่ทางมหาวิทยาลัยต้องการนำเสนอมากกว่ากิจกรรมที่นักศึกษาจะสนใจ จากปัญหาเหล่านี้ทำให้คณะผู้จัดทำจึงมีแนวคิดที่จะพัฒนาแอปพลิเคชันบนโทรศัพท์มือถือโดยอาศัยเทคโนโลยีอย่าง React Native ซึ่งสามารถรองรับการทำงานของแอพพลิเคชันบนโทรศัพท์มือถือ โดยเน้นการพัฒนาให้รองรับระบบปฏิบัติการ Android เพื่ออำนวยความสะดวกในการเข้าร่วมกิจกรรมต่าง ๆ ของนักศึกษาและเป็นศูนย์กลางในการกระจายข่าวสารของกิจกรรมต่าง ๆ ในภาษาไทย โดยจะนำเทคโนโลยีปัญญาประดิษฐ์ที่เขียนด้วยภาษา Python ซึ่งมี Library สำหรับการพัฒนาปัญญาประดิษฐ์อยู่จำนวนมาก มาใช้ในการแนะนำกิจกรรมต่าง ๆ ให้แก่นักศึกษาตามความสนใจของนักศึกษาแต่ละคนโดยพิจารณาจากปัจจัยต่าง ๆ เช่น  ภาควิชาที่เข้าศึกษา กิจกรรมที่นักศึกษาเคยเข้าร่วม หรือ กิจกรรมที่นักศึกษาในภาควิชาเดียวกันเคยเข้าร่วม เป็นต้น ซึ่งจะทำให้นักศึกษาสามารถเข้าถึงกิจกรรมต่าง ๆ ที่ทางมหาวิทยาลัยเป็นผู้จัดได้ง่ายขึ้น และอำนวยความสะดวกในการทำกิจกรรมต่าง ๆ กับทางมหาวิทยาลัย เพื่อแลกกับชั่วโมงการทำกิจกรรม ข้อมูลต่าง ๆ จะถูกจัดเก็บด้วย Graph Database อย่าง Neo4j ซึ่งเป็น Database ที่เก็บข้อมูลต่าง ๆ ไว้ในรูปแบบของโหนดและความสัมพันธ์ซึ่งอำนวยความสะดวกในการจัดเก็บความสนใจของผู้ใช้งานเอาไว้สำหรับการทำระบบการแนะนำ และมีการรองรับการทำงานของแอพพลิเคชันผ่าน API ที่พัฒนาด้วยหนึ่งใน Framework ที่ได้รับความนิยมของภาษา Python อย่าง FastAPI เพื่อให้แอพพลิเคชันนี้สามารถทำงานกับระบบการแนะนำที่ถูกพัฒนาด้วยภาษา Python ได้อย่างไร้รอยต่อ
+ผู้จัดทำมีความตั้งใจที่จะพัฒนาแอปพลิเคชันที่จะอำนวยความสะดวกในการทำกิจกรรมของนักศึกษา และช่วยกระจายข่าวสารของกิจกรรมต่าง ๆ ที่ถูกจัดขึ้นภายในมหาวิทยาลัยให้มีประสิทธิภาพยิ่งขึ้น โดยมุ่งไปที่การแนะนำกิจกรรมที่ตรงกับความสนใจและความต้องการของนักศึกษาให้มากที่สุด 
 
 % --
 
@@ -239,9 +239,9 @@ Native Mobile Application, Machine Learning, Recommendation System
 
 \section{วัตถุประสงค์}
   \begin{enumerate}
-    \item เพื่อพัฒนาแอปพลิเคชันสำหรับการกระจายข้อมูลข่าวสารและกิจกรรมต่าง ๆ ภายในมหาวิทยาลัย เพื่อให้ง่ายต่อการติดตามข่าวให้แก่นักศึกษาภายในมหาวิทยาลัย 
+    \item เพื่อพัฒนาแอปพลิเคชันบนโทรศัพท์มือถือสำหรับการกระจายข้อมูลข่าวสารและกิจกรรมต่าง ๆ ภายในมหาวิทยาลัย เพื่อให้ง่ายต่อการติดตามข่าวให้แก่นักศึกษาภายในมหาวิทยาลัย 
     \item เพื่อศึกษาพฤติกรรมและความสนใจในการเข้าร่วมกิจกรรมของนักศึกษา เพื่อที่จะแนะนำกิจกรรมและชมรมที่นักศึกษามีแนวโน้มให้ความสนใจ
-    \item แอปพลิเคชันที่อำนวยความสะดวกต่อนักศึกษาในการเข้าร่วม กิจกรรมต่าง ๆ 
+    \item แอปพลิเคชันที่อำนวยความสะดวกต่อนักศึกษาในการเข้าร่วม กิจกรรมต่าง ๆ ในรูปแบบภาษาไทย
     \item สามารถแนะนำแนวทางการจัดกิจกรรมที่มีนักศึกษาภายในมหาวิทยาลัยให้ความสนใจ ไปเสนอแก่ทางมหาวิทยาลัย เพื่อเพิ่มประสิทธิภาพในการจัดกิจกรรมต่อ ๆ ไป ที่จะเกิดขึ้นในอนาคต โดยวิเคราะห์จากเนื้อหากิจกรรมที่ทางนักศึกษาให้ความสนใจ
 \end{enumerate}
 
@@ -253,14 +253,14 @@ Native Mobile Application, Machine Learning, Recommendation System
     \setlength{\fboxrule}{0.5mm} % can define this in the preamble
     \setlength{\fboxsep}{0.5cm}
     \fbox{\includegraphics[width=15cm]{./Pictures/Gantt_Chart_1st_Sem.png}}
-    \caption{ภาคการศึกษาที่ 1}\label{fig:Gantt_Chart_1st_Sem}
+    \caption{แผนการดำเนินงานในภาคการศึกษาที่ 1}\label{fig:Gantt_Chart_1st_Sem}
   \end{figure}
 
   \begin{figure}[!h]\centering
     \setlength{\fboxrule}{0.5mm} % can define this in the preamble
     \setlength{\fboxsep}{0.5cm}
     \fbox{\includegraphics[width=15cm]{./Pictures/Gantt_Chart_2nd_Sem.png}}
-    \caption{ภาคการศึกษาที่ 2}\label{fig:Gantt_Chart_2nd_Sem}
+    \caption{แผนการดำเนินงานในภาคการศึกษาที่ 2}\label{fig:Gantt_Chart_2nd_Sem}
   \end{figure}
 
 \newpage
@@ -273,7 +273,7 @@ Native Mobile Application, Machine Learning, Recommendation System
     \item ระบบรวบรวมข้อมูลของชมรมต่าง ๆ เอาไว้ โดยผู้ใช้สามารถค้นหาและติดตามข้อมูลของชมรมที่ตนเองสนใจได้
     \item ระบบแจ้งเตือนกิจกรรมที่เกี่ยวข้องกับชมรมหรือความสนใจของนักศึกษา
     \item ระบบแจ้งเตือนการประเมินผลกิจกรรม เมื่อฟอร์มการประเมินพร้อมใช้งาน
-    \item ระบบแนะนำกิจกรรมและชมรม ตามความสนใจของผู้ใช้โดยอ้างอิงจาก tag ของกิจกรรม
+    \item ระบบแนะนำกิจกรรมและชมรม ตามความสนใจของผู้ใช้โดยอ้างอิงจาก tag ของกิจกรรมที่จัดกลุ่มจากเนื้อหาของกิจกรรม
     \item ระบบวิเคราะห์ความสนใจของผู้ใช้ผ่านเนื้อหาของกิจกรรมที่ผู้ใช้เคยเข้าร่วม เข้าไปอ่านรายละเอียด หรือเกี่ยวข้องกับชมรมที่สนใจ
     \item ระบบแยกประเภทกิจกรรมอัตโนมัติโดยวิเคราะห์จากเนื้อหา ออกมาเป็น tag ต่าง ๆ โดยใช้ Machine Learning
   \end{enumerate}
